@@ -1,0 +1,2343 @@
+
+Max word length: 37
+Alphabet size: 59
+Alphabet: [' ', '!', '&', "'", ',', '-', '.', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r',
+ 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+Training data shape (num rows, num cols): (6039, 37)
+
+Generator summary:
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+dense_1 (Dense)              (None, 16)                112
+_________________________________________________________________
+dense_2 (Dense)              (None, 32)                544
+_________________________________________________________________
+dense_3 (Dense)              (None, 64)                2112
+_________________________________________________________________
+dense_4 (Dense)              (None, 128)               8320
+_________________________________________________________________
+dense_5 (Dense)              (None, 256)               33024
+_________________________________________________________________
+dense_6 (Dense)              (None, 512)               131584
+_________________________________________________________________
+dense_7 (Dense)              (None, 37)                18981
+=================================================================
+Total params: 194,677
+Trainable params: 194,677
+Non-trainable params: 0
+_________________________________________________________________
+Discriminator summary:
+Model: "sequential_2"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+dense_8 (Dense)              (None, 500)               19000
+_________________________________________________________________
+dense_9 (Dense)              (None, 250)               125250
+_________________________________________________________________
+dense_10 (Dense)             (None, 125)               31375
+_________________________________________________________________
+dense_11 (Dense)             (None, 60)                7560
+_________________________________________________________________
+dense_12 (Dense)             (None, 30)                1830
+_________________________________________________________________
+dense_13 (Dense)             (None, 15)                465
+_________________________________________________________________
+dense_14 (Dense)             (None, 1)                 16
+=================================================================
+Total params: 185,496
+Trainable params: 185,496
+Non-trainable params: 0
+_________________________________________________________________
+GAN summary:
+Model: "sequential_3"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+sequential_1 (Sequential)    (None, 37)                194677
+_________________________________________________________________
+sequential_2 (Sequential)    (None, 1)                 185496
+=================================================================
+Total params: 380,173
+Trainable params: 194,677
+Non-trainable params: 185,496
+_________________________________________________________________
+Generated words:
+  h    hZGA,K   ,lEAPJ ! Da   hM   U C
+  W    ZSB,!J   AVB!LG & CT  &aK   O D
+  H &  IJOKG     X! E   .'D   P    L A
+  h    ZRFFHC ,  gGEFJ . CY  .YB ! V G
+  j C  kbJK.. - AgMDOU   Ah  DhM   i P
+  B   &BEF -,   'I !G    '&   E -  B ,
+  
+  
+...
+
+
+Epoch 2545
+
+Epoch 2546
+
+Epoch 2547
+
+Epoch 2548
+
+Generated words:
+  Mhojfpid
+  Kcliqljjc
+  VZsqupjjc
+  Aidlrsqbf
+  Kfojkjjmc
+  Dpeifffd
+Epoch 2549
+
+Epoch 2550
+
+Epoch 2551
+
+Epoch 2552
+
+Generated words:
+  Pmffjslab
+  Auneafhb
+  Rljcesndb
+  IqaooqhWa
+  Sghbfrmga
+  Udlagickh
+Epoch 2553
+
+Epoch 2554
+
+Epoch 2555
+
+Epoch 2556
+
+Generated words:
+  Rlac'cvfu
+  Qnac Ywgv
+  QgafIntbr
+  Rlac'cvfu
+  QhafHltcs
+  Psbb Rviv
+Epoch 2557
+
+Epoch 2558
+
+Epoch 2559
+
+Epoch 2560
+
+Generated words:
+  Fgrl,Midt
+  Kbpjsrnik
+  LdviirlXk
+  McvijslXj
+  GhqpXjgZo
+  McvijslXj
+Epoch 2561
+
+Epoch 2562
+
+Epoch 2563
+
+Epoch 2564
+
+Generated words:
+  Icpccsrgd
+  Ksqsbrdk
+  Fggebppke
+  Mhiclprji
+  Fggebppke
+  Tkidtiton
+Epoch 2565
+
+Epoch 2566
+
+Epoch 2567
+
+Epoch 2568
+
+Generated words:
+  Tedyaoire
+  CZnbnouc
+  FfrwnpgYX
+  .maelfnta
+  Ajgdhbqtb
+  HanZsruwc
+Epoch 2569
+
+Epoch 2570
+
+Epoch 2571
+
+Epoch 2572
+
+Generated words:
+  Mpchgridr
+  Nctrcnidm
+  Bubmeqafw
+  Gnvhkkklz
+  Mvljrzlg
+  Rqnrkktrh
+Epoch 2573
+
+Epoch 2574
+
+Epoch 2575
+
+Epoch 2576
+
+Generated words:
+  Cvegjrrnm
+  Ublqkuprm
+  Ubiqttmnf
+  Helgcjgld
+  Sdjhemjme
+  Vcpleuqoo
+Epoch 2577
+
+Epoch 2578
+
+Epoch 2579
+
+Epoch 2580
+
+Generated words:
+  Eeppgiqpo
+  Kaamwnqgq
+  FfZevbt
+  Eikcygklt
+  Dclsrjolw
+  Idldujk
+Epoch 2581
+
+Epoch 2582
+
+Epoch 2583
+
+Epoch 2584
+
+Generated words:
+  Ahisepiid
+  PYtsdptmg
+  GdZmvpn
+  Fedkyks
+  Fealykt
+  FeZlyku
+Epoch 2585
+
+Epoch 2586
+
+Epoch 2587
+
+Epoch 2588
+
+Generated words:
+  Keatrlmk
+  Hjxxilj
+  Gnosthx
+  Eiwwict
+  Fktundv
+  EeZruovqp
+Epoch 2589
+
+Epoch 2590
+
+Epoch 2591
+
+Epoch 2592
+
+Generated words:
+  BhbkeXa
+  BhbkeXa
+  FkmnocTtk
+  Dqhgvhl
+  BhbkeXa
+  Ljtiesrtn
+Epoch 2593
+
+Epoch 2594
+
+Epoch 2595
+
+Epoch 2596
+
+Generated words:
+  Qlsrqoe
+  EZltjid
+  Fbnuklf
+  Ldrrrjlne
+  Obtqthloc
+  Siulpsa L
+Epoch 2597
+
+Epoch 2598
+
+Epoch 2599
+
+Epoch 2600
+
+Generated words:
+  UjZulggmg
+  UjZulggmg
+  Cfknlphlf
+  Edgokof
+  Ogdqkhemf
+  UjZulggmg
+Epoch 2601
+
+Epoch 2602
+
+Epoch 2603
+
+Epoch 2604
+
+Generated words:
+  Osmlefmgq
+  Ndql ,Uck
+  MhomBIZfl
+  Bnfmlvquk
+  Clgglqoul
+  AZokhff
+Epoch 2605
+
+Epoch 2606
+
+Epoch 2607
+
+Epoch 2608
+
+Generated words:
+  Bscbqgokk
+  LmcJ RZe
+  LmcJ RZe
+  LmcJ RZe
+  Cshaunpf
+  Kvhndqrql
+Epoch 2609
+
+Epoch 2610
+
+Epoch 2611
+
+Epoch 2612
+
+Generated words:
+  Ofopkejlc
+  HrjngjWcp
+  Sud  asVp
+  Agsaikrj
+  WcjbcrjZb
+  Sud  asVp
+Epoch 2613
+
+Epoch 2614
+
+Epoch 2615
+
+Epoch 2616
+
+Generated words:
+  Jciipphf
+  -mnvhlsZq
+  Vuk Vipin
+  NehnslUv
+  Vuk Vipin
+  Vuk Vipin
+Epoch 2617
+
+Epoch 2618
+
+Epoch 2619
+
+Epoch 2620
+
+Generated words:
+  Lgr Fhjnq
+  BZpocoefm
+  Uftqxuppi
+  AZpndoefm
+  Oxjfkkifu
+  Sfwfnnloi
+Epoch 2621
+
+Epoch 2622
+
+Epoch 2623
+
+Epoch 2624
+
+Generated words:
+  Nlu Rfooo
+  Vwobrjiao
+  Dprrisqqe
+  Jhbvffjpa
+  Bpqcqhcla
+  Vulqnitte
+Epoch 2625
+
+Epoch 2626
+
+Epoch 2627
+
+Epoch 2628
+
+Generated words:
+  Rqujiflhi
+  Smmqoknjg
+  Hflpctvro
+  Hbghcqsoq
+  Crawoqod
+  Hcghdpopp
+Epoch 2629
+
+Epoch 2630
+
+Epoch 2631
+
+Epoch 2632
+
+Generated words:
+  Ajmnmhoqg
+  Akmomioqg
+  Krqcuhrtl
+  Arjomqqnh
+  YeYqttojk
+  afYsyspik
+Epoch 2633
+
+Epoch 2634
+
+Epoch 2635
+
+Epoch 2636
+
+Generated words:
+  Bhfjupfoh
+  Frneufrso
+  Bjfkutgnf
+  Tgqcfplth
+  Bkintugne
+  Merlcvhbs
+Epoch 2637
+
+Epoch 2638
+
+Epoch 2639
+
+Epoch 2640
+
+Generated words:
+  PhjmPZr
+  LcirTlqtt
+  Wnjdphiok
+  TkZkbimnv
+  Comtqnqse
+  Jeqvsigoc
+Epoch 2641
+
+Epoch 2642
+
+Epoch 2643
+
+Epoch 2644
+
+Generated words:
+  Vdcifkkqp
+  Cnnnrossh
+  Ufbgdlgqo
+  Vdbhdliqp
+  Leoi Hhdo
+  Xbptiiorg
+Epoch 2645
+
+Epoch 2646
+
+Epoch 2647
+
+Epoch 2648
+
+Generated words:
+  Uajefssrn
+  Sbnggqprl
+  Uajefssrn
+  Jrbhniiqe
+  Uajefssrn
+  FndeGhrfq
+Epoch 2649
+
+Epoch 2650
+
+Epoch 2651
+
+Epoch 2652
+
+Generated words:
+  Nulquhddk
+  Owlqtjebm
+  Owmpujdbm
+  Owmpujdbm
+  Ceoeaqnk
+  Owmpukdbm
+Epoch 2653
+
+Epoch 2654
+
+Epoch 2655
+
+Epoch 2656
+
+Generated words:
+  Rupgdllfs
+  Rvklidunn
+  Ruhehhqhq
+  GZrchmmoq
+  Arnlqlnli
+  Haraflinr
+Epoch 2657
+
+Epoch 2658
+
+Epoch 2659
+
+Epoch 2660
+
+Generated words:
+  Vaqdeclnk
+  QnZephcmf
+  Iabseiwd
+  Qocbqlfhi
+  OqiXqpmam
+  Iabsdiwd
+Epoch 2661
+
+Epoch 2662
+
+Epoch 2663
+
+Epoch 2664
+
+Generated words:
+  Cvpudqlkg
+  Tiqxfqdo
+  Wmrvrfood
+  Lbqfishfe
+  Eojsduqnh
+  Cfgdesrkb
+Epoch 2665
+
+Epoch 2666
+
+Epoch 2667
+
+Epoch 2668
+
+Generated words:
+  Smhkovddn
+  Cfeevetqi
+  Ccbfsgqqe
+  ViuSgoehn
+  Acxgfvqzs
+  Meqhsftgd
+Epoch 2669
+
+Epoch 2670
+
+Epoch 2671
+
+Epoch 2672
+
+Generated words:
+  Ebeuqusoj
+  Sprffokeu
+  Akkyfvstm
+  Iascleijh
+  Bprvfvsql
+  Btoeklrqj
+Epoch 2673
+
+Epoch 2674
+
+Epoch 2675
+
+Epoch 2676
+
+Generated words:
+  AuccplhYi
+  .uddplham
+  Ejidaiish
+  Audcplhal
+  AuccplhYi
+  .rXZolfij
+Epoch 2677
+
+Epoch 2678
+
+Epoch 2679
+
+Epoch 2680
+
+Generated words:
+  Ruoivgprf
+  Imnwiqjcj
+  Hmkrjrebi
+  Ihdcgldjg
+  Mjpqhqrrk
+  Suoivgprf
+Epoch 2681
+
+Epoch 2682
+
+Epoch 2683
+
+Epoch 2684
+
+Generated words:
+  Avnudtecn
+  Tklpohcni
+  Bskomnpii
+  Jfrrimhh
+  Ghnbttumb
+  Qlkmkcrnk
+Epoch 2685
+
+Epoch 2686
+
+Epoch 2687
+
+Epoch 2688
+
+Generated words:
+  Hgolqbumo
+  JYsnoekgg
+  AmbfnkfWc
+  BkkkZbsmh
+  JZsonflig
+  AnbhfkgYf
+Epoch 2689
+
+Epoch 2690
+
+Epoch 2691
+
+Epoch 2692
+
+Generated words:
+  Jeqe.Zlly
+  Arsnhgmte
+  CateZtpnj
+  CZueZtpnj
+  Dcsdchony
+  Arvpeelve
+Epoch 2693
+
+Epoch 2694
+
+Epoch 2695
+
+Epoch 2696
+
+Generated words:
+  Pejdutpnc
+  Mblcuunmf
+  Qejcttqnc
+  Qejcttqnc
+  Flpdcfonn
+  Odkdutpmd
+Epoch 2697
+
+Epoch 2698
+
+Epoch 2699
+
+Epoch 2700
+
+Generated words:
+  KZq Mrjh
+  Amjiujrqg
+  Bjootnqqd
+  Bpsawphqj
+  ,qngpqpmc
+  IhuctjXbe
+Epoch 2701
+
+Epoch 2702
+
+Epoch 2703
+
+Epoch 2704
+
+Generated words:
+  Bnjhtjira
+  Lhpruqqqa
+  Bbmp  gjn
+  QsrvpVXjf
+  AtZknhfle
+  Nipquqrpa
+Epoch 2705
+
+Epoch 2706
+
+Epoch 2707
+
+Epoch 2708
+
+Generated words:
+  LfqZrbrph
+  Vkju
+  Vllv
+  Xkky
+  Pkmlg
+  Tllt.
+Epoch 2709
+
+Epoch 2710
+
+Epoch 2711
+
+Epoch 2712
+
+Generated words:
+  ehsp
+  Thmot-
+  WkkpvB
+  DYfbhrljg
+  Vlqsw
+  Ujoqv
+Epoch 2713
+
+Epoch 2714
+
+Epoch 2715
+
+Epoch 2716
+
+Generated words:
+  .cbeiwdse
+  BbgjepYrd
+  -vngiqpli
+  Fsinm  -
+  Duhat
+  Fsfpl  -
+Epoch 2717
+
+Epoch 2718
+
+Epoch 2719
+
+Epoch 2720
+
+Generated words:
+  Bgkniprni
+  Cavrj
+  Bfkngrsni
+  Ckzxj  '
+  Ckzwk
+  Bfkngrsni
+Epoch 2721
+
+Epoch 2722
+
+Epoch 2723
+
+Epoch 2724
+
+Generated words:
+  BrstS
+  Rueuqwzbp
+  Pajeenebk
+  BrstS
+  BrtuR
+  Bohephnxi
+Epoch 2725
+
+Epoch 2726
+
+Epoch 2727
+
+Epoch 2728
+
+Generated words:
+  Csehowgig
+  HgmmsgkW
+  Denqwqppi
+  Xcjpnlsnl
+  Drsq
+  Gdrnsgoc
+Epoch 2729
+
+Epoch 2730
+
+Epoch 2731
+
+Epoch 2732
+
+Generated words:
+  Hnfollgcm
+  Codopfbcm
+  Tmaobgoiq
+  Jimy '
+  Ikleapsuk
+  Hioz
+Epoch 2733
+
+Epoch 2734
+
+Epoch 2735
+
+Epoch 2736
+
+Generated words:
+  SdjffhcgY
+  Qaijsdfqf
+  Cdjhr-
+  Gbirkuqqa
+  Apchmjkpa
+  TbjeekeiW
+Epoch 2737
+
+Epoch 2738
+
+Epoch 2739
+
+Epoch 2740
+
+Generated words:
+  Aoqqdqnmp
+  Hcriz
+  Duqwjiolo
+  PkqZrmjhc
+  Hbqe
+  Liubiehai
+Epoch 2741
+
+Epoch 2742
+
+Epoch 2743
+
+Epoch 2744
+
+Generated words:
+  Fgjhj
+  Pwiebqcaw
+  Rorm Ltpc
+  Mwijerfaw
+  Lfss Pvom
+  Lfss Pvom
+Epoch 2745
+
+Epoch 2746
+
+Epoch 2747
+
+Epoch 2748
+
+Generated words:
+  Elkf
+  Flmg
+  Gzgg Weck
+  Taehdpumf
+  Gzgg Weck
+  Byhdosqil
+Epoch 2749
+
+Epoch 2750
+
+Epoch 2751
+
+Epoch 2752
+
+Generated words:
+  BllobZlec
+  Atejjhiqh
+  Ifnv Mnah
+  .gjmtosle
+  Nracpjcfe
+  BkloXYldd
+Epoch 2753
+
+Epoch 2754
+
+Epoch 2755
+
+Epoch 2756
+
+Generated words:
+  Bbtpcnglf
+  Kemq Evmg
+  Bbtpcnglf
+  Bbtpcnglf
+  Bbtpcnglf
+  Cnpf Scdf
+Epoch 2757
+
+Epoch 2758
+
+Epoch 2759
+
+Epoch 2760
+
+Generated words:
+  TwmlvrViQ
+  Dsmopgppb
+  Brllodsqf
+  NjhsA
+  SxpjutZjU
+  Brllodsqf
+Epoch 2761
+
+Epoch 2762
+
+Epoch 2763
+
+Epoch 2764
+
+Generated words:
+  Mlwj'
+  Mmva
+  Ufpsifjma
+  Ufnsqof
+  UcqtZdhmY
+  MX
+Epoch 2765
+
+Epoch 2766
+
+Epoch 2767
+
+Epoch 2768
+
+Generated words:
+  KeoU
+  Ciwrkjn
+  Mgof
+  Foso Kopg
+  LreZpbm
+  Cxkmhds
+Epoch 2769
+
+Epoch 2770
+
+Epoch 2771
+
+Epoch 2772
+
+Generated words:
+  XuseWtqgy
+  fndYppe
+  Skjljd
+  Vgif
+  Voqjaxkgu
+  Vkhfnnt
+Epoch 2773
+
+Epoch 2774
+
+Epoch 2775
+
+Epoch 2776
+
+Generated words:
+  IajZYopli
+  Kmuokco
+  Hbiabmpli
+  Gnulen
+  Boshfh
+  Hny'
+Epoch 2777
+
+Epoch 2778
+
+Epoch 2779
+
+Epoch 2780
+
+Generated words:
+  Qmiiuik
+  JjyhYpn
+  EoqguYu
+  BYqeaok
+  BYqeaok
+  CpqitYs
+Epoch 2781
+
+Epoch 2782
+
+Epoch 2783
+
+Epoch 2784
+
+Generated words:
+  DmsW
+  Agktkdu
+  Dmiadp
+  Lekshgs
+  FljZdo
+  Glnq
+Epoch 2785
+
+Epoch 2786
+
+Epoch 2787
+
+Epoch 2788
+
+Generated words:
+  Cnhfdpm
+  Igvfceb
+  AqgYcokph
+  Mksfcck
+  Cnhfdpm
+  Cnhfdpm
+Epoch 2789
+
+Epoch 2790
+
+Epoch 2791
+
+Epoch 2792
+
+Generated words:
+  EcaaiYZ
+  Adpicbv
+  Bgnspmd
+  Vhbg
+  JpumgZk
+  EcaaiYZ
+Epoch 2793
+
+Epoch 2794
+
+Epoch 2795
+
+Epoch 2796
+
+Generated words:
+  Gbxsbsm
+  DZqkrlfYl
+  Mamjrmk
+  Cmrlukp
+  Tjxleer
+  Obmiqll
+Epoch 2797
+
+Epoch 2798
+
+Epoch 2799
+
+Epoch 2800
+
+Generated words:
+  CembskXgn
+  Oxlbjebjj
+  OoqpOYjnl
+  NvabgaYjb
+  Noqq,Uilm
+  CembskXgn
+Epoch 2801
+
+Epoch 2802
+
+Epoch 2803
+
+Epoch 2804
+
+Generated words:
+  Cnuoshh
+  Sadgdfnhd
+  Fkpi Qpok
+  BssYbne
+  Sadgdfnhe
+  BssYbne
+Epoch 2805
+
+Epoch 2806
+
+Epoch 2807
+
+Epoch 2808
+
+Generated words:
+  Gbbfocv
+  Gbbfocv
+  FnWgkYy
+  JmjjlV
+  RkXhigiod
+  Gbbfocv
+Epoch 2809
+
+Epoch 2810
+
+Epoch 2811
+
+Epoch 2812
+
+Generated words:
+  Eequeju
+  TamYntk
+  OmslXji
+  OltmXji
+  Csmosmgm
+  Fiotryq
+Epoch 2813
+
+Epoch 2814
+
+Epoch 2815
+
+Epoch 2816
+
+Generated words:
+  DlrbnfoIX
+  TZtrtmn
+  TZtrtmn
+  Pchuqmn
+  TbkvqVp
+  TbkvqVp
+Epoch 2817
+
+Epoch 2818
+
+Epoch 2819
+
+Epoch 2820
+
+Generated words:
+  MgigelfnF
+  Kkrhmgsnq
+  Kkrhmgsnq
+  Kkrhmgsnq
+  Ibjhbof
+  Kkrhmgsnq
+Epoch 2821
+
+Epoch 2822
+
+Epoch 2823
+
+Epoch 2824
+
+Generated words:
+  Sihpieo
+  Todgcxsld
+  Sihpieo
+  Capeohmjg
+  Lmfrotl
+  Tndgcyslc
+Epoch 2825
+
+Epoch 2826
+
+Epoch 2827
+
+Epoch 2828
+
+Generated words:
+  Ftrfmerss
+  Euuelcrqr
+  Euuelcrqr
+  Jvgwbffni
+  Gtltdei
+  Jvgwbffni
+Epoch 2829
+
+Epoch 2830
+
+Epoch 2831
+
+Epoch 2832
+
+Generated words:
+  Qfisnplh
+  Qfisnplh
+  BpngmbeZe
+  Yplkfisjk
+  Tubrmaamf
+  SvdskZXmc
+Epoch 2833
+
+Epoch 2834
+
+Epoch 2835
+
+Epoch 2836
+
+Generated words:
+  Hdbiblema
+  Holaroiko
+  Egcjckh
+  Jmqfsrdhp
+  JlmdZoqYu
+  Hdbiblema
+Epoch 2837
+
+Epoch 2838
+
+Epoch 2839
+
+Epoch 2840
+
+Generated words:
+  Cksjqlhod
+  ArlYuhomf
+  Cdppmmv
+  Clxtpujz
+  JjsjhsZqb
+  Gnphxpq
+Epoch 2841
+
+Epoch 2842
+
+Epoch 2843
+
+Epoch 2844
+
+Generated words:
+  Rnsknnsml
+  Brjdudsoh
+  Brjdudsoh
+  Brjdudsoh
+  Brjdudsoh
+  Nnccpfu
+Epoch 2845
+
+Epoch 2846
+
+Epoch 2847
+
+Epoch 2848
+
+Generated words:
+  JkYsifipf
+  FlZrrkrph
+  JkYsifipf
+  Cqajrgjki
+  WkpZwnvY
+  JkYsifipf
+Epoch 2849
+
+Epoch 2850
+
+Epoch 2851
+
+Epoch 2852
+
+Generated words:
+  Pclfohao
+  Tfsnperve
+  Veunoerwe
+  Tfsnperve
+  Tftnperve
+  Rfkqjbqqg
+Epoch 2853
+
+Epoch 2854
+
+Epoch 2855
+
+Epoch 2856
+
+Generated words:
+  Hhlmke
+  Hhlmke
+  HtoptdZk
+  BfyjXdj
+  BfyjXdj
+  FmyskZj
+Epoch 2857
+
+Epoch 2858
+
+Epoch 2859
+
+Epoch 2860
+
+Generated words:
+  Lkkrrhpmb
+  Knqllfhid
+  Nksvphln
+  Kkjrshpmb
+  Mjmsqgpmb
+  CZroZryad
+Epoch 2861
+
+Epoch 2862
+
+Epoch 2863
+
+Epoch 2864
+
+Generated words:
+  Epjihgppj
+  Eqjigepok
+  Enfirpqrg
+  Epjihgppk
+  Enfiqoqqg
+  Eqjigepok
+Epoch 2865
+
+Epoch 2866
+
+Epoch 2867
+
+Epoch 2868
+
+Generated words:
+  QdncpfYkY
+  Njidspimb
+  Njidspjmc
+  Kneeuwqpe
+  Ijgeplpoe
+  Kneeuwqpe
+Epoch 2869
+
+Epoch 2870
+
+Epoch 2871
+
+Epoch 2872
+
+Generated words:
+  KhsYpss
+  Ojqhkrrsj
+  Ritijrrtj
+  Mqqljkm
+  Ojrhkrrsj
+  Pjqhkrrsj
+Epoch 2873
+
+Epoch 2874
+
+Epoch 2875
+
+Epoch 2876
+
+Generated words:
+  OYqkakie
+  Ahpfbwmo
+  .hpfawmo
+  Ahpfbwmo
+  Qjiesqsth
+  Hqpglrr
+Epoch 2877
+
+Epoch 2878
+
+Epoch 2879
+
+Epoch 2880
+
+Generated words:
+  Bbrjjlhk
+  Dghooqx
+  Bctgigbj
+  Aiqnfah
+  Bctghgbj
+  Cennopno
+Epoch 2881
+
+Epoch 2882
+
+Epoch 2883
+
+Epoch 2884
+
+Generated words:
+  QtorjU
+  Udklkhsqm
+  Vkqqher
+  Iqpvebd
+  UzolspU
+  QtoriU
+Epoch 2885
+
+Epoch 2886
+
+Epoch 2887
+
+Epoch 2888
+
+Generated words:
+  Rmpkmgh
+  Upspvmmfi
+  Hnfqmuh
+  .widifu
+  Dvohgck
+  JmZnttkg
+Epoch 2889
+
+Epoch 2890
+
+Epoch 2891
+
+Epoch 2892
+
+Generated words:
+  Qifdkcv
+  Tcqjluk
+  Djvelgo
+  Jhthmnm
+  Tcqjluk
+  Imvmegl
+Epoch 2893
+
+Epoch 2894
+
+Epoch 2895
+
+Epoch 2896
+
+Generated words:
+  Rktpgwa
+  Qhunjuc
+  NhvlnvZ
+  Idslksg
+  Ihulltd
+  Idslksg
+Epoch 2897
+
+Epoch 2898
+
+Epoch 2899
+
+Epoch 2900
+
+Generated words:
+  TZqdjip
+  Jwtjlvg
+  Bkporpl
+  Hpiclkorf
+  XdjmXck
+  Bkporpl
+Epoch 2901
+
+Epoch 2902
+
+Epoch 2903
+
+Epoch 2904
+
+Generated words:
+  .kssqgom
+  Reshfrh
+  Reshfrh
+  Reshfrh
+  Mlmiplkmh
+  Reshfrh
+Epoch 2905
+
+Epoch 2906
+
+Epoch 2907
+
+Epoch 2908
+
+Generated words:
+  Ziciqiy
+  BZufore
+  BZufore
+  XmiddlmWo
+  BZufore
+  VjiedomWp
+Epoch 2909
+
+Epoch 2910
+
+Epoch 2911
+
+Epoch 2912
+
+Generated words:
+  Ggmkusqne
+  Hilmtqpkg
+  Lqnlblc
+  TzhvikjRx
+  GguhbcceE
+  Gfoenifb
+Epoch 2913
+
+Epoch 2914
+
+Epoch 2915
+
+Epoch 2916
+
+Generated words:
+  JmphvkXi
+  Xbnjjmeqh
+  WcpjjneTO
+  Ljdoorcm
+  Escpiki
+  Dirfpjcli
+Epoch 2917
+
+Epoch 2918
+
+Epoch 2919
+
+Epoch 2920
+
+Generated words:
+  Mdrugitsi
+  Odtvfjtsg
+  DfmcloolF
+  Qdvxchtsf
+  Odvwehrrf
+  Qdvxdhtsf
+Epoch 2921
+
+Epoch 2922
+
+Epoch 2923
+
+Epoch 2924
+
+Generated words:
+  Mhogyprwj
+  Nnnmujprn
+  Mhogyprwj
+  BjnxifT
+  Bjovbeo
+  Iaukjdsl
+Epoch 2925
+
+Epoch 2926
+
+Epoch 2927
+
+Epoch 2928
+
+Generated words:
+  Ldlhtmhd
+  Ldlhtmhd
+  Bpvfoiaaj
+  Bowgmkaal
+  Dinrediv
+  Bnwhknbbo
+Epoch 2929
+
+Epoch 2930
+
+Epoch 2931
+
+Epoch 2932
+
+Generated words:
+  Hemnwqmv
+  &tptubo
+  Wbmeslfdg
+  WdqariZZd
+  Dgnusxeq
+  Hiinuguq
+Epoch 2933
+
+Epoch 2934
+
+Epoch 2935
+
+Epoch 2936
+
+Generated words:
+  Jrmtueqpf
+  Tnnwxhppb
+  WcqmoWssq
+  Etlsudsqi
+  Qpovvgoob
+  Hwrdthgd
+Epoch 2937
+
+Epoch 2938
+
+Epoch 2939
+
+Epoch 2940
+
+Generated words:
+  MZssscYhj
+  Qnnrosqqk
+  Dswmlnqv
+  DnkZmahjk
+  Ojpcdmjao
+  MZsrsdZhj
+Epoch 2941
+
+Epoch 2942
+
+Epoch 2943
+
+Epoch 2944
+
+Generated words:
+  Dxsdspop
+  Anitcih
+  Eqphlkcgo
+  Cqserpnj
+  Afqscujse
+  Rultsmcf
+Epoch 2945
+
+Epoch 2946
+
+Epoch 2947
+
+Epoch 2948
+
+Generated words:
+  NZmxhji
+  Bjkotgfo
+  Khdquks
+  Dkigwmmo
+  Uahopmhi
+  Ubkqllfl
+Epoch 2949
+
+Epoch 2950
+
+Epoch 2951
+
+Epoch 2952
+
+Generated words:
+  Uibsdkepj
+  Jadcerjtf
+  Xifsfkjmm
+  EqoleYhh
+  Kdahengte
+  Dgssbpspu
+Epoch 2953
+
+Epoch 2954
+
+Epoch 2955
+
+Epoch 2956
+
+Generated words:
+  Cosesrmj
+  Bdxdpkq
+  Pnsdejdbk
+  Bdxdpkq
+  Drvhlddgg
+  Bdxdpkq
+Epoch 2957
+
+Epoch 2958
+
+Epoch 2959
+
+Epoch 2960
+
+Generated words:
+  Dbqkqljg
+  Ggncojsim
+  Aercuvrmi
+  Acnkoksi
+  Ttlfqsql
+  Jgjdiauds
+Epoch 2961
+
+Epoch 2962
+
+Epoch 2963
+
+Epoch 2964
+
+Generated words:
+  DbjvjtZnm
+  GcnsdpYnl
+  Hlkgoomd
+  FbmteqYnl
+  Hbigssqlg
+  Ildspfpkq
+Epoch 2965
+
+Epoch 2966
+
+Epoch 2967
+
+Epoch 2968
+
+Generated words:
+  Opqndqiet
+  Reotwbfhd
+  Opnndokhs
+  Tdgxxfgig
+  Reotwbfhd
+  Qeorvcfid
+Epoch 2969
+
+Epoch 2970
+
+Epoch 2971
+
+Epoch 2972
+
+Generated words:
+  Thfivoopl
+  Cvdtplkec
+  Thelwlnql
+  Shgfuqqpl
+  Mjsdoqorc
+  Cveonpnec
+Epoch 2973
+
+Epoch 2974
+
+Epoch 2975
+
+Epoch 2976
+
+Generated words:
+  Nqfkdrrqg
+  Ukmtfhfcb
+  Nqfjerrqg
+  Fscteesq
+  Nqfjerrqh
+  Ujicusrqm
+Epoch 2977
+
+Epoch 2978
+
+Epoch 2979
+
+Epoch 2980
+
+Generated words:
+  Pvdkhfrmt
+  Qfpbeeeqb
+  Hhmgpsgqn
+  Ccgucfdoc
+  Qeneedepa
+  Ccgucfdoc
+Epoch 2981
+
+Epoch 2982
+
+Epoch 2983
+
+Epoch 2984
+
+Generated words:
+  Sqfirktno
+  Wdhbtsrlh
+  Qxemqfupr
+  QjclopjiZ
+  Wdhbtsrlh
+  Emaleqdcg
+Epoch 2985
+
+Epoch 2986
+
+Epoch 2987
+
+Epoch 2988
+
+Generated words:
+  Clfngkgjk
+  OcjAMQhrk
+  FiqB-AKui
+  Mlgfsnrol
+  Elklvrrph
+  Sbkkqnmmh
+Epoch 2989
+
+Epoch 2990
+
+Epoch 2991
+
+Epoch 2992
+
+Generated words:
+  -lkcoforj
+  Qgj DdgYm
+  Adakmgump
+  JsXvzhssp
+  ItslpfXoi
+  TrhKgjkkk
+Epoch 2993
+
+Epoch 2994
+
+Epoch 2995
+
+Epoch 2996
+
+Generated words:
+  JXnqjZtld
+  Imfpgedlk
+  Kokaomtkr
+  EdZnzqodp
+  Nbcoxsqfq
+  Oqgofessf
+Epoch 2997
+
+Epoch 2998
+
+Epoch 2999
+
+Epoch 3000
+
+Generated words:
+  Rhwfjeeeg
+  Eaihphpoo
+  Wkovdcttk
+  JZn Mjqqv
+  Tfjlenrkc
+  Efspuhdoj
+Epoch 3001
+
+Epoch 3002
+
+Epoch 3003
+
+Epoch 3004
+
+Generated words:
+  Ofcnbsedi
+  AZrbcttfp
+  Pfcoeredk
+  CcrneknZq
+  DfspehmWo
+  Ebrhootpf
+Epoch 3005
+
+Epoch 3006
+
+Epoch 3007
+
+Epoch 3008
+
+Generated words:
+  Wnlekgjge
+  Spdrdrssr
+  Jemsulrsl
+  KiZnkmcfh
+  SjYxgrolg
+  Mbntuorqm
+Epoch 3009
+
+Epoch 3010
+
+Epoch 3011
+
+Epoch 3012
+
+Generated words:
+  Sqnqfeimm
+  Sokmiemlk
+  Qleknbslj
+  LyqWWYmt
+  Snjljenlj
+  CsYWtkrpg
+Epoch 3013
+
+Epoch 3014
+
+Epoch 3015
+
+Epoch 3016
+
+Generated words:
+  Cpefettln
+  Tsmbrkdjg
+  Twlcrkfih
+  Dqdplvcqh
+  Cecr ,oqd
+  Udpjvrrnp
+Epoch 3017
+
+Epoch 3018
+
+Epoch 3019
+
+Epoch 3020
+
+Generated words:
+  Jslwqvlkg
+  VwtfnZoed
+  Anbbqpgit
+  Tzsejbvge
+  Jslwqvlkg
+  Treicxie
+Epoch 3021
+
+Epoch 3022
+
+Epoch 3023
+
+Epoch 3024
+
+Generated words:
+  FglsCRaXn
+  Gkglnmlck
+  Lrqtipvne
+  Tcngsssph
+  Ojnbelvmp
+  Egkpujhaq
+Epoch 3025
+
+Epoch 3026
+
+Epoch 3027
+
+Epoch 3028
+
+Generated words:
+  Plk Jmjji
+  Snhfkktom
+  Jepfbnfd
+  Eljbediat
+  Promhfbb
+  Eljbediat
+Epoch 3029
+
+Epoch 3030
+
+Epoch 3031
+
+Epoch 3032
+
+Generated words:
+  MiZemoidl
+  Sflmtonnd
+  Tgmqujlmb
+  Rhho Rqni
+  Rejitrqoe
+  Tfoqskjlb
+Epoch 3033
+
+Epoch 3034
+
+Epoch 3035
+
+Epoch 3036
+
+Generated words:
+  Rgieojncw
+  Dbiitij
+  Rgieojncw
+  Rgieojncw
+  Rgieojncw
+  Dcijuij
+Epoch 3037
+
+Epoch 3038
+
+Epoch 3039
+
+Epoch 3040
+
+Generated words:
+  Gbsktumpd
+  Gbsktumpd
+  Gbsktumpd
+  Hgy Ijrgp
+  Gbsktumpd
+  Gbsksumpd
+Epoch 3041
+
+Epoch 3042
+
+Epoch 3043
+
+Epoch 3044
+
+Generated words:
+  UZcbkftrw
+  Uadbkfurw
+  Ffqqremgo
+  Ubeckcwqv
+  Rdfekapt
+  Bmhcnmepg
+Epoch 3045
+
+Epoch 3046
+
+Epoch 3047
+
+Epoch 3048
+
+Generated words:
+  EiXl TdZq
+  BcblsuZen
+  Bcblsuafn
+  Bcblsuafn
+  Bcblsuafn
+  Bcblsuafn
+Epoch 3049
+
+Epoch 3050
+
+Epoch 3051
+
+Epoch 3052
+
+Generated words:
+  Pdopgqfcn
+  Ncnngqgen
+  Pdopgqfcn
+  Pdopgqfcn
+  Pdopgqfcn
+  Ugsvglien
+Epoch 3053
+
+Epoch 3054
+
+Epoch 3055
+
+Epoch 3056
+
+Generated words:
+  Pjxdbrrin
+  Mcrngqtqh
+  Rhwlensmk
+  Spfldtebc
+  Sjyhdpqkl
+  TiQ DclHi
+Epoch 3057
+
+Epoch 3058
+
+Epoch 3059
+
+Epoch 3060
+
+Generated words:
+  Qer Nmz
+  Qer Nmz
+  Qer Nmz
+  Qer Nmz
+  Qer Nmz
+  Qer Nmz
+Epoch 3061
+
+Epoch 3062
+
+Epoch 3063
+
+Epoch 3064
+
+Generated words:
+  Kgiupsti
+  Mhnrr Clh
+  UlqknSSeq
+  KkJWihidi
+  LhXaWgggj
+  Nfmf Zfgl
+Epoch 3065
+
+Epoch 3066
+
+Epoch 3067
+
+Epoch 3068
+
+Generated words:
+  Xmvu Tdrn
+  Znvw Efpp
+  Lpbreopp
+  Ktfjbtqno
+  NgXxgimq
+  UitnQXali
+Epoch 3069
+
+Epoch 3070
+
+Epoch 3071
+
+Epoch 3072
+
+Generated words:
+  DiYglktsp
+  -mgufqqo
+  FwYr De
+  Coetkqlm
+  ChZgkissp
+  Cnevjmmo
+Epoch 3073
+
+Epoch 3074
+
+Epoch 3075
+
+Epoch 3076
+
+Generated words:
+  Iettmmmpi
+  Lbutopkqf
+  JZqbYUW
+  Lbutopkqf
+  Jeimd &tX
+  Kdrmodejg
+Epoch 3077
+
+Epoch 3078
+
+Epoch 3079
+
+Epoch 3080
+
+Generated words:
+  Nlrp Pozq
+  Kdo   ssr
+  OfgfnfVbi
+  Plmm CToq
+  Oelkj.Cif
+  Oelkj.Cif
+Epoch 3081
+
+Epoch 3082
+
+Epoch 3083
+
+Epoch 3084
+
+Generated words:
+  Jjklqwqme
+  Fevu Lihg
+  Ireispuoh
+  Prqi Famw
+  Ggvv Kiij
+  Fjtw Kkki
+Epoch 3085
+
+Epoch 3086
+
+Epoch 3087
+
+Epoch 3088
+
+Generated words:
+  Vgltslrnd
+  Icgerjye
+  EcZoerosj
+  Laeibdfpe
+  Ubpa NjVf
+  QiinX  O
+Epoch 3089
+
+Epoch 3090
+
+Epoch 3091
+
+Epoch 3092
+
+Generated words:
+  Qbmqoebjd
+  Qdmpmxlhh
+  Kcgzersp
+  Kbgydsrm
+  Ldhxfqso
+  Kbgzesso
+Epoch 3093
+
+Epoch 3094
+
+Epoch 3095
+
+Epoch 3096
+
+Generated words:
+  AgrelXmc
+  Jfnbtnddf
+  OZji Xmd
+  AhgaskZfb
+  Ifmbsncde
+  Eeacqlde
+Epoch 3097
+
+Epoch 3098
+
+Epoch 3099
+
+Epoch 3100
+
+Generated words:
+  Lfrdvkrp
+  Piipngnni
+  Pjiqmfnni
+  Lgsbvjro
+  GlljsA.
+  Saonufenh
+Epoch 3101
+
+Epoch 3102
+
+Epoch 3103
+
+Epoch 3104
+
+Generated words:
+  Xpzcazba
+  Qnmifnot
+  Ojcdjvnk
+  Lmvgd!!
+  Epphqps
+  Pifelulj
+Epoch 3105
+
+Epoch 3106
+
+Epoch 3107
+
+Epoch 3108
+
+Generated words:
+  QgtbsjbZm
+  Nhsc UZan
+  Flodeffd
+  ZjyiQTph
+  Rebqkmbe
+  EjpkseYkf
+Epoch 3109
+
+Epoch 3110
+
+Epoch 3111
+
+Epoch 3112
+
+Generated words:
+  Hdifcqpoh
+  Bdpifrdm
+  Ecmnduonn
+  Ljbegqpmh
+  Frohfflf
+  Jgfddpnng
+Epoch 3113
+
+Epoch 3114
+
+Epoch 3115
+
+Epoch 3116
+
+Generated words:
+  Ftbditlif
+  Jdrxjniq
+  Dfqvqrdn
+  Dfqvqrdn
+  Glmslkrc
+  Dfqwooem
+Epoch 3117
+
+Epoch 3118
+
+Epoch 3119
+
+Epoch 3120
+
+Generated words:
+  Lgnh Mdjq
+  Fcdlnvhog
+  Iefc Eof
+  Idmo Gfoe
+  Pgje Vkby
+  Jcnl Gcmc
+Epoch 3121
+
+Epoch 3122
+
+Epoch 3123
+
+Epoch 3124
+
+Generated words:
+  Qdmm Ndom
+  QmetZltlx
+  Oodwfldem
+  Shctdqebq
+  Flgppeyte
+  Ndpcmibq
+Epoch 3125
+
+Epoch 3126
+
+Epoch 3127
+
+Epoch 3128
+
+Generated words:
+  Lrsdqjnfk
+  Qhvfkicah
+  Bclyekds
+  Hlnjgdib
+  Fgmoggdi
+  Jnkhhoqpk
+Epoch 3129
+
+Epoch 3130
+
+Epoch 3131
+
+Epoch 3132
+
+Generated words:
+  Fcpodpqg
+  Dledmmeci
+  Dgld BjZn
+  Anlenmafa
+  Aogdmnbbd
+  KZppcnom
+Epoch 3133
+
+Epoch 3134
+
+Epoch 3135
+
+Epoch 3136
+
+Generated words:
+  Eplfkiecg
+  RZsrlCSmd
+  Dlgehrqd
+  Fhbsiloe
+  Eictjlnd
+  Dqkfjjeag
+Epoch 3137
+
+Epoch 3138
+
+Epoch 3139
+
+Epoch 3140
+
+Generated words:
+  AjojchZh
+  .cnrwZfs
+  Faunnlcs
+  BipjdiYh
+  Fatnnlcs
+  Btftlimlq
+Epoch 3141
+
+Epoch 3142
+
+Epoch 3143
+
+Epoch 3144
+
+Generated words:
+  Ogudnvcpg
+  Lnqamxdi
+  Qflolvqrf
+  Gscplujzg
+  Kpndowgn
+  Dscnlwdql
+Epoch 3145
+
+Epoch 3146
+
+Epoch 3147
+
+Epoch 3148
+
+Generated words:
+  Skapgdgcn
+  Ssfafgin
+  GfsYowbjg
+  PpcpgWXeo
+  Umcpeihgl
+  RriZhihn

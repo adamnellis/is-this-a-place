@@ -7,7 +7,7 @@ from keras.layers.advanced_activations import LeakyReLU
 from keras.optimizers import Adam
 
 
-latent_space_size = 5
+latent_space_size = 6  #20
 
 
 def load_data():
@@ -61,7 +61,7 @@ def adam_optimizer():
     return Adam(lr=0.0002, beta_1=0.5)
 
 
-def generate_input_noise(batch_size):
+def generate_latent_points(batch_size):
     # return np.random.normal(0, 1, [batch_size, latent_space_size])
     return np.random.uniform(0, 1, [batch_size, latent_space_size])
     # return np.zeros([batch_size, latent_space_size])  # makes arbitrary looking words
@@ -74,78 +74,28 @@ def generate_input_noise(batch_size):
 def create_generator():
     generator = Sequential()
 
-    # Images example
-    # generator.add(Dense(units=256, input_dim=100))
-    # generator.add(LeakyReLU(0.2))
-    #
-    # generator.add(Dense(units=512))
-    # generator.add(LeakyReLU(0.2))
-    #
-    # generator.add(Dense(units=1024))
-    # generator.add(LeakyReLU(0.2))
-    #
-    # generator.add(Dense(units=784, activation='tanh'))
-
-    # Images example translated into words
-    # generator.add(Dense(units=16, input_dim=10))
-    # generator.add(LeakyReLU(0.2))
-    #
-    # generator.add(Dense(units=32))
-    # generator.add(LeakyReLU(0.2))
-    #
-    # generator.add(Dense(units=64))
-    # generator.add(LeakyReLU(0.2))
-    #
-    # generator.add(Dense(units=37, activation='tanh'))
-
-    # Circles example translated into words
     generator.add(Dense(16, input_dim=latent_space_size, activation='relu', kernel_initializer='he_uniform'))
     generator.add(Dense(32, activation='relu', kernel_initializer='he_uniform'))
     generator.add(Dense(64, activation='relu', kernel_initializer='he_uniform'))
-    generator.add(Dense(64, activation='relu', kernel_initializer='he_uniform'))
-    generator.add(Dense(64, activation='relu', kernel_initializer='he_uniform'))
-    generator.add(Dense(64, activation='relu', kernel_initializer='he_uniform'))
+    generator.add(Dense(128, activation='relu', kernel_initializer='he_uniform'))
+    generator.add(Dense(256, activation='relu', kernel_initializer='he_uniform'))
+    generator.add(Dense(512, activation='relu', kernel_initializer='he_uniform'))
     generator.add(Dense(37, activation='relu', kernel_initializer='he_uniform'))
-    # generator.add(Dense(37, activation='sigmoid'))
+    # last layer can't be sigmoid, as that makes the "eeeeee eee e" bug
+    # last layer wants to be relu rather than linear, so it can make spaces easily
 
-    generator.compile(loss='binary_crossentropy', optimizer=adam_optimizer())
     return generator
 
 
 def create_discriminator():
     discriminator = Sequential()
 
-    # Images example
-    # discriminator.add(Dense(units=1024, input_dim=784))
-    # discriminator.add(LeakyReLU(0.2))
-    # discriminator.add(Dropout(0.3))
-    #
-    # discriminator.add(Dense(units=512))
-    # discriminator.add(LeakyReLU(0.2))
-    # discriminator.add(Dropout(0.3))
-    #
-    # discriminator.add(Dense(units=256))
-    # discriminator.add(LeakyReLU(0.2))
-
-    # Images example translated into words
-    # discriminator.add(Dense(units=64, input_dim=37))
-    # discriminator.add(LeakyReLU(0.2))
-    # discriminator.add(Dropout(0.3))
-    #
-    # discriminator.add(Dense(units=32))
-    # discriminator.add(LeakyReLU(0.2))
-    # discriminator.add(Dropout(0.3))
-    #
-    # discriminator.add(Dense(units=16))
-    # discriminator.add(LeakyReLU(0.2))
-
-    # Circles example translated into words
-    discriminator.add(Dense(64, input_dim=37, activation='relu', kernel_initializer='he_uniform'))
-    discriminator.add(Dense(64, activation='relu', kernel_initializer='he_uniform'))
-    discriminator.add(Dense(64, activation='relu', kernel_initializer='he_uniform'))
-    discriminator.add(Dense(64, activation='relu', kernel_initializer='he_uniform'))
-    discriminator.add(Dense(32, activation='relu', kernel_initializer='he_uniform'))
-    discriminator.add(Dense(16, activation='relu', kernel_initializer='he_uniform'))
+    discriminator.add(Dense(250, input_dim=37, activation='relu', kernel_initializer='he_uniform'))
+    # discriminator.add(Dense(250, activation='relu', kernel_initializer='he_uniform'))
+    discriminator.add(Dense(125, activation='relu', kernel_initializer='he_uniform'))
+    discriminator.add(Dense(60, activation='relu', kernel_initializer='he_uniform'))
+    discriminator.add(Dense(30, activation='relu', kernel_initializer='he_uniform'))
+    discriminator.add(Dense(15, activation='relu', kernel_initializer='he_uniform'))
 
     discriminator.add(Dense(units=1, activation='sigmoid'))
 
@@ -154,69 +104,89 @@ def create_discriminator():
 
 
 def create_gan(discriminator, generator):
+    # make weights in the discriminator not trainable
     discriminator.trainable = False
-    gan_input = Input(shape=(latent_space_size,))
-    x = generator(gan_input)
-    gan_output = discriminator(x)
-    gan = Model(inputs=gan_input, outputs=gan_output)
+
+    gan = Sequential()
+    gan.add(generator)
+    gan.add(discriminator)
+
     gan.compile(loss='binary_crossentropy', optimizer='adam')
     return gan
 
 
-def train_network(epochs=1, batch_size=128):
+def train_network(epochs=1, batch_size=128, print_every=4):
     # Loading the data
     (x_train, y_train, x_test, y_test, max_word_length, alphabet) = load_data()
-    batch_count = x_train.shape[0] / batch_size
 
     # Creating GAN
     generator = create_generator()
     discriminator = create_discriminator()
     gan = create_gan(discriminator, generator)
 
-    for e in range(1, epochs + 1):
-        print("Epoch %d" % e)
+    def generate_real_samples(n):
+        samples = x_train[np.random.randint(low=0, high=x_train.shape[0], size=n)]
+        classes = np.ones((n, 1))
+        return samples, classes
+
+    def generate_fake_samples(generator, n):
+        # generate points in latent space
+        x_input = generate_latent_points(n)
+        # predict outputs
+        samples = generator.predict(x_input)
+        # create class labels
+        classes = np.zeros((n, 1))
+        return samples, classes
+
+    def summarise_performance(epoch, generator, discriminator, n=100):
+        # prepare real samples
+        x_real, y_real = generate_real_samples(n)
+        # evaluate discriminator on real examples
+        acc_real = discriminator.evaluate(x_real, y_real, verbose=0)
+        # prepare fake examples
+        x_fake, y_fake = generate_fake_samples(generator, n)
+        # evaluate discriminator on fake examples
+        acc_fake = discriminator.evaluate(x_fake, y_fake, verbose=0)
+        # summarize discriminator performance
+        print('Epoch: {0}, accuracy(real) = {1:.2f}, accuracy(fake) = {2:.2f}'.format(epoch, acc_real, acc_fake))
+
+        # print some of the words from the generator
+        generated_words = [numbers_to_word(numbers, max_word_length, alphabet) for numbers in x_fake[:6]]
+        print('Generated words:\n  ' + '\n  '.join(generated_words))
+
+    # determine half the size of one batch, for updating the discriminator
+    half_batch = int(batch_size / 2)
+
+    for epoch in range(epochs):
+        print("Epoch %d" % epoch)
         for _ in tqdm(range(batch_size)):
-            # generate random noise as an input to initialize the generator
-            noise = generate_input_noise(batch_size)
 
-            # Generate fake words from noise input
-            generated_images = generator.predict(noise)
+            # prepare real samples
+            x_real, y_real = generate_real_samples(half_batch)
+            # prepare fake examples
+            x_fake, y_fake = generate_fake_samples(generator, half_batch)
+            # update discriminator
+            discriminator.train_on_batch(x_real, y_real)
+            discriminator.train_on_batch(x_fake, y_fake)
 
-            # Get a random set of real images
-            image_batch = x_train[np.random.randint(low=0, high=x_train.shape[0], size=batch_size)]
-
-            # Construct different batches of real and fake data
-            x = np.concatenate([image_batch, generated_images])
-
-            # Labels for generated and real data
-            y_dis = np.zeros(2 * batch_size)
-            y_dis[:batch_size] = 0.9
-
-            # Pre train discriminator on fake and real data before starting the gan.
-            discriminator.trainable = True
-            discriminator.train_on_batch(x, y_dis)
-
-            # Tricking the noised input of the Generator as real data
-            noise = generate_input_noise(batch_size)
-            y_gen = np.ones(batch_size)
-
-            # During the training of gan,
-            # the weights of discriminator should be fixed.
-            # We can enforce that by setting the trainable flag
-            discriminator.trainable = False
-
-            # training the GAN by alternating the training of the Discriminator
-            # and training the chained GAN model with Discriminator's weights frozen.
-            gan.train_on_batch(noise, y_gen)
+            # prepare points in latent space as input for the generator
+            x_gan = generate_latent_points(batch_size)
+            # create inverted labels for the fake samples
+            y_gan = np.ones((batch_size, 1))
+            # update the generator via the discriminator's error
+            gan.train_on_batch(x_gan, y_gan)
 
         # if e == 1 or e % 20 == 0:
-        if e == 1 or e % 4 == 0:
-            generate_random_words(generator, 6)
+        if epoch % print_every == 0:
+            summarise_performance(epoch, generator, discriminator)
 
 
 def print_summaries():
     (x_train, y_train, x_test, y_test, max_word_length, alphabet) = load_data()
-    print('Training data shape (num rows, num cols): ', x_train.shape)
+    print('Max word length:', max_word_length)
+    print('Alphabet size:', len(alphabet))
+    print('Alphabet:', str(alphabet))
+    print('Training data shape (num rows, num cols):', x_train.shape)
     g = create_generator()
     print('Generator summary:')
     g.summary()
@@ -233,7 +203,7 @@ def investigate_generator(batch_size):
     generator = create_generator()
     print('Generator summary:')
     generator.summary()
-    noise = generate_input_noise(batch_size)
+    noise = generate_latent_points(batch_size)
     print('Noise: ', noise)
     generated_words = generator.predict(noise)
     generated_words = [numbers_to_word(numbers, max_word_length, alphabet) for numbers in generated_words]
@@ -242,7 +212,7 @@ def investigate_generator(batch_size):
 
 def generate_random_words(generator, batch_size):
     (x_train, y_train, x_test, y_test, max_word_length, alphabet) = load_data()
-    noise = generate_input_noise(batch_size)
+    noise = generate_latent_points(batch_size)
     generated_words = generator.predict(noise)
     generated_words = [numbers_to_word(numbers, max_word_length, alphabet) for numbers in generated_words]
     print('Generated words:\n  ' + '\n  '.join(generated_words))
@@ -251,4 +221,4 @@ def generate_random_words(generator, batch_size):
 if __name__ == '__main__':
     print_summaries()
     generate_random_words(generator=create_generator(), batch_size=6)
-    train_network(4000, 128)
+    train_network(40000, 128)
