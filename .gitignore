@@ -1,0 +1,7 @@
+
+venv/**
+
+Words/venv*/**
+Words/logs/**
+
+gan_example/gan_generated_*
