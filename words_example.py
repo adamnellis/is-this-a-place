@@ -115,7 +115,7 @@ def create_gan(discriminator, generator):
     return gan
 
 
-def train_network(epochs=1, batch_size=128, print_every=4):
+def train_network(epochs=1, batch_size=128, print_every=400, figure_every=4000):
     # Loading the data
     (x_train, y_train, x_test, y_test, max_word_length, alphabet) = load_data()
 
@@ -154,12 +154,18 @@ def train_network(epochs=1, batch_size=128, print_every=4):
         generated_words = [numbers_to_word(numbers, max_word_length, alphabet) for numbers in x_fake[:6]]
         print('Generated words:\n  ' + '\n  '.join(generated_words))
 
+        return acc_real, acc_fake
+
     # determine half the size of one batch, for updating the discriminator
     half_batch = int(batch_size / 2)
 
+    plot_epochs = []
+    plot_accuracy_reals = []
+    plot_accuracy_fakes = []
+
     for epoch in range(epochs):
-        print("Epoch %d" % epoch)
-        for _ in tqdm(range(batch_size)):
+        # for _ in tqdm(range(batch_size)):
+        if True:
 
             # prepare real samples
             x_real, y_real = generate_real_samples(half_batch)
@@ -176,9 +182,19 @@ def train_network(epochs=1, batch_size=128, print_every=4):
             # update the generator via the discriminator's error
             gan.train_on_batch(x_gan, y_gan)
 
-        # if e == 1 or e % 20 == 0:
         if epoch % print_every == 0:
-            summarise_performance(epoch, generator, discriminator)
+            acc_real, acc_fake = summarise_performance(epoch, generator, discriminator)
+
+            # make plot of accuracy over time
+            plot_epochs.append(epoch)
+            plot_accuracy_reals.append(acc_real)
+            plot_accuracy_fakes.append(acc_fake)
+            if epoch % figure_every == 0:
+                plt.clf()
+                plt.plot(plot_epochs, plot_accuracy_reals, label='accuracy(real)')
+                plt.plot(plot_epochs, plot_accuracy_fakes, label='accuracy(fake)')
+                plt.legend()
+                plt.savefig('accuracy.png')
 
 
 def print_summaries():
@@ -220,5 +236,5 @@ def generate_random_words(generator, batch_size):
 
 if __name__ == '__main__':
     print_summaries()
-    generate_random_words(generator=create_generator(), batch_size=6)
-    train_network(40000, 128)
+    # generate_random_words(generator=create_generator(), batch_size=6)
+    train_network(epochs=400_000, batch_size=128, print_every=400, figure_every=4000)

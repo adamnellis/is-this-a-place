@@ -1,0 +1,1627 @@
+
+  Ibjn!HJqhLlp
+  OcjqQeZqqamj
+Epoch: 318800, accuracy(real) = 0.18, accuracy(fake) = 0.05
+Generated words:
+  Ihahki Jpueig
+  Hhahki Iqueih
+  GdcruZhRjqlU
+  JercotbjWgojU
+  BdgZaafhOce
+  NfjglrfkcdngU
+Epoch: 319200, accuracy(real) = 0.35, accuracy(fake) = 0.07
+Generated words:
+  ChonPfhqxpbbl
+  Rjmoho Ahfdgd
+  Pkiiirknrkh
+  Fiknlqironm
+  EdrkRg Jfibjq
+  TlitmgmipbiTM
+Epoch: 319600, accuracy(real) = 0.13, accuracy(fake) = 0.04
+Generated words:
+  IiqqmlJdgPtkk
+  .hvmgr RhWqjt
+  Nkoqgn Kmnbbh
+  Bgvoko TfKwls
+  Sjntik BlhaZg
+  Qjnsjk Jkcfcg
+Epoch: 320000, accuracy(real) = 0.10, accuracy(fake) = 0.07
+Generated words:
+  HkhcYqsjxhq
+  Dgow gnlcislp
+  CngcYsrjvmsk
+  Hbsz Qnmadtjr
+  Jeqy Wokcdrin
+  Eghhaurntdq
+Epoch: 320400, accuracy(real) = 0.26, accuracy(fake) = 0.05
+Generated words:
+  Sdlu Ofpebhlm
+  Igdjhhjwyhi
+  Gjjsmnmkfgo
+  Ujkungnjjfh
+  Fgdkiikwxhk
+  .gfpjlmsrjn
+Epoch: 320800, accuracy(real) = 0.23, accuracy(fake) = 0.03
+Generated words:
+  GdbcXa EpRtY
+  Jfegba MnXqZ
+  MfdfbZ MoUqY
+  Skjqlasgimiek
+  LdbcZZ GqPsW
+  Rljqlarginjf
+Epoch: 321200, accuracy(real) = 0.11, accuracy(fake) = 0.09
+Generated words:
+  Pfoprnjggvum
+  Bjsff Bmsghp
+  Khotmiihhupi
+  Ckqea Llrdel
+  Bjsff Amthiq
+  GqlfhUQcfzchi
+Epoch: 321600, accuracy(real) = 0.27, accuracy(fake) = 0.06
+Generated words:
+  Bjknfevfjnli
+  Hkknictglukhh
+  Bczunz Iufpn
+  Ccxsnx Jthqn
+  Dcxtlw Gtipn
+  Dbztnz Dtiqp
+Epoch: 322000, accuracy(real) = 0.15, accuracy(fake) = 0.12
+Generated words:
+  Ompqlo Fqigko
+  Kqfhoemgvji
+  Pknrnl Uokfij
+  Ainvnurdjry
+  Igju Gmimtln
+  Nogu Rjhohml
+Epoch: 322400, accuracy(real) = 0.26, accuracy(fake) = 0.10
+Generated words:
+  Eknghl Fplku
+  Gofipbyesorx
+  TjnviohjYWe
+  Cphbhd Aumr
+  QilvdqdiMQh
+  Amjbgh Btnq
+Epoch: 322800, accuracy(real) = 0.27, accuracy(fake) = 0.08
+Generated words:
+  etUZdjresmw
+  Kihqhf Bagigp
+  Dqlginubbjzs
+  BlhflikaYxj
+  OhnuHdmgaiggf
+  ClhflikaYxk
+Epoch: 323200, accuracy(real) = 0.15, accuracy(fake) = 0.11
+Generated words:
+  JzNidbohxm
+  JwVgbgkkun
+  dqbp AVssp
+  NqXldquevh
+  Qxch Yufozu
+  GwZdjnjmul
+Epoch: 323600, accuracy(real) = 0.44, accuracy(fake) = 0.09
+Generated words:
+  HrhacnkunvpbW
+  Pngbrlsjijk
+  Gppeko HpupdZ
+  Zixi Hxlhood
+  Wrgg Svrxwxh
+  Hriamn QqypdW
+Epoch: 324000, accuracy(real) = 0.35, accuracy(fake) = 0.09
+Generated words:
+  DXno Lodree
+  Fcjj Wrfmjns
+  RKQaZWWZfUh
+  RHYcWXPceRa
+  Ddgekaidped
+  IUln JiggYm
+Epoch: 324400, accuracy(real) = 0.24, accuracy(fake) = 0.08
+Generated words:
+  QorkkkgiVmn
+  AziirYflktt
+  Tdtrlllf Tflb
+  Vgyq Ukfehhip
+  QorkjkgjVnn
+  Bwpcljckgtv
+Epoch: 324800, accuracy(real) = 0.22, accuracy(fake) = 0.08
+Generated words:
+  Hfqjju Rklfkn
+  Mjmfnnoj Xblk
+  Dlog Gjgj
+  Diqde Zlmgjm
+  Mknlkkokijg
+  Bdtfg Rnoflo
+Epoch: 325200, accuracy(real) = 0.16, accuracy(fake) = 0.07
+Generated words:
+  SRgaihdt Tgoq
+  Fdwdpldqpih
+  SThcjhfr Vgno
+  Bek Blnve
+  .btk&dydmin
+  Ralkliml cfki
+Epoch: 325600, accuracy(real) = 0.18, accuracy(fake) = 0.06
+Generated words:
+  adlihXgtgv
+  GouqHKuorrl
+  Dinmheblorsjj
+  Cinmieblortjj
+  egvmikUfrbs
+  egvlilVfrcs
+Epoch: 326000, accuracy(real) = 0.26, accuracy(fake) = 0.11
+Generated words:
+  EohYppkpXrfif
+  Zlrq -tqnsi
+  Zlrr Atqnri
+  Irnf  lxbj
+  alqs  vtiwgci
+  Rmml Lmtateff
+Epoch: 326400, accuracy(real) = 0.36, accuracy(fake) = 0.11
+Generated words:
+  LomplgXbhm
+  Lroerngo Limk
+  PYtp AMrtsppb
+  PYtp AMrtsppb
+  Gasmqrtzqn
+  Sklgprtppgm
+Epoch: 326800, accuracy(real) = 0.36, accuracy(fake) = 0.20
+Generated words:
+  Euorjnuimsq
+  Njie Dkfggfim
+  Whekz Nnrknl
+  Orppjingjk
+  Cvll ,opewu
+  Thdhw,Wlvkml
+Epoch: 327200, accuracy(real) = 0.61, accuracy(fake) = 0.18
+Generated words:
+  Snllljovlno
+  Mgppmmssnkh
+  JcppsWjohc
+  Phfakjiujk
+  Sceandcnec
+  CZvrmr Wptv
+Epoch: 327600, accuracy(real) = 0.34, accuracy(fake) = 0.25
+Generated words:
+  Tjnokipqkigie
+  Rhqn Jlofdfjn
+  Eqppomtjqrpe
+  Rhqn Kkpfdfjm
+  OonhZvokk
+  Ukqtfphjfc
+Epoch: 328000, accuracy(real) = 0.30, accuracy(fake) = 0.37
+Generated words:
+  XTdL
+  SWdK
+  MXhJ
+  DasnlUsZkhkp
+  LxzcjT
+  VzzidX
+Epoch: 328400, accuracy(real) = 0.42, accuracy(fake) = 0.32
+Generated words:
+  Hihlgm Ujmh
+  Imfmnurd
+  Noemmroc
+  GsZnqtqg
+  Echloxra
+  Fdjlnssb
+Epoch: 328800, accuracy(real) = 0.32, accuracy(fake) = 0.21
+Generated words:
+  assUudivcejR
+  Cvwkjma
+  Oztkqemji
+  Szwiofqhj
+  .dwiubv
+  YpqdrcjtehiX
+Epoch: 329200, accuracy(real) = 0.29, accuracy(fake) = 0.18
+Generated words:
+  Baysaqfe
+  Hfrwataj
+  Mcyekm XJ
+  BYkdiigo
+  JYheingl
+  Uknebjuohomip
+Epoch: 329600, accuracy(real) = 0.25, accuracy(fake) = 0.19
+Generated words:
+  Fjsp Krmrviiy
+  Niaqlmofm
+  Lkjonjpipsid
+  Fitq Hrmsuiiz
+  WUjggmhfg
+  Nadmhlikh
+Epoch: 330000, accuracy(real) = 0.25, accuracy(fake) = 0.09
+Generated words:
+  Llmjee Tb
+  Momfmdoha
+  Gghnlcsj
+  Bjlddcqn
+  Qhljgayj
+  Bjkedcqo
+Epoch: 330400, accuracy(real) = 0.44, accuracy(fake) = 0.14
+Generated words:
+  bbrhwoml
+  dmkiemnm
+  MmkkEeoqptlfi
+  Airaggnh
+  Xujqdlhn
+  Czph DXofX
+Epoch: 330800, accuracy(real) = 0.15, accuracy(fake) = 0.09
+Generated words:
+  Sceqkrje
+  Vfbpirji
+  Zfbnhsgo
+  Vedpirjg
+  afvw Hlaqnbo
+  JcXpjpfm
+Epoch: 331200, accuracy(real) = 0.15, accuracy(fake) = 0.13
+Generated words:
+  GKtr QqwiR
+  FZmj Iovf
+  EWml Inwupsb
+  QjogYetg
+  Ldlhkfro
+  Sgps Kknhqmjl
+Epoch: 331600, accuracy(real) = 0.24, accuracy(fake) = 0.15
+Generated words:
+  Lilg Vlmnmls
+  cgdqZfi
+  bojileig
+  Bdjjylhq
+  Bdjixlhp
+  Ocipvfjk
+Epoch: 332000, accuracy(real) = 0.46, accuracy(fake) = 0.23
+Generated words:
+  CmuSktue
+  Djrqktpl
+  Xkkggmqi
+  Dmqlkstj-
+  Dmspittj
+  Hnigolkoowogn
+Epoch: 332400, accuracy(real) = 0.23, accuracy(fake) = 0.16
+Generated words:
+  Mjhtkimg
+  Qifrimpf
+  Mjhoknmi
+  SqrYkmi
+  Qhtujzmj
+  Mkppllli
+Epoch: 332800, accuracy(real) = 0.24, accuracy(fake) = 0.13
+Generated words:
+  Cbomihfg Xgkf
+  Demlnfijkmohh
+  ASsidoqr
+  CbnmjhfhAZijf
+  CSujeoqq
+  Demlnfijkmohh
+Epoch: 333200, accuracy(real) = 0.38, accuracy(fake) = 0.18
+Generated words:
+  Rcwimmvwe
+  Oewhnneqk
+  Bgonmimgpknlq
+  DloolmFbzigq
+  GrrpdZpp
+  Oewhnneqk
+Epoch: 333600, accuracy(real) = 0.50, accuracy(fake) = 0.17
+Generated words:
+  Xfckosmj
+  ElUhpoqo
+  amo FuhniV
+  Hfibgk Jq
+  BbjkiqolM
+  JejbfnFVc
+Epoch: 334000, accuracy(real) = 0.43, accuracy(fake) = 0.11
+Generated words:
+  KZUrorgs
+  Mjelpkeh
+  -Znmjo-
+  OjclokZj
+  Mkanokch
+  Ijgmqmke
+Epoch: 334400, accuracy(real) = 0.24, accuracy(fake) = 0.15
+Generated words:
+  SvgrkdlX
+  WiqhmbqZY
+  Zantmfdooiuj
+  aegkeTaUg
+  TldokWZTQ
+  -pVehnhgktxe
+Epoch: 334800, accuracy(real) = 0.30, accuracy(fake) = 0.14
+Generated words:
+  Ieoijqqeoijjj
+  Ighcjl KgYWV
+  BnmponmnG
+  Ifpklmnng
+  Dmesjsno
+  Jfhcki LfVVT
+Epoch: 335200, accuracy(real) = 0.31, accuracy(fake) = 0.15
+Generated words:
+  Cfleevprj
+  jcPngWmf  Elm
+  Cfkefvsri
+  Cekcfwvuk
+  aqpneW MfmoW
+  DdophnYelj
+Epoch: 335600, accuracy(real) = 0.07, accuracy(fake) = 0.08
+Generated words:
+  al,hYaaksJyJ
+  XgShk,GZl
+  al-hZaaksJyK
+  Qfli cYmmkik
+  bhPgk BZn
+  XZedqDKkw
+Epoch: 336000, accuracy(real) = 0.22, accuracy(fake) = 0.13
+Generated words:
+  Dbqw Ahijoho
+  Dksgjnkqhc
+  Axdrrmd
+  Jlupigjllg
+  Axdrqmc
+  Fgvqme Ihmpm
+Epoch: 336400, accuracy(real) = 0.33, accuracy(fake) = 0.17
+Generated words:
+  HSlsroffsl
+  VabjfoaXmd
+  XWermmjbqe
+  CjdgYydprulk
+  Icjljpiihkhjf
+  HbssCgIWjgin
+Epoch: 336800, accuracy(real) = 0.27, accuracy(fake) = 0.12
+Generated words:
+  CgfQyvgrdf
+  TiioixDboqpe
+  ShhmjvNfmpne
+  Rekl fgrijieW
+  PffkltfnkmjeZ
+  BqeoGgcrl
+Epoch: 337200, accuracy(real) = 0.22, accuracy(fake) = 0.12
+Generated words:
+  GYeTnXto  IzW
+  MhmhmjvnYiigW
+  OfginnhjpqjeW
+  YoqXpfcpo
+  OfginnhjpqjeW
+  OfginnhjpqjeW
+Epoch: 337600, accuracy(real) = 0.23, accuracy(fake) = 0.09
+Generated words:
+  Marerlan hluv
+  Ccrggpkupa
+  Gcjpolchnnhkh
+  Ncpctncn knvv
+  LdmfsodlOmmrq
+  LdnfsndlMmmrq
+Epoch: 338000, accuracy(real) = 0.19, accuracy(fake) = 0.16
+Generated words:
+  EZo  yoXYik
+  KVkktpifd
+  DKfjuvmp
+  Pcm 'giYbdj
+  FMjmruvmn
+  NQgwrimlj
+Epoch: 338400, accuracy(real) = 0.38, accuracy(fake) = 0.17
+Generated words:
+  Hjwsodtkkqe
+  JZuml Iutm
+  Ctqinwquq
+  Eefrmhfimoleh
+  Ulqmoffnvn
+  Uionaniprj
+Epoch: 338800, accuracy(real) = 0.29, accuracy(fake) = 0.18
+Generated words:
+  Oiooci Tmpkfd
+  Lduojsrmnq
+  Digpmhhejnkec
+  Nhqpmrlinw
+  Qipnaj Qnqkfd
+  Lmliqcvgo
+Epoch: 339200, accuracy(real) = 0.23, accuracy(fake) = 0.07
+Generated words:
+  LURiasgrZWq
+  aylbcrouny
+  Ighmjo'Zlemjk
+  Hjemlmiejimhj
+  Ighmio Xmdmkk
+  Hjemlmiejimhj
+Epoch: 339600, accuracy(real) = 0.15, accuracy(fake) = 0.11
+Generated words:
+  Fmiklnpcflii
+  Egkfol NXsopr
+  HmXgorllqpk
+  Egjgol OXsooq
+  Ggeaes SjWinO
+  Giehiqmghmogh
+Epoch: 340000, accuracy(real) = 0.27, accuracy(fake) = 0.15
+Generated words:
+  Klgggnkknklei
+  Klgggnkknklei
+  Klggdmjknklej
+  Klgggnkknklei
+  Klgggnkknklei
+  Klgggnkknklei
+Epoch: 340400, accuracy(real) = 0.35, accuracy(fake) = 0.09
+Generated words:
+  Koomij Yhujeb
+  Iwvqqf ClpgcZ
+  Llllfloggvkec
+  Iwvqqf BlpgcZ
+  Iwvqqf ClpgcZ
+  Kmkiglqqvv
+Epoch: 340800, accuracy(real) = 0.12, accuracy(fake) = 0.06
+Generated words:
+  Rgjghokjitnh
+  ThgmhnYjmrpe
+  Pjhtgjgoih
+  Pflbipujfumjd
+  Mqhydw KpsV
+  Xijrhimrlkqe
+Epoch: 341200, accuracy(real) = 0.34, accuracy(fake) = 0.04
+Generated words:
+  Rwwingzpuhjg
+  ETlw AvkxRi
+  Iptrlh Nihgl
+  HSsw ArorYcc
+  CepocskVra
+  Rcpkkmqijk.E
+Epoch: 341600, accuracy(real) = 0.18, accuracy(fake) = 0.05
+Generated words:
+  Ucokngshjshn
+  Hfysclobhx
+  Rdpnlftkjshk
+  Jhqshflmiugg
+  Mfpnkgefkvgk
+  Pasn Shgmqhk
+Epoch: 342000, accuracy(real) = 0.16, accuracy(fake) = 0.11
+Generated words:
+  MubWVohamshU
+  MubWVohamshU
+  OtbZYojbosiW
+  OtbYXojbnsiV
+  PtbZYnkbosiX
+  MubWVohbnshU
+Epoch: 342400, accuracy(real) = 0.20, accuracy(fake) = 0.21
+Generated words:
+  FelfotUvffqY
+  Jgjipsatiipb
+  NhhjlhpbxuiY
+  FelgpvSycdrZ
+  Ekloslilej
+  eklg Saili
+Epoch: 342800, accuracy(real) = 0.14, accuracy(fake) = 0.05
+Generated words:
+  ehro iqsWdwva
+  Fnhp Vdhffpl
+  Gfjfen Lpkjj
+  Ecleeo Fnijj
+  Cbmddp Cmgjj
+  Cbmddp Dmhjj
+Epoch: 343200, accuracy(real) = 0.07, accuracy(fake) = 0.11
+Generated words:
+  Jljkkl Fkhhp
+  Slfp Hkftloso
+  Umgm Bchlit
+  CihpphgXqyue
+  BhhpphgXqzue
+  Diiooi Pnsqi
+Epoch: 343600, accuracy(real) = 0.13, accuracy(fake) = 0.10
+Generated words:
+  Efjbkoqqii
+  Jjwqjg .drskp
+  Sglpiixesvoi
+  Kjvqjg Cersko
+  Jjwqjg Aerskp
+  Ldnw !bmphlqu
+Epoch: 344000, accuracy(real) = 0.10, accuracy(fake) = 0.04
+Generated words:
+  MjaTfn Qvtdae
+  GWxW BwfheOby
+  Jlg e CiaOaa
+  HWQ KskbZNc
+  Ikc!d DnhTZb
+  SXyoqmkifk
+Epoch: 344400, accuracy(real) = 0.34, accuracy(fake) = 0.02
+Generated words:
+  CWup -WlikbVW
+  Bgs OXqst
+  DXtp BYljlcWW
+  Dqofapssgi
+  CWup -XlilcVW
+  CWup -XlilbVW
+Epoch: 344800, accuracy(real) = 0.31, accuracy(fake) = 0.04
+Generated words:
+  Egsn CaelfSgf
+  -migds Wmfhd
+  DoNFZmqaBp
+  Gljohp!esqhjj
+  Dqiceozmgcpi
+  Ejpk Pihkfah
+Epoch: 345200, accuracy(real) = 0.09, accuracy(fake) = 0.06
+Generated words:
+  Leknkhllmunnh
+  FUjQbdWpLhpot
+  Ejfgihllmpng
+  DXlKLTmZWe
+  Tfnolf dfqvqj
+  Nfkokgklmupoh
+Epoch: 345600, accuracy(real) = 0.23, accuracy(fake) = 0.06
+Generated words:
+  Hcgtjhrkxuk
+  Scptih Kupoj
+  Pdnohh Jskng
+  Hffjfepnrn
+  Hejrkipltuije
+  PnhYcVuqfe
+Epoch: 346000, accuracy(real) = 0.13, accuracy(fake) = 0.10
+Generated words:
+  ThmkvZcYreO
+  ShrvihppoYb
+  Chuqnn Djjnp
+  Iglipidcmg
+  Ejjmpfllkmki
+  Ciigniddhh
+Epoch: 346400, accuracy(real) = 0.26, accuracy(fake) = 0.08
+Generated words:
+  LklQXpxpwvqc
+  SkmKWrwqtuwb
+  dlrxqaivZx
+  ckptpYgwXy
+  Ylqtnbkvdx
+  UlmNXrzqxvxa
+Epoch: 346800, accuracy(real) = 0.48, accuracy(fake) = 0.16
+Generated words:
+  Ffhihpbkin
+  Lhnibqjlkk
+  .NhvaXxjmS
+  Mkcclgmkrqmc
+  -KgwZWximR
+  CyOdtbxavlmU
+Epoch: 347200, accuracy(real) = 0.22, accuracy(fake) = 0.09
+Generated words:
+  AiYzorila
+  Jgfrgpfqhr
+  Zeddskalluqko
+  Gkovsqsen
+  EgctgofodH
+  Gqjtjpkke
+Epoch: 347600, accuracy(real) = 0.41, accuracy(fake) = 0.13
+Generated words:
+  OlsptplXi
+  Vdcezkeppjqjl
+  JllZiessgfi
+  Ksoist Gqgek
+  Fpuhwljhm
+  MnooorpbG
+Epoch: 348000, accuracy(real) = 0.19, accuracy(fake) = 0.12
+Generated words:
+  Hroshgwb  mpV
+  .wemnlilg
+  Etlpqdog
+  Jgqwbgimhlnfj
+  adWkvSRoDan
+  ZdXluTSoyEbn
+Epoch: 348400, accuracy(real) = 0.32, accuracy(fake) = 0.18
+Generated words:
+  Qlslwhye
+  Lykmvsqm FamZ
+  Ihpgfmlkp
+  Lbrabponp
+  Fetpblholsogk
+  Lykmusqm GblZ
+Epoch: 348800, accuracy(real) = 0.19, accuracy(fake) = 0.10
+Generated words:
+  Qxp-Lau
+  BedpXakpA
+  Cbfobulhc
+  Ccfnatlid
+  Biaogdvnt
+  -dcoVYtgq
+Epoch: 349200, accuracy(real) = 0.40, accuracy(fake) = 0.20
+Generated words:
+  Phlkgqhfj
+  Anljuckg
+  Khkofqgfi
+  NimqoajYM
+  Cfplefigr
+  Bgkrbpefh
+Epoch: 349600, accuracy(real) = 0.30, accuracy(fake) = 0.18
+Generated words:
+  FZsehndgo
+  Ppjmiope
+  Egocsrhjq
+  Kaqgkoejp
+  Cisfojgeo
+  SZqdtpilv
+Epoch: 350000, accuracy(real) = 0.29, accuracy(fake) = 0.19
+Generated words:
+  Lhbdnrcg
+  CgkegnXZq
+  -qtldrdggPr
+  Djbcmrgm
+  SiWcrueg
+  Tjmnipmri
+Epoch: 350400, accuracy(real) = 0.39, accuracy(fake) = 0.17
+Generated words:
+  Dfmdjoqoc
+  Pidlpdrm
+  Alfgnktjj
+  Nhekpbqk
+  DcrnZoiplwsge
+  Fcnkdolmk
+Epoch: 350800, accuracy(real) = 0.34, accuracy(fake) = 0.13
+Generated words:
+  Ljknimvk
+  MpsctjdeY
+  OvwgrSdWa
+  JptkjXtT
+  JhqocPYooromm
+  NlqmnWnT
+Epoch: 351200, accuracy(real) = 0.18, accuracy(fake) = 0.11
+Generated words:
+  CmrrjDwf
+  JqYpuhvmk
+  IlnqnIyh
+  CntrlBvj
+  MklppQyl
+  Rochzgvpfwsk
+Epoch: 351600, accuracy(real) = 0.33, accuracy(fake) = 0.20
+Generated words:
+  BgZnlqhh
+  KYhboreii
+  ChZpmqii
+  clregopqh
+  Gaeflqfhn
+  Jadcoofgk
+Epoch: 352000, accuracy(real) = 0.61, accuracy(fake) = 0.22
+Generated words:
+  Cpccjqjo
+  Cjhhgpmjo
+  Codchrkn
+  Dtbhnnes
+  Efifctmlq
+  Dicaithp
+Epoch: 352400, accuracy(real) = 0.44, accuracy(fake) = 0.07
+Generated words:
+  Chwn  j
+  Alrlcbqnm
+  Gitgxqisg
+  Derj Agd
+  Cful  h
+  Vcpbfjrmj
+Epoch: 352800, accuracy(real) = 0.34, accuracy(fake) = 0.23
+Generated words:
+  Jpkegrmgl
+  Cmtihjml
+  DhlclZtsg
+  Grsfhknh
+  Dhldhkqmg
+  Dotfhjoj
+Epoch: 353200, accuracy(real) = 0.30, accuracy(fake) = 0.20
+Generated words:
+  Nkkdiwokh
+  Fipgjlnqkpml
+  Tmmjqqnk
+  Wsicnwlij
+  Qnjdhtojh
+  Femgfwoog
+Epoch: 353600, accuracy(real) = 0.31, accuracy(fake) = 0.17
+Generated words:
+  EZseemsoe
+  Hbigmrsh
+  Vkrichkgg
+  JlfsnkknY
+  Lfnjiiplb
+  IilponaaR'bi
+Epoch: 354000, accuracy(real) = 0.27, accuracy(fake) = 0.14
+Generated words:
+  .nefkhbi
+  -vnZbWg
+  Qklbijbd
+  Frgfkbd
+  .nedlhbi
+  DosnhcjahcSSY
+Epoch: 354400, accuracy(real) = 0.15, accuracy(fake) = 0.17
+Generated words:
+  Keq JRmf
+  Jeq RUmh
+  Keq MSmg
+  CbwqPoif
+  DespxTmhd
+  FMopVjRZVHFX
+Epoch: 354800, accuracy(real) = 0.12, accuracy(fake) = 0.05
+Generated words:
+  FgmloJIsaXhj
+  HfmcknnygeVWZ
+  Heoejolyihabb
+  HaojsYTvbgjf
+  LaidujiwYmS
+  Lcsqmjlz 'iyg
+Epoch: 355200, accuracy(real) = 0.03, accuracy(fake) = 0.03
+Generated words:
+  Lfmncnohhoni
+  Kflniqkgghlk
+  Zchrc S Jhe
+  Jfmmivmkiijk
+  Jflmlukjhfjl
+  Zchrc S Jhe
+Epoch: 355600, accuracy(real) = 0.07, accuracy(fake) = 0.09
+Generated words:
+  GppLsRLQ
+  HnoTxtYTX
+  Jkkmhplntqomq
+  LlmXstcU
+  InnYstcYc
+  Imlfnyuwrifj
+Epoch: 356000, accuracy(real) = 0.07, accuracy(fake) = 0.02
+Generated words:
+  Fkolkprjrplou
+  Mfpmolkepjkm
+  Vcwikfqctvkg
+  -skbihnf Oq
+  Fkolkprjrplou
+  Fkolkprjrplou
+Epoch: 356400, accuracy(real) = 0.15, accuracy(fake) = 0.06
+Generated words:
+  Gguouudidal
+  Kgvlswdkedm
+  Fdafpgjb  QRi
+  Fdagpgjb !RRi
+  DjkmjlmkSggfm
+  Kgtltxangbl
+Epoch: 356800, accuracy(real) = 0.07, accuracy(fake) = 0.05
+Generated words:
+  NhhqmfZmmcik
+  NXZWkZaf LfaY
+  NWZWkZZf LfZY
+  HtYlmmeiU q
+  UncngfelgMm
+  LYbYkabg Qfba
+Epoch: 357200, accuracy(real) = 0.17, accuracy(fake) = 0.07
+Generated words:
+  JVnWvOak MRYP
+  Fgpmljgorqeg
+  Qotbfjugf
+  Vguihteusja
+  Qntcfzjzuff
+  Ehyhogodqie
+Epoch: 357600, accuracy(real) = 0.22, accuracy(fake) = 0.04
+Generated words:
+  PZQjrOjj  STO
+  PZQjrOjj  STO
+  PZPjsNij  RSN
+  Qiphnrhinr
+  Ennmhjpnptn
+  Ogcgtidm -mlk
+Epoch: 358000, accuracy(real) = 0.28, accuracy(fake) = 0.20
+Generated words:
+  AokddrkbtmZ
+  Qbchh DceYUOS
+  BojddsjZskX
+  Njokb Jekmc
+  Jbhoixvg
+  BnjeeshZqiX
+Epoch: 358400, accuracy(real) = 0.11, accuracy(fake) = 0.14
+Generated words:
+  -moZu BnfZvjf
+  -moZu CnfZvjf
+  Grrlfuwkok
+  Hmogm bomgtl
+  Tmomjqpppgtl
+  Dmoihpqnropmk
+Epoch: 358800, accuracy(real) = 0.28, accuracy(fake) = 0.14
+Generated words:
+  Mdscnpeq Mdck
+  Mamer OnjheZ
+  Ghrkjimkoomdp
+  Mdscnpeq Mcck
+  WYpkwjkh
+  Ghrkjimkoomdp
+Epoch: 359200, accuracy(real) = 0.26, accuracy(fake) = 0.19
+Generated words:
+  Xcsc OVpshfq
+  Klnogfhmqvgd
+  NoaKVeNiri
+  Wdsc PWpsheq
+  GhqgfYdudd
+  Hlmghfex.hZe
+Epoch: 359600, accuracy(real) = 0.16, accuracy(fake) = 0.09
+Generated words:
+  Nfnoi KijccXi
+  TfcGGdpiqk
+  Lfmnj Kjjdda
+  Skiqbinsh
+  Nenni HijbbWi
+  DgiirYerlrox
+Epoch: 360000, accuracy(real) = 0.32, accuracy(fake) = 0.18
+Generated words:
+  Wgcpgskfvwpj
+  EvrXt Hppxwvk
+  .keggNpsn
+  DwsVu Cppyxwj
+  Dflgaktlo
+  ByrUu Dppzzyj
+Epoch: 360400, accuracy(real) = 0.51, accuracy(fake) = 0.24
+Generated words:
+  Pfrclilpe
+  Lskhkekr
+  Okxahjhph
+  Rudmijngdfe
+  Prfligptigee
+  AsegadjgrpS
+Epoch: 360800, accuracy(real) = 0.42, accuracy(fake) = 0.21
+Generated words:
+  .ijqmupmF
+  Fjegpmsoo
+  Hhjespnpk
+  Kgdkgh Rujfle
+  Dfmcv DlprcpR
+  Cjocq OjnxgpQ
+Epoch: 361200, accuracy(real) = 0.31, accuracy(fake) = 0.18
+Generated words:
+  Htdireocnogd
+  PnihndnfBVdbo
+  .rbgmfhpq
+  fozjQiaxs
+  Eradsjat
+  Htdireocnogd
+Epoch: 361600, accuracy(real) = 0.25, accuracy(fake) = 0.22
+Generated words:
+  Lkntknkshd
+  Phihh DglUahi
+  Pijhh JflWbhi
+  Piihh EglVahi
+  HmigX CklZmp
+  IY Ipi
+Epoch: 362000, accuracy(real) = 0.31, accuracy(fake) = 0.12
+Generated words:
+  Rkfhnjynvik
+  DYqfdrqyyye
+  Nliki-gfpmfci
+  CXrfdsqze
+  Mmfkj JZqmceg
+  Mmflj IZqmceg
+Epoch: 362400, accuracy(real) = 0.43, accuracy(fake) = 0.22
+Generated words:
+  Kpofoejrmlia
+  KarshlZje
+  Rjmcxdjrrni
+  Smldzfmpqmi
+  NYtYtiftrlZ
+  Mepslkaiep
+Epoch: 362800, accuracy(real) = 0.40, accuracy(fake) = 0.22
+Generated words:
+  Cjvep
+  Mnwm GSoxaim
+  Dmpfiy Mgprtp
+  Ruxcdukmp
+  Hkngjz Gimoto
+  Jmtdosilh
+Epoch: 363200, accuracy(real) = 0.32, accuracy(fake) = 0.22
+Generated words:
+  Pnugffohjpse
+  Defqhjfnh
+  MnqfwimoK
+  Gmgjiiini
+  Ilpgjhink
+  Lqneeckjmqphd
+Epoch: 363600, accuracy(real) = 0.39, accuracy(fake) = 0.22
+Generated words:
+  Bejolrnpe
+  RfmskrrlZinJ
+  Ehirfouge
+  Paternx
+  Japbjlc Seno
+  Bdjnmqopd
+Epoch: 364000, accuracy(real) = 0.53, accuracy(fake) = 0.17
+Generated words:
+  Ojunpwmic
+  Onlnmrsefqmq
+  Slapnound
+  MnljjioaJdeca
+  Shtjpwkle
+  Xdmikommg
+Epoch: 364400, accuracy(real) = 0.21, accuracy(fake) = 0.13
+Generated words:
+  .eikpbq
+  Eqconopff
+  Ohdnehmdmpidd
+  Bvdmnsqej
+  KhUkxOoo
+  .wdmmuqdk
+Epoch: 364800, accuracy(real) = 0.05, accuracy(fake) = 0.12
+Generated words:
+  HhhLVfPrr
+  HZaeUeQy 'lph
+  dZkeonhv
+  CgbZQYD
+  NqldlcWvp
+  QkmjjeYuw
+Epoch: 365200, accuracy(real) = 0.22, accuracy(fake) = 0.18
+Generated words:
+  Gjhjlirsm
+  Khffmknu
+  Fqdbqhu
+  Lehnhjjhhijee
+  Gihjliruo
+  Gkjaolpvp
+Epoch: 365600, accuracy(real) = 0.48, accuracy(fake) = 0.18
+Generated words:
+  Lbpkahl  NT
+  FayjrXwmin
+  -Ytjmbsijw
+  RYtnkjmpw
+  bcwkkmkn
+  FWtlmdrklR
+Epoch: 366000, accuracy(real) = 0.07, accuracy(fake) = 0.12
+Generated words:
+  DbsYplkjF
+  LlkjlDYekkfid
+  Ksigp Pelpeoi
+  Kwifq Lflqdqk
+  Lmkil'Weklfje
+  Lnkim Vekmfkf
+Epoch: 366400, accuracy(real) = 0.02, accuracy(fake) = 0.01
+Generated words:
+  Gnqfg Nhquei
+  CruXh -grdi
+  CruYh -grdi
+  BruXh ,grdi
+  BqoYg Ei.zykm
+  BrtWh -gefj
+Epoch: 366800, accuracy(real) = 0.00, accuracy(fake) = 0.02
+Generated words:
+  RlXagnvb Qiet
+  Pkbdinrc Tigs
+  Pkegjnnc Wihs
+  Ojghjnld-Xiis
+  MigglHgZCZkiq
+  QlYbhnuc Qift
+Epoch: 367200, accuracy(real) = 0.00, accuracy(fake) = 0.16
+Generated words:
+  Rnv Mj dXZA
+  Jommlqipzqrql
+  LpohoVhtyvtq
+  Loocgpnt!tomi
+  Jommlqipzqrql
+  Rnv Mj dYZA
+Epoch: 367600, accuracy(real) = 0.07, accuracy(fake) = 0.01
+Generated words:
+  LWhjofSb  !&
+  LakookWf  KI'T
+  LZjnojVe  IG!Z
+  LajookVe  JH&V
+  Kioynuenwlskd
+  Kioynuenwlskd
+Epoch: 368000, accuracy(real) = 0.00, accuracy(fake) = 0.00
+Generated words:
+  Kkq -   y
+  Lrgrojxlssxlq
+  KirJQQv  xBBWG
+  Kkq .   y
+  JhqJANt  yBAXF
+  Kjr E&  y  s
+Epoch: 368400, accuracy(real) = 0.07, accuracy(fake) = 0.00
+Generated words:
+  IhrqvbZt JauhD
+  Lktnxpwgpumzt
+  IhrqvaXu GZugI
+  Lktnxpwgpumzt
+  Ihrqvbat KbviB
+  IhrqvbZt JauhD
+Epoch: 368800, accuracy(real) = 0.01, accuracy(fake) = 0.01
+Generated words:
+  Cjpjkohl Imlg.
+  Dlqjkpjj Pnmh
+  Bfmilmdo  kgdW
+  Dlqjkpjj Pnmh
+  rpl pcxxWp
+  Belhllcp  kfcd
+Epoch: 369200, accuracy(real) = 0.01, accuracy(fake) = 0.01
+Generated words:
+  Areetidn FjolA
+  UqNpJpTrlvuhZ
+  Gumlgrlfquqvl
+  PsWnRqZnnvtmd
+  Arfetidn Gjol.
+  UqPpKpUqmvuiZ
+Epoch: 369600, accuracy(real) = 0.09, accuracy(fake) = 0.01
+Generated words:
+  Bxfbjbfh Htjk
+  AxUThRUm  tYjk
+  Dwmkhmnbmssoh
+  Bxgcjcgh Ktkk
+  Reuqwepbcdbbh
+  Reuqxfpbcdbbi
+Epoch: 370000, accuracy(real) = 0.05, accuracy(fake) = 0.01
+Generated words:
+  Rfvkokqu 'Wqb
+  Rfvlokqv &Vqb
+  TagsdmmojaVbN
+  SbhrfmnokbWdP
+  VYktgmnqkXSdN
+  IlaldnlkknkgU
+Epoch: 370400, accuracy(real) = 0.09, accuracy(fake) = 0.01
+Generated words:
+  LszoquwqfSWrZ
+  Ijkfnllm LZee
+  OdifXbif LbZir
+  KsyoquwpfUXra
+  LszoqrvqfSWra
+  KswnqtvpWUYqa
+Epoch: 370800, accuracy(real) = 0.16, accuracy(fake) = 0.04
+Generated words:
+  Outxm Iuoclps
+  Pvtxm Guoclps
+  EiTuX .lqB
+  Ftkbue GnxnA
+  Putxm Huoclps
+  DhRuV Ckr
+Epoch: 371200, accuracy(real) = 0.07, accuracy(fake) = 0.01
+Generated words:
+  KturUnof Cdr
+  LhiRv EYjeoji
+  KijUu Malgolj
+  Knrjd dd Khun
+  Lprkb cd Ifvp
+  KhjTu IZkfoki
+Epoch: 371600, accuracy(real) = 0.08, accuracy(fake) = 0.02
+Generated words:
+  Hwmgt Qgpqiqt
+  Hwmgt Rgpqiqs
+  TeXqMlwl
+  XbTqCjwl
+  Micw etvejsq
+  UdWqIkwl
+Epoch: 372000, accuracy(real) = 0.16, accuracy(fake) = 0.02
+Generated words:
+  DXulmopn !tWoS
+  Qmope DgapkZl
+  Kmolnmliojroj
+  Pinrc NfamoYi
+  ARwmlopp  uPqq
+  Plope Fgbplak
+Epoch: 372400, accuracy(real) = 0.19, accuracy(fake) = 0.02
+Generated words:
+  Lilqifggkhmhh
+  GkmysiVmLP
+  Sqine Dppvkv
+  Rqjnf Doptju
+  Sqioe CpoulQ
+  AnstvobhWR
+Epoch: 372800, accuracy(real) = 0.10, accuracy(fake) = 0.13
+Generated words:
+  Bqjon JkYjw
+  Flkln Ujfjr
+  Etdlo-Wmgvw
+  Dnkmn Rkdjt
+  Ijlipqniojmo.
+  Cpkon LkZjw
+Epoch: 373200, accuracy(real) = 0.16, accuracy(fake) = 0.03
+Generated words:
+  DnUbx Ostmfw
+  Flhdpmmp Xhnm
+  CiXwqbwimcp
+  DmUcw Prtmfv
+  Ckavocsgmco
+  DmUcw Prtmfv
+Epoch: 373600, accuracy(real) = 0.16, accuracy(fake) = 0.09
+Generated words:
+  GebaY Dcc
+  Hpjapokrrnnoc
+  bZjpbhpphhad
+  Xciobinoiice
+  aZiqahoohiac
+  adqnkmqxfcf
+Epoch: 374000, accuracy(real) = 0.18, accuracy(fake) = 0.09
+Generated words:
+  Dombu Sjmqqvm
+  FdpsbkjZioiW
+  Combu Qjlqqvm
+  FeqqdjjZjmjr
+  FfrqcjiZjlkr
+  Cpnav Jjkrqwn
+Epoch: 374400, accuracy(real) = 0.06, accuracy(fake) = 0.03
+Generated words:
+  Lknfnjhqninnp
+  PcvprggxogXf
+  JXpiacxhlqhf
+  .fwlYexjlpf
+  CazpfdwqnoV
+  .grnfryqkQ
+Epoch: 374800, accuracy(real) = 0.07, accuracy(fake) = 0.02
+Generated words:
+  DnrtoohfrkU
+  Jlppenrihnsh
+  Jlopenqjhnsi
+  Djioeqjl Eljkg
+  DnrtoohfrlU
+  Fnqrknzigpob
+Epoch: 375200, accuracy(real) = 0.38, accuracy(fake) = 0.09
+Generated words:
+  Ehmuigtqlmg
+  GilrkksmZoik
+  Okmnlqmi .VkU
+  Ojmokqnj CWj
+  CVpoggmnijj
+  Okmnlqmj AVkV
+Epoch: 375600, accuracy(real) = 0.13, accuracy(fake) = 0.07
+Generated words:
+  OfnkgnfpXkjlp
+  Ijkemoir&bekm
+  Keqqkmqpiph
+  Lhhdmqhs MUhk
+  Blpfpprnlso
+  .npinqsnmwqf
+Epoch: 376000, accuracy(real) = 0.07, accuracy(fake) = 0.05
+Generated words:
+  Kfgfiobr RUkm
+  Lerndueohljf
+  eubghnriYlpb
+  Bqpnjrqqcea
+  Jthimnsocfe
+  Lerncwenglje
+Epoch: 376400, accuracy(real) = 0.16, accuracy(fake) = 0.06
+Generated words:
+  YgkdpYdqtq.
+  XckcnYxerwp
+  YgkdrXcprrd
+  DxtyvrwmVNqw
+  CtzumQErz
+  DztywsxmULqw
+Epoch: 376800, accuracy(real) = 0.35, accuracy(fake) = 0.15
+Generated words:
+  Aqcppegdb
+  FtfpnBYhZdY
+  Dofmolggh
+  AxbnlYhfZeG
+  .wZpmWgdWd
+  .ubpocgeZ
+Epoch: 377200, accuracy(real) = 0.53, accuracy(fake) = 0.15
+Generated words:
+  Gorc!Xejqfy
+  Dgubmlekph
+  Dgphrkrnh
+  Syvl ,Txvkt
+  Dgogsiqjh
+  Depdrdlckdz
+Epoch: 377600, accuracy(real) = 0.30, accuracy(fake) = 0.16
+Generated words:
+  Gcqjijrqr
+  Keup &dxxpkvr
+  Llkckohpri
+  KjkblljnrfY
+  LVcYhqnp
+  KjkblljnrfY
+Epoch: 378000, accuracy(real) = 0.27, accuracy(fake) = 0.14
+Generated words:
+  Wdgbmftrmdm
+  Thomehouhr
+  DosYsnmx
+  Uimjhhouin
+  EpsYsnnx
+  Clrcrmnx
+Epoch: 378400, accuracy(real) = 0.44, accuracy(fake) = 0.17
+Generated words:
+  Qkfjhufptq
+  TlefivepwmBLF
+  bkcvhwee
+  Laelhsmnvif
+  Qefjivhpw
+  Hkesmolnn
+Epoch: 378800, accuracy(real) = 0.28, accuracy(fake) = 0.13
+Generated words:
+  TjepZkakjg
+  CkQYuclajbs
+  DaYdoimbj
+  DbXcobkbj
+  Uibjclcilc
+  SieqZkakih
+Epoch: 379200, accuracy(real) = 0.24, accuracy(fake) = 0.11
+Generated words:
+  TyuiasufKa
+  RehsUBl
+  Einnqniopqm
+  PzggsWAl
+  Ehnoqnioppm
+  Lhlmkohnsih
+Epoch: 379600, accuracy(real) = 0.42, accuracy(fake) = 0.23
+Generated words:
+  .jmjgqjsal
+  Ikrvhmmio
+  Mlqreomlm
+  Filfipjreg
+  Feuqkmqqo
+  Jmpnholok
+Epoch: 380000, accuracy(real) = 0.37, accuracy(fake) = 0.21
+Generated words:
+  HZzvqqlla
+  Kiqqkimgel
+  Oqlqq KYkofk
+  HYyupqnmb
+  Cfkbhcnbmb
+  BekZgbmaka
+Epoch: 380400, accuracy(real) = 0.55, accuracy(fake) = 0.25
+Generated words:
+  Cnmomqkj
+  YiwqfmhZlvrjZ
+  Opsngkhfosqib
+  Ooqiklihrq
+  Onwemmoe
+  Lpvhovill
+Epoch: 380800, accuracy(real) = 0.16, accuracy(fake) = 0.23
+Generated words:
+  RbrqmodYd
+  Klhotkdiqsp
+  OcmrlleW
+  DKyuNgZ Sml
+  Sbqqmoebe
+  Hcfrloopj
+Epoch: 381200, accuracy(real) = 0.43, accuracy(fake) = 0.23
+Generated words:
+  Dqfpdkjmk
+  Ahldmrioi
+  ETqq .jrsnsb
+  Cklfjpflh
+  Ahkenslqj
+  Fgmsfleljpkfi
+Epoch: 381600, accuracy(real) = 0.45, accuracy(fake) = 0.16
+Generated words:
+  JXfjjlmwlc
+  Bhmgmnmlk
+  Gfohomjjk
+  Ddngorkjjild
+  bohxonrplf
+  Cctl Riovnnu
+Epoch: 382000, accuracy(real) = 0.44, accuracy(fake) = 0.29
+Generated words:
+  Fkkaolfmi
+  HamkWXjYXX
+  Mwdhlqjslj
+  Bdldkfhlb
+  Bcldjfhlb
+  Diwq  bqvqtq
+Epoch: 382400, accuracy(real) = 0.43, accuracy(fake) = 0.22
+Generated words:
+  eRcqZVmfia
+  Kogtnrnqxw
+  Lcerkkptro
+  TRXlhdnope
+  UWbofenoog
+  Odiscrxmv
+Epoch: 382800, accuracy(real) = 0.49, accuracy(fake) = 0.20
+Generated words:
+  IrhdVgipYa
+  BshcgTrrZW
+  BriegVrqbX
+  Fkov anmiysc
+  Esiecbwngp
+  Amipolnsg
+Epoch: 383200, accuracy(real) = 0.34, accuracy(fake) = 0.12
+Generated words:
+  JnVgZqjXi
+  UaUkXtwqj
+  NZwwgXoRai
+  Aekoihtltoh
+  NjSgYtoeg
+  DfimkjifunfA
+Epoch: 383600, accuracy(real) = 0.15, accuracy(fake) = 0.06
+Generated words:
+  Adqkmhqgu
+  .opXsimiu
+  Clrepjnjq
+  Ejqhnjpln
+  DZqqjgsir
+  Bmqcqjnis
+Epoch: 384000, accuracy(real) = 0.34, accuracy(fake) = 0.12
+Generated words:
+  Oioghhtok
+  Qhjjihrpf
+  Jiyehhsls
+  Hnfjtjfpe
+  Hniirkipg
+  Jjxeihrlr
+Epoch: 384400, accuracy(real) = 0.12, accuracy(fake) = 0.12
+Generated words:
+  Wcmgemmjk
+  Gfsfgrpmj
+  Ajsfjqopk
+  Vcmgemmjk
+  Alohkomqj
+  Xchicmmji
+Epoch: 384800, accuracy(real) = 0.21, accuracy(fake) = 0.11
+Generated words:
+  Hggnumnlc
+  Hghnunnlc
+  OdrTlwxoi
+  DbXtVlXd
+  HXmucfec
+  DYpvVdeZ
+Epoch: 385200, accuracy(real) = 0.18, accuracy(fake) = 0.11
+Generated words:
+  Niprfkonk
+  Ommmfgqqh
+  Ctmseeomi
+  Litwennlm
+  Jjuzdnmkn
+  !yxhmhfu
+Epoch: 385600, accuracy(real) = 0.15, accuracy(fake) = 0.07
+Generated words:
+  Emocismeo
+  Bikk&uhorjgT
+  Dlndfsmeo
+  Emncopkeo
+  Clnedtneo
+  Clnectnfo
+Epoch: 386000, accuracy(real) = 0.20, accuracy(fake) = 0.13
+Generated words:
+  Zatm MglnmTc
+  Byjdeourj
+  Culeemrpj
+  Sfschdkdmdag
+  Ekenqzsj
+  RhrZXeidnYbg
+Epoch: 386400, accuracy(real) = 0.24, accuracy(fake) = 0.12
+Generated words:
+  yljfmjgu!mr
+  IhnpdwjsU
+  QgiklqktR
+  Lbri AqkXaVYV
+  YiYfjmlmU
+  Sknqfljjerrs
+Epoch: 386800, accuracy(real) = 0.12, accuracy(fake) = 0.10
+Generated words:
+  AiilkaWii
+  AjilkaWhj
+  MlsjqXWir
+  HZljNXgmV
+  Woth ZipJYcp
+  BljinXTgo
+Epoch: 387200, accuracy(real) = 0.20, accuracy(fake) = 0.12
+Generated words:
+  MhxfgrnkZ
+  Lrujalgcj
+  Ybtfgsylo
+  Seqn DgYmnkw
+  LsrlYkfbm
+  Jkkl Jfcnll
+Epoch: 387600, accuracy(real) = 0.32, accuracy(fake) = 0.15
+Generated words:
+  SkqrmmmpX
+  Ckakghljm
+  igp AolHVXap
+  Hdmtijpng
+  Dggkjilim
+  Eggijhkhl
+Epoch: 388000, accuracy(real) = 0.31, accuracy(fake) = 0.08
+Generated words:
+  Nsmnqzqmh
+  Nsmnqzqmh
+  Nqqpsuolk
+  Kjnsihjih
+  Iifdcgkpjqmn
+  Mpnopupmh
+Epoch: 388400, accuracy(real) = 0.24, accuracy(fake) = 0.15
+Generated words:
+  Rfjffjshl
+  enqaCesiwVl
+  ZmncFephtXk
+  lpuWGglTm
+  aloairwmsXl
+  Tjlbhkujo
+Epoch: 388800, accuracy(real) = 0.25, accuracy(fake) = 0.16
+Generated words:
+  Nkpj JUmipgyU
+  QggjFfcfcco
+  Bmqrcrjcfk
+  JoieRferoubr
+  -eqvfrfbhhh
+  Lhnl PWgfkjvX
+Epoch: 389200, accuracy(real) = 0.38, accuracy(fake) = 0.14
+Generated words:
+  Rgddbgrikip
+  Qgcdhjrilin
+  SgddYfqikiq
+  Rgcdeisilip
+  Ochqcpmaq
+  Dejkjqmiihik
+Epoch: 389600, accuracy(real) = 0.09, accuracy(fake) = 0.06
+Generated words:
+  FcrshVPWbrpb
+  ITkjVh FTmkdX
+  HUnmXe HUpmc
+  ISljUh ETnkdX
+  HiojjXpdjmkd
+  EcwxiQYVcvuZ
+Epoch: 390000, accuracy(real) = 0.18, accuracy(fake) = 0.06
+Generated words:
+  Bffiff Lcefae
+  Buwh Fbsrjspv
+  Qloqijriirg
+  Bffiff KcefZd
+  dllohtggbpQ
+  Befjff JcefZd
+Epoch: 390400, accuracy(real) = 0.27, accuracy(fake) = 0.09
+Generated words:
+  GYnoze Hlhtlh
+  Mkdqjewlnh
+  GjgWofjgqhlii
+  Eodqpghcwkpk
+  Dglj WkhrloX
+  Gejfue Unhpki
+Epoch: 390800, accuracy(real) = 0.35, accuracy(fake) = 0.15
+Generated words:
+  Fkljigoiktlg
+  FjsnjdoiSgoq
+  AkgXtf Vy
+  ENoix CtRz
+  Jdwmkfqvpoo
+  MSogj PtXt
+Epoch: 391200, accuracy(real) = 0.27, accuracy(fake) = 0.14
+Generated words:
+  Uaqfksdvypnk
+  FrijlYnXiql
+  aYvkjsezxnmg
+  Bgoviiuiai
+  Qdnhlrerypmm
+  Drjo-Uzhnol
+Epoch: 391600, accuracy(real) = 0.20, accuracy(fake) = 0.08
+Generated words:
+  Biqtpqqgqvh
+  Cliejhiipjogj
+  Biqsppqgqvh
+  Pklpkitkjlri
+  Biswqrseswh
+  AWn 'teh
+Epoch: 392000, accuracy(real) = 0.20, accuracy(fake) = 0.10
+Generated words:
+  Jjne Joftlin
+  AZnZwaRajZeZ
+  AanZvbSajZea
+  Mrlh Fjyslvx
+  AbmatcUbkbfb
+  AanZvbSajZea
+Epoch: 392400, accuracy(real) = 0.28, accuracy(fake) = 0.06
+Generated words:
+  EellrgacmdYi
+  PYqkrmbhleYi
+  EhkhmidflhfO
+  QZsr PVcnfYo
+  Ygsi Haikvvzb
+  EdmntfZbnbUh
+Epoch: 392800, accuracy(real) = 0.19, accuracy(fake) = 0.07
+Generated words:
+  BfqaZpkcknjd
+  BhlhcledlqmhQ
+  Bgnebmkdlolg
+  Rjur aofloj
+  AdxSWtjZikgY
+  BevUXskajlha
+Epoch: 393200, accuracy(real) = 0.17, accuracy(fake) = 0.07
+Generated words:
+  Gdtqqjlklnik
+  Pkuowphmsslf
+  HXxxvx Mggi
+  HOhfz MXdv
+  HIRLmYlUi
+  Cfxhoq Odfm
+Epoch: 393600, accuracy(real) = 0.14, accuracy(fake) = 0.08
+Generated words:
+  Ldrljmjnfmol
+  Gepphjgmelli
+  UogoeoYggpm
+  VqdlamHdepp
+  Haqqhhjlellmk
+  XmtXpzgthqvj
+Epoch: 394000, accuracy(real) = 0.22, accuracy(fake) = 0.05
+Generated words:
+  DDusYn Gkuw
+  abrgupmowzvm
+  fYsgtsltrxwon
+  HRot Mmhqmr
+  LTou Cmhrkq
+  dYshsrlsqxvnm
+Epoch: 394400, accuracy(real) = 0.20, accuracy(fake) = 0.05
+Generated words:
+  Eepxdncoknljk
+  Blnlcrdnqplj
+  fhhtonibvmc
+  Eepxdncoknljk
+  Bnnjcsdnrplj
+  Cjopcqdnoolj
+Epoch: 394800, accuracy(real) = 0.21, accuracy(fake) = 0.04
+Generated words:
+  Aelprnhuusn
+  Eert CtgkvofM
+  AtZieefxmZ
+  Bsajfefxma
+  Edst BufjvpfU
+  Eert DtgkupgX
+Epoch: 395200, accuracy(real) = 0.25, accuracy(fake) = 0.07
+Generated words:
+  QRst .bVmlfty
+  Ckojopmlrpm
+  ObfegselmXo
+  Jfjh Qhgnnhq
+  ObecfsdlmWp
+  Lgimnrjinej
+Epoch: 395600, accuracy(real) = 0.26, accuracy(fake) = 0.05
+Generated words:
+  QqefZnanxk
+  PzqfhZnanxk
+  Rpdaepamvh
+  Eimrrfimppr
+  Msqjhficotl
+  Dbtv Gclvtxo
+Epoch: 396000, accuracy(real) = 0.43, accuracy(fake) = 0.05
+Generated words:
+  Ilejjnsmmkf
+  Nemkkkrhjof
+  Xctu Iqnmht
+  Kfnnolpklmj
+  Kfnnolpklmj
+  Yetu Psnkkz
+Epoch: 396400, accuracy(real) = 0.18, accuracy(fake) = 0.06
+Generated words:
+  Cfhrjlrlmec
+  Dggqmjrkleb
+  Dfirjmqlmgf
+  Igfh Kckjdf
+  Dfirjlqlmfe
+  Cfhrilrlmec
+Epoch: 396800, accuracy(real) = 0.28, accuracy(fake) = 0.08
+Generated words:
+  Hedujf Ddou
+  Kdgthf Meoq
+  Nbmpfhlgioh
+  OZlrefocgqg
+  Pmic Nfodhl
+  Skie ZeodjkD
+Epoch: 397200, accuracy(real) = 0.23, accuracy(fake) = 0.09
+Generated words:
+  Nkilhfigkji
+  Rnilhdiihif
+  DVji Fgrmin
+  Ecll Zhgokl
+  DcfhJghYolok
+  DUlj Ahvmhm
+Epoch: 397600, accuracy(real) = 0.20, accuracy(fake) = 0.07
+Generated words:
+  Smkmjimkpoom
+  Trjhhjskfop
+  Gpgspkogfmo
+  Fpgspkogfmo
+  Zrkeejsmjpqk
+  Slgsmgggxpkj
+Epoch: 398000, accuracy(real) = 0.19, accuracy(fake) = 0.07
+Generated words:
+  SXnqTYmRgrZ
+  AfhbmfgTsai
+  SXnqTXmRgrY
+  OolmHcLjmrxn
+  PbnpZblZjqf
+  QanpYblXjqe
+Epoch: 398400, accuracy(real) = 0.11, accuracy(fake) = 0.21
+Generated words:
+  HcorYtLhdn
+  ZDteauYYRhT
+  GeordrSjhn
+  UKsgdsbcXiX
+  GeorcrRjgn
+  GfoqdrTjhn
+Epoch: 398800, accuracy(real) = 0.18, accuracy(fake) = 0.17
+Generated words:
+  Bomptplurgnnm
+  Ldpvhqlgeq
+  Nbpwfqledr
+  Blkpurnzpjtp
+  Ldpvhqlgfp
+  Ihotlqlljm
+Epoch: 399200, accuracy(real) = 0.25, accuracy(fake) = 0.12
+Generated words:
+  Avklvopntgnln
+  Jnrpiqknup
+  Dslmvmsislqn
+  Dtlmvmsitlqm
+  Mktrfrjnur
+  NkmoxhVqxr
+Epoch: 399600, accuracy(real) = 0.06, accuracy(fake) = 0.08
+Generated words:
+  CmncLimhp
+  CmncKimhp
+  CnncLimhp
+  ComdPjmiq
+  Arlgclnlrs
+  CmncJhmhp
