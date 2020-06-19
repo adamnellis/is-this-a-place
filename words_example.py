@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+from keras.callbacks import TensorBoard
 from keras.layers import Dense, Dropout, Input
 from keras.models import Model, Sequential
 from tqdm import tqdm
@@ -72,15 +73,15 @@ def generate_latent_points(batch_size):
 
 
 def create_generator():
-    generator = Sequential()
+    generator = Sequential(name='Generator')
 
-    generator.add(Dense(16, input_dim=latent_space_size, activation='relu', kernel_initializer='he_uniform'))
-    generator.add(Dense(32, activation='relu', kernel_initializer='he_uniform'))
-    generator.add(Dense(64, activation='relu', kernel_initializer='he_uniform'))
-    generator.add(Dense(128, activation='relu', kernel_initializer='he_uniform'))
-    generator.add(Dense(256, activation='relu', kernel_initializer='he_uniform'))
-    generator.add(Dense(512, activation='relu', kernel_initializer='he_uniform'))
-    generator.add(Dense(37, activation='relu', kernel_initializer='he_uniform'))
+    generator.add(Dense(16, input_dim=latent_space_size, activation='relu', kernel_initializer='he_uniform', name='Generator_16'))
+    generator.add(Dense(32, activation='relu', kernel_initializer='he_uniform', name='Generator_32'))
+    generator.add(Dense(64, activation='relu', kernel_initializer='he_uniform', name='Generator_64'))
+    generator.add(Dense(128, activation='relu', kernel_initializer='he_uniform', name='Generator_128'))
+    generator.add(Dense(256, activation='relu', kernel_initializer='he_uniform', name='Generator_256'))
+    generator.add(Dense(512, activation='relu', kernel_initializer='he_uniform', name='Generator_512'))
+    generator.add(Dense(37, activation='relu', kernel_initializer='he_uniform', name='Generator_output'))
     # last layer can't be sigmoid, as that makes the "eeeeee eee e" bug
     # last layer wants to be relu rather than linear, so it can make spaces easily
 
@@ -88,16 +89,16 @@ def create_generator():
 
 
 def create_discriminator():
-    discriminator = Sequential()
+    discriminator = Sequential(name='Discriminator')
 
-    discriminator.add(Dense(250, input_dim=37, activation='relu', kernel_initializer='he_uniform'))
-    # discriminator.add(Dense(250, activation='relu', kernel_initializer='he_uniform'))
-    discriminator.add(Dense(125, activation='relu', kernel_initializer='he_uniform'))
-    discriminator.add(Dense(60, activation='relu', kernel_initializer='he_uniform'))
-    discriminator.add(Dense(30, activation='relu', kernel_initializer='he_uniform'))
-    discriminator.add(Dense(15, activation='relu', kernel_initializer='he_uniform'))
+    discriminator.add(Dense(500, input_dim=37, activation='relu', kernel_initializer='he_uniform', name='Discriminator_500'))
+    discriminator.add(Dense(250, activation='relu', kernel_initializer='he_uniform', name='Discriminator_250'))
+    discriminator.add(Dense(125, activation='relu', kernel_initializer='he_uniform', name='Discriminator_125'))
+    discriminator.add(Dense(60, activation='relu', kernel_initializer='he_uniform', name='Discriminator_60'))
+    discriminator.add(Dense(30, activation='relu', kernel_initializer='he_uniform', name='Discriminator_30'))
+    discriminator.add(Dense(15, activation='relu', kernel_initializer='he_uniform', name='Discriminator_15'))
 
-    discriminator.add(Dense(units=1, activation='sigmoid'))
+    discriminator.add(Dense(units=1, activation='sigmoid', name='Discriminator_output'))
 
     discriminator.compile(loss='binary_crossentropy', optimizer=adam_optimizer())
     return discriminator
@@ -107,7 +108,7 @@ def create_gan(discriminator, generator):
     # make weights in the discriminator not trainable
     discriminator.trainable = False
 
-    gan = Sequential()
+    gan = Sequential(name='GAN')
     gan.add(generator)
     gan.add(discriminator)
 
@@ -156,6 +157,26 @@ def train_network(epochs=1, batch_size=128, print_every=400, figure_every=4000):
 
         return acc_real, acc_fake
 
+    # Create the TensorBoard callback,
+    # which we will drive manually
+    tensorboard = TensorBoard(
+        log_dir='tf_logs',
+        histogram_freq=10,
+        batch_size=batch_size,
+        write_graph=True,
+        write_grads=True,
+        write_images=True,
+    )
+    tensorboard.set_model(gan)
+
+    # Transform train_on_batch return value
+    # to dict expected by on_batch_end callback
+    def named_logs(model, logs):
+        result = {}
+        for l in zip(model.metrics_names, logs):
+            result[l[0]] = l[1]
+        return result
+
     # determine half the size of one batch, for updating the discriminator
     half_batch = int(batch_size / 2)
 
@@ -180,10 +201,12 @@ def train_network(epochs=1, batch_size=128, print_every=400, figure_every=4000):
             # create inverted labels for the fake samples
             y_gan = np.ones((batch_size, 1))
             # update the generator via the discriminator's error
-            gan.train_on_batch(x_gan, y_gan)
+            logs = gan.train_on_batch(x_gan, y_gan)
 
         if epoch % print_every == 0:
             acc_real, acc_fake = summarise_performance(epoch, generator, discriminator)
+
+            tensorboard.on_epoch_end(epoch, named_logs(gan, [logs]))
 
             # make plot of accuracy over time
             plot_epochs.append(epoch)
@@ -195,6 +218,10 @@ def train_network(epochs=1, batch_size=128, print_every=400, figure_every=4000):
                 plt.plot(plot_epochs, plot_accuracy_fakes, label='accuracy(fake)')
                 plt.legend()
                 plt.savefig('accuracy.png')
+
+                gan.save_weights('gan_weights_epoch_{0}.h5'.format(epoch))
+
+    tensorboard.on_train_end(None)
 
 
 def print_summaries():
