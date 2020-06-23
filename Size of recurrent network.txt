@@ -1,0 +1,12 @@
+
+
+hidden_size = 100
+vocab_size = (from test-gb-places.txt) 59
+
+hidden_size * vocab_size     ->  5900
+hidden_size * hidden_size    -> 10000
+vocab_size * hidden_size     ->  5900
+hidden_size                  ->   100
+vocab_size                   ->    59
+
+total number of variables: 21,959

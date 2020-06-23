@@ -1,0 +1,4999 @@
+----
+iter 11319000, loss: 38.240142
+----
+ or
+Carllington
+West Kile
+Harkingley
+Auswood
+Saspleton
+Duncott
+Ersall Greet
+Corton
+Upper Beatham
+Sturchington
+Statty
+Barworth
+Wale End
+Drayford
+Keanton
+Lower Ede
+Corne Setts
+Shotesall
+Editsham
+Ulburgh
+
+----
+iter 11320000, loss: 38.223570
+----
+
+Knopford
+Armoroo
+Suatton-on-Sea
+Hare End
+Woodffieldne
+Divenford
+Stambersby
+Barkerbach
+Chiptinge
+Newton an Wintcot
+Long Ovin Worterington on Arrey
+Heppin
+Colperle
+Cottington
+Barnstead
+Wooddingham
+Grea
+----
+iter 11321000, loss: 38.026035
+----
+ ews
+Heelhead
+Broxkbury
+La Pare
+Cottne
+Hamsworth
+Ryant
+Ivershering
+Luncton
+Chalton
+Quinton Hill
+Milton
+Lancomberiogh
+Halton Chell
+Weton
+Great Clatbrook
+Datcombe Bardon
+Water
+Wromh
+Longlush Burton Ald G
+----
+iter 11322000, loss: 38.158532
+----
+ wood-"Soagha
+Mockton
+Longley
+Southam
+Cleverlaky on Tulsden
+Helresham
+Bromber
+Counney
+Brach and Saly
+Hunsby
+Thorn
+Swale Northorpe
+Liddlecetem
+Ovington
+Illingstole Worth
+Quetale
+Eddy
+Hampton
+Brungintony
+----
+iter 11323000, loss: 38.257650
+----
+ Lipstard
+Litterwelm and Quay, eunkiton
+Bowley
+Farthept St Martill
+West Munstead
+Ansell
+Foulvington
+Otcherfield aye
+Oves
+Orton
+Little Abby
+Blackham Calton
+Thorpe Broydale
+Leabury
+Fathane End
+Inks
+Westb
+----
+iter 11324000, loss: 38.325882
+----
+ onale
+Walthusmington
+Toudhulton
+Hedry Bunville Hill
+Dunsay
+Wondham
+Strete
+Langhorpe
+Foxhall
+Hearing
+East Parsay
+Ougneerne Burth
+Belton
+Ivit Rase
+Siltedgot
+Claybroad
+Studmfield
+Dalteshar
+Suffirtholt"
+D
+----
+iter 11325000, loss: 38.321580
+----
+ Milboroy
+Helcean Hill
+Burney
+Wregacling
+Littlesterder
+Stanington
+Ensden
+Bodgoton
+Bathaffost
+Chippards
+Lewbey Heath
+Moldesham
+Westwoott
+Willand
+Allington
+Faryworchanton
+Hould
+Ellington
+Flazee End Westg
+----
+iter 11326000, loss: 38.190121
+----
+
+Runsde
+Hapton on the Medge Hampton
+Wick
+Great Bynkington
+West Crambridge
+Meads Porton
+Sandrew
+South Pagney
+Haruld
+Rockyley
+Fordden
+Mitton
+Brookfield
+Dorstone
+Ford
+Leatham
+Rogling
+Saidley
+Tedseghurst
+
+----
+iter 11327000, loss: 38.056995
+----
+ on
+Wamnorth
+Greatbury
+Wraxington
+Onton Sutton
+Evyburn
+Ashownrs
+Great Peddy Castleslefield
+Mapfatte
+Iver
+Frowton Chalsoe
+Helenham
+Walwell
+Colby
+North Green
+Balfield
+Huchton
+Stoneh
+Lammoor
+Aighton
+Edywe
+----
+iter 11328000, loss: 38.292700
+----
+  Burton
+Easton
+Morton
+Gosby
+Watbicestow
+St. Mary
+Saltishelbury
+Attleby
+Blackheal
+Braxing
+Siers Briald
+Queen
+Berkhoon
+South Brick Palpoor
+Braningham
+Rotwesston
+Queencriel
+Sudbrook
+Saint Martins Stone
+T
+----
+iter 11329000, loss: 38.304729
+----
+ sey Bardon
+Woodon Tinston
+Beffards
+Ringlingham
+Coxton
+Fulwell
+Dalperlham
+Awbers
+Sontran
+Whitford
+Predley
+Ditty Casthamphill
+Littlake
+Falking
+Grangbung
+Wake
+Head
+Curley
+Thopne
+Nurenstin
+Knicrenhorpe
+El
+----
+iter 11330000, loss: 38.378247
+----
+ ey
+Gillerton
+Loddal Listhat Bastal
+Haarb ate
+Tildeworth
+Tutlington
+Wolford
+Farrington
+Coatech
+Barkford
+Argsy
+Dobbuth
+Temp Sortint
+Warp
+Wallington
+Wee Cott
+Cove
+Plebringham
+Irrafden
+Thimbley
+Great Crad
+----
+iter 11331000, loss: 38.188625
+----
+ aven Pars
+Kirnchmete
+Hare
+Edsley
+Upton
+Wharvett
+Adging Vill
+Button
+Berst Deffoe Norough
+Roum
+Halmancott
+Oakwith
+Heath
+Loxburton
+Churfleet
+Hamington
+Lakey
+Levecharn
+Laintive
+Gremempe
+Dindyford
+Colurd
+B
+----
+iter 11332000, loss: 38.196647
+----
+  Hull
+Milllow
+Altlecote
+Turnham Borry Hatham Morchint
+Cottingsey
+Winlborough
+Ilburn
+Casberth
+Saint Cross
+Gream
+Bredeluse Kilby
+Saint Gicebridge
+Kensley
+Tathorfoud
+Marshead Green
+Alliary
+Wilton
+Lindley
+----
+iter 11333000, loss: 37.982207
+----
+ krey
+Wadcote
+Quehang's Galzorn
+Litsworton
+Aldon Calmore
+Marring
+West Stretford
+Cleaux
+Bishop Saint Margates
+Greenstone
+Brulshaw
+Londublake
+Ouchorpe
+Bilylham
+Marcesill
+Whitwick
+Sutton Earas
+Moors
+Water
+----
+iter 11334000, loss: 38.185867
+----
+ nham
+Guesby
+Felton on Tudow
+Uversham
+Anhill
+Boatchcot
+Thruxford
+Burnwell
+Ewnes
+Simbe
+Whedd Lone
+Cowdes
+Dabrant Oak
+West Wanstone
+Patner Park
+Sutton
+Darlewdon
+Clewley
+Upperwell
+Tessether
+Lamesideigh
+Be
+----
+iter 11335000, loss: 38.269077
+----
+ l
+Toldon Dorrus
+Dale
+Otternop
+Dalliton
+Mossington
+Lall
+Egraf
+Elsing
+Harlesby-Fe-St Jucese
+Branley Green
+Hangeby
+Barwood
+Tolston
+Brewley
+Bitcoowel
+Anston Broom Magle
+Hargatens Hinld
+Cliffham
+Ote Bersto
+----
+iter 11336000, loss: 38.240061
+----
+ iren
+Frimborb
+Suzand
+Loradeham Gusis Saleby
+South Wakering in teddon
+Almthorpe
+West Criston
+Midbrook
+Drown Crisach
+Mossey
+Cholling
+Sharpet
+Sangepords
+Pentald
+Ash Laneley
+Canley Edge
+Harl
+West Rodingto
+----
+iter 11337000, loss: 38.212775
+----
+
+Shirenham
+Walke
+Penhmough
+Lymwitter
+Angelenham
+Warperton Baldhall
+Beedon
+Gaidington
+Kensethorpane
+Kingsgate
+Edclifhe
+Madlinghol
+Alvetton
+Asblade
+Fernton Vore
+Barburn
+Hargerchurfte-lve
+West Hormslock
+----
+iter 11338000, loss: 38.190712
+----
+ k
+Talderford
+Kirby Heest
+Earan
+Pemforth
+Totton
+Yateby
+Estbury
+Buerry
+Saint Clatas
+Upper Lamington
+Steringthorpe
+Stowne
+Kennderbait Aympton
+Swintington
+Strislington
+Lay
+Leesle
+Mosebingald
+Alkerskeay Gr
+----
+iter 11339000, loss: 37.919924
+----
+ enford
+Milpot Tworth
+Pas End
+Bickhdon
+Colmer Stree Magna
+Belton atton
+Withill
+Silby
+Fulvadow
+Chakley Broadwathampton
+Hydingsteewell Bow
+Brombe
+Wool
+Hampdenstone
+Tonnhey
+Little Sedford
+Gillire
+Compton
+
+----
+iter 11340000, loss: 38.349784
+----
+ e
+Old Garksden Sundletcoms
+Longios
+Conthers
+Stratterabrook
+Empton Sutton
+Orse-Sea
+Birston Fartham
+Fipwell
+Cormer
+Balsham
+Caire
+Goodwood
+Edlow
+Brifflennaga
+Headerton
+Alden
+Chedley
+Brampton
+Brunsdate
+Gr
+----
+iter 11341000, loss: 38.260060
+----
+ Bockers
+Hambers Whiedington
+Osford
+Weston
+Birleston
+Fawdy Croombey
+Hackbourne
+Rotherham
+Lang Flinblidge Wood
+Bodbick
+Guymer
+Hunsington
+Smemeringe
+Hungsfield
+Iswick
+Broadwick
+Tarne
+West Lane
+Steverstho
+----
+iter 11342000, loss: 38.287084
+----
+ on
+Foldersfield St Te-lver
+Backboton
+Leven-Nurgate
+Bromestead
+Heath Cradland
+Stantholme
+Pickorshall Green
+Ington
+Ashworth
+Clanrington
+Ouckington
+Burnham
+Buwshaynt
+Netherbast
+Colland
+Saint Neston
+Woods
+----
+iter 11343000, loss: 37.968754
+----
+ ngford
+Smatt
+Turborough
+Whitebridge
+Ickleton
+Colelon
+Monberham
+Seapington
+Gramle
+Bredinghow Lurs Magnastoke
+Mickton
+Warmore
+Durvedostownock
+Westworth-on-Lageringhampton
+Wevensigok
+Canney Perram
+Stayna
+----
+iter 11344000, loss: 38.167216
+----
+ Ingrantund
+Feltham
+Goondon
+Winter
+Ashton
+Ease Key
+Mansham
+Firkbrooke
+Kiux
+Chardleshuok
+Graile
+Bubmerl
+Slatford
+Streets
+Thorpefield
+Croxwell
+Newguth Ceavin
+Binton
+Searnford
+Leighton
+Aning
+Crossington T
+----
+iter 11345000, loss: 37.866361
+----
+ heclave
+Farfleenham
+Mickside
+Hussington
+Ormoon
+Neam
+Baybray
+Easterdy
+Whitchclis
+Park Surunveriston
+Arvington
+Islewoott
+Arglewood
+Twow End
+Woolshall Saint Beat
+Riffestletown
+Kengelbourne
+Hessle
+Cosham
+
+----
+iter 11346000, loss: 38.381990
+----
+ fold
+Gurlen's Heath
+Watfield
+Handon
+North Bolcommeseb
+Stoneton Bowe
+Brimstone
+Cawdowdring
+Boxham
+Siltinge
+Brayerby
+Colland
+Crackley
+Pemuncham
+Frove Gonertavere
+East Chirley
+Bockenhuary
+Thouges
+Cannont
+----
+iter 11347000, loss: 38.338687
+----
+
+Polyham East
+Stingleese
+Broodbrook
+East Marshaw
+Ayford
+Bowley
+Langwaald
+Chasford
+Applach
+Saint Gicythorpe
+Higherdone
+Boby Pars
+Naveney Shireh
+Mussent
+Heath Fomarn
+Hap
+Chelton
+Waltham Wood
+Hook
+Staith
+----
+iter 11348000, loss: 38.198739
+----
+ t. Micharr
+Buctonham
+Spuiston
+Kiraston
+North Weswell
+Clangerbeach
+Dobbockton Hill
+Saydofte
+Chaublea
+Stanton
+Wickne
+Chornstone
+Lower
+Peirstow
+Long Major
+Roydrey
+Brookford in the Anston
+Merrop
+Porth
+Hil
+----
+iter 11349000, loss: 38.205745
+----
+
+Clock Green
+Easton
+Winterdon Street
+Lower Togtaster
+Ratlingthorpe
+Bachean
+Springford
+Crees
+Bourton
+Sutton-on-See Elline
+Otteridge
+Rautmnorth
+Hatley
+Goar
+Birwexton
+Aston
+West Harlington
+Lynsax
+Mamlebo
+----
+iter 11350000, loss: 38.178921
+----
+ ge
+Carlton London Sains Clasmer
+Ninsen Street
+Durlington
+Chinsal
+Sambor Evy
+Pilmston Ivyld
+Carbyry Budding
+Milton Kingss Parsham
+Westleford
+Birnble Gankwidgey
+Saint Easthe
+Dorbuch
+Clifton
+Nohmlis
+Beag
+----
+iter 11351000, loss: 38.019811
+----
+
+Stattenhill
+East Molbam Sorton Aston
+Blencliffe
+Grendercouke
+Churton
+Cornhunsebighton
+Doxley
+Biglerton
+Yaxhill
+Uppington
+Glandlish
+Rethope
+Topberney
+Sidworth
+Laley
+Hadley Heake
+East Windon
+Sipley
+Ram
+----
+iter 11352000, loss: 38.448330
+----
+ intone
+Fauntham
+Bishops Green
+Hurcoxs Closs
+Catbroom
+Longdingrior
+Low Maltompton
+Upton
+Glea Kelfield
+South Ludcont Sancotese
+Sandford
+Earockcorton
+More Notton Shorpeaton
+Ludwick
+Shirtess
+Greet
+Farner
+
+----
+iter 11353000, loss: 38.386362
+----
+ aves
+Penwell
+Heath
+Parnge
+Kentonstow
+Wexton
+Margalmoder
+Chaulton
+Hilton Green
+Mackack
+Poulden
+Sturverincone
+Burne
+Goulton
+Lakenham Street
+Reedford
+Barn on the Wid Rowst
+Torington
+Butfocton
+Cheddlethor
+----
+iter 11354000, loss: 38.247232
+----
+ n
+Reven Parden
+Lindon
+Knoule
+Mootton
+Henwick
+Moomstow
+Vimside
+North Croppham
+Castshoe
+Loddle
+Gdinghage
+Hareccon
+Bittesholme
+Wacklakn
+Sehpingford
+Rambern
+Southent
+Grewas
+Salhoew
+Froot
+Great Bosholme
+El
+----
+iter 11355000, loss: 38.176515
+----
+
+Pathelsford
+Potton
+Keypston
+Lucham
+Stretton
+Southam Blueld
+Moorfield
+North Lownl
+Dunchcombe
+Hearfield
+Stockcote
+Stadwick Givon
+Wealdstow
+Malford
+Nopton
+Finleath
+Twylood
+Northton
+Tudemort
+Silton
+Oaksd
+----
+iter 11356000, loss: 38.030242
+----
+ worth
+Stock Thorperuggburynam
+Saint Gornal Grough Watley
+Great Hurrack
+Shering rion
+Bravington
+Waddon
+Old Grabington
+Strioes
+West Wrekenham
+Quebish
+Stoalham
+Shaldon
+Bellon
+Sandscill Green
+Tarching
+Haw
+----
+iter 11357000, loss: 38.098549
+----
+ berth
+Ossbridge
+Wollinglingholme
+Newhall
+Stoke Prcuth
+Hursfield
+Birdlow
+Cleydon
+Kings and Winmpleham
+Cardford
+Oakham
+Sand Peen
+Bobthombe
+Weshore
+Croshbury
+Uppiton
+Knyham
+West Branley
+Edbrooke
+Charlemf
+----
+iter 11358000, loss: 38.274784
+----
+ arton
+Raddon
+Longville
+High Devy
+Howton
+Martin
+Deebisgre
+Acrerley End
+Barnington
+Cogard
+Marton
+Landows
+Ilsenton
+Bunky Saintsham
+Ouldon
+Matfield
+Taingwood
+Aughton
+Dollington
+Petlake Andlands
+Shitcon
+Ki
+----
+iter 11359000, loss: 38.423768
+----
+ nh
+Glimeley
+Guilenham
+Nunton Kyme
+Brishorpe
+Mooe Newchale
+Chipstall Alvil
+Elsswaon
+Bentard Edover
+Hawkeston
+Bugpell Crusbornele
+Cracombridge
+Faywick
+Watersworth
+Sprimby
+Thornton
+Ufflyham
+Lawchurch
+Els
+----
+iter 11360000, loss: 38.303395
+----
+ berch
+Sellenhall
+Carlton
+Stantirigness
+Hossenhall
+King's End
+Eversiet
+Fenhamtbory
+Church Cowy
+Tudstow
+Parkeod
+Peopo
+Old Hinby
+Uppir Stewell
+Rockham
+Kirk Enkbrede
+Barton Stratford
+Rittling
+Spern
+Hunde
+
+----
+iter 11361000, loss: 38.130099
+----
+ e
+Towthorpe
+Upton
+Braxenham
+Hotcores
+Mark
+Iffield
+Kinps Tapphings Aymone
+Wingaters
+Wessley Rid
+Fross Norre
+Wignet
+Nescott
+Downs
+Sains Hill
+Fintisdewes
+Micharn
+Clipton Stree
+St Ponbisgham
+Steatton
+Econ
+----
+iter 11362000, loss: 38.109918
+----
+ e
+Westark St Andymane
+Bucknalm Mill
+Havery Street
+Burnshay on Tham
+Thorpe Saxenham Bordish
+St. Fauthmeite
+Cockfield
+Chipton
+Hythop
+Elmering
+Halton
+Skethole
+Apone
+Heaton
+Morton
+Littlechur
+Forston
+Thoun
+----
+iter 11363000, loss: 38.291077
+----
+ on
+Sasworth
+Morrington
+Shilton
+Melvington
+Crickton Sainleigh
+Farncever
+Copfords
+Welton
+Reddalder Bick Abbots on Andorton
+Winterbridge
+Heddan
+Ufp
+Eveley
+Saint Aath
+Hamwerthworth
+Cherrington
+West Ithend
+----
+iter 11364000, loss: 38.337786
+----
+ nndon
+Hatleigne
+Crogham
+Dunwell
+Emleigh
+Trock
+Berofk
+Stretfield
+Great Scugney Dodde
+Wirkettle
+Packenhorne
+Wilford
+Edinghompton
+Kewrestoch
+South Roderinthorpe
+Coarby
+Hased
+Bringleing
+Chorfleet
+Bricrel
+
+----
+iter 11365000, loss: 38.393379
+----
+ instry
+Clayton Cenhal
+Anton
+Isselmby
+Cranclore
+Hickbridge
+Roywick
+Kealby
+Sidley
+Spaterne
+Littenfard
+Coston
+Baxby
+Chettlefpew St Marsworton
+Chimpaingow
+Stapdeworthe
+Ass St Penod
+Wiltone
+Great Bulpham
+B
+----
+iter 11366000, loss: 38.225001
+----
+ ng
+Latestece
+Elton
+Minclidge
+Gravelaffteton
+Itsborough
+Toldor
+North Willingford
+Kingston
+Harywick
+Hockley Bridge
+Rouker
+Blackney
+Nounbrook
+Bare
+Buddlington
+Newforth
+Croft
+Moorery
+Rrenay
+Upham
+Faldefie
+----
+iter 11367000, loss: 38.228987
+----
+ r Wilton
+Wookton
+Firestrand
+Browston
+Draychcros
+Flaxgrave
+Brenton Clone
+St. Lelee
+Reven
+Foreton wyr
+Knaston
+Greenhall
+Little Precebourne
+Hims
+Bruenne
+South Brooke
+Little Empton upon Brooke
+Brook
+Fishs
+----
+iter 11368000, loss: 38.007785
+----
+ ndose Green
+Fritheley Gill
+Wollaston
+Bursholt
+Terdlow
+Road Grield
+Inton
+Oildhurst
+Bangway
+Sutton Village
+Appleford
+Luffintch Nucton
+Belbury Geon
+Little Halake
+Stepperney Beem
+Newboroke
+Kirkhope
+Crembe
+----
+iter 11369000, loss: 38.208366
+----
+ on
+Whitgeing
+Middreton
+Copwick
+Great Sorow
+Clacklett
+Eyperton
+Lealey
+Churchurch
+Weet Harstea Encot
+Magnal
+Treston
+Dunstreste
+Eass Wears
+Great Munds Bew
+Knapbo
+Telhfield
+Mughurck
+Wrexheal
+Tarlands
+Carl
+----
+iter 11370000, loss: 38.270922
+----
+  Stoke
+Newton
+Whamble End
+Tudminton
+Broughton
+Winne
+Croshenney
+Calk Riversboroagh
+Sp in Deny Hill an
+Wavett
+Great Beepleton
+Bradherton
+Sanston
+Tunenhole
+Blakford
+King's Griar
+Diltester
+King's Hills
+Pr
+----
+iter 11371000, loss: 38.292332
+----
+ oodworth
+Turn
+Beatherbury
+Braitham North
+Mucklam
+Orthorpe
+Wedbury
+Tock Common
+Gurfield
+Beth
+Lyndale Porsall
+Welthurpere Hill
+Linterow Breat Mary
+Ampstoke
+Old Peets
+Eckminotes
+Fosterby
+Dunwell
+Ketham
+H
+----
+iter 11372000, loss: 38.275815
+----
+ in
+Shamerley
+Buwkle Hanenham
+Durterlewea
+Stay St Mary
+Old Parlington
+Thory Stanell St Mary
+Holland
+Earr Chenderpore
+Cogerford
+Kingstret
+Hillas
+Dunston
+East
+Elworth
+Saunington
+Hunsted
+Wooke Coucerfond
+
+----
+iter 11373000, loss: 38.208106
+----
+ es
+Aston
+Caster Hearbetton Cratley
+Colsted
+Mellisle
+Harlow
+Sowias
+Coldwate
+Candlemole Hoybo
+Beadwate Weton
+High Poll
+Newton
+Leakridge
+Etonboror
+Clifton
+Dalingwortha
+Dopefworth
+Tersetway
+Elmerley
+Hessi
+----
+iter 11374000, loss: 37.898096
+----
+ e
+Oldlington
+Marop Kenderwell
+Sains Green
+Lateford
+Water
+Porton Sekenham
+Upton Parvic
+Porim
+Kirmad
+Pawland
+Brough
+Tanpshurton
+Wardenham
+Olidge
+Melbont"
+Madgeton
+North Ceaghingtry
+Hunthalle
+Seaton
+Oudh
+----
+iter 11375000, loss: 38.226025
+----
+ wott
+Aswortha
+Disherney
+Treswint Ind For
+Sworley
+Kitch De on Brown Behran Allington
+Farling End
+Braulsforth
+Boston
+Dilton
+Naibelbourne
+Burghwaner
+Stockton
+Brabley
+Wake
+Thorpley
+Leigh
+Cursley
+Cudness
+L
+----
+iter 11376000, loss: 38.285304
+----
+ sby
+Groggiph
+Hardenor-on-Say
+Scoxton
+Insley
+Acton Bourington
+Bedderham
+Baybridge
+Butkling
+Seaton
+Chelnes Valow Houst
+Aigbur
+Arkley
+Steywick
+Ashbury
+Corkrick Geoe
+Tresteads
+Flaxley Hill
+Aintow
+Wringwol
+----
+iter 11377000, loss: 38.287546
+----
+ e
+Sherpley
+Layes
+Ickshirton
+Newbrill
+Ashdewa Idganton
+Gadtingford Andon
+Newton
+Crowley and Wisflrofford Bridge
+Vestertham
+Alders by Daley
+Lemerney
+Caddington
+Figham
+Keyne St Litorthow
+Roxang
+Blockerto
+----
+iter 11378000, loss: 38.027071
+----
+ p
+Over Ham
+Himthole
+Brapleby
+Kingston
+Bofford
+Addington
+Walparley
+Betfield
+Kepham
+Barbrook
+Bediphal
+Broydbourne Cow
+Sherley
+Huckland
+Upton
+Lower Pentrand
+Hook
+Shelmerford
+Somersley
+Didnilstod
+Halling
+
+----
+iter 11379000, loss: 38.236281
+----
+ sword Rodnarst
+Adbourn
+Tilbath
+Little Crome
+Haller Hunsfield
+Little Forrham
+Kirkby Aburtharpe
+Lidsey
+Hadley
+Walston and Challowon
+Lewledon
+Camptesh
+Heytin
+Harward
+Moleford
+Stoke Penby
+Chernhuast Barro
+----
+iter 11380000, loss: 37.893121
+----
+ y
+Malkew
+Oxton
+Griswick
+Stoke Gille
+Findey
+Charlton
+Littlepeney
+Marton
+Glaxfoot
+Abby Leley
+Clachopes
+Brook
+Faryington
+Titsle
+Up Burton
+Broketon wyk
+Belney Bridge
+Seaton Ferrasace
+Dlairford
+Tredmore
+Ea
+----
+iter 11381000, loss: 38.457908
+----
+ one
+Chaadrillay
+Cydinotosey
+Little Paith
+Lawlene Prund Greencotes
+Crarcenge
+Bromes
+Radmonceincot
+Dunham Keyns
+Nancom
+Burnhall
+Newton
+Lanniscon Bodits Illes
+Skeisley
+Boveneglowneton
+Ibfiel
+Lisway
+Colel
+----
+iter 11382000, loss: 38.314082
+----
+ wer Biddon
+Skirburg
+Barchworth
+Stulcotle
+Sutton-on-Sea
+Ganber Hainh
+Siltems
+Gotham witn
+Waseston
+"Cholthwaires
+Bigbory
+Langley
+Hilsham
+Newton le Stantton
+Hanthorpe
+North Witcham
+Oal
+More Saint Newton
+
+----
+iter 11383000, loss: 38.245121
+----
+ r
+Lee
+Elby
+Newden
+Canwick
+Ross Camtsborough
+Kinton
+Hohaile
+Od Heens Munston
+Bunfield
+Linter
+Tittisan
+Cridge
+Foxton
+Busholey
+Marsby
+Faxburne
+Betton
+Vallold
+Wittingwell Harn Barthorpe
+Chaabross
+Greenfle
+----
+iter 11384000, loss: 38.071859
+----
+ idon
+Hinchworth
+Fodham
+Terkham
+Coverney
+Pamisfield
+Lasbelkermey ond Fouthignes
+Newbeach
+Casternourne
+Beaden Poorne
+Asmyngattldersoor
+Stock's Crist
+Uffindty
+Betton
+Borry Bartinglos
+Lelton
+Buckenton
+Bar
+----
+iter 11385000, loss: 38.234055
+----
+ eshall
+Streen
+Long Saint Mamles
+Chriswell
+Caster Lainwell
+Bole Hurby Woldwell
+Great Deydleton
+Ingwood
+Worldeith Basle Hoake
+Kirk Compstown
+Harrarce
+Brookleigh
+Scommon ahont
+Shedn
+Duddale
+Shipham Saint
+----
+iter 11386000, loss: 37.938939
+----
+ in Parl Lone
+Benwick
+Coldon Staford
+Rowly
+Kingsleabo
+Prunkley
+Wrope
+Grimstone
+Broadham
+Westbury-Myray
+Hayton Heath
+Sightoye
+East Woodhampton
+West Kirkingham
+Thuresty
+Little Waston
+Pennal
+Tove
+Lawroo
+T
+----
+iter 11387000, loss: 38.344728
+----
+ rea
+Blockington
+Thewell
+River
+Hetwed
+West Thowne
+Quirford
+Tremingham
+Bridge
+Millerton
+Coower
+Bealey
+Stocklands
+Hursted
+Shaxton
+Whedbe
+Punningtreworth
+Whitkley
+Molasham
+Nossenwaye
+West Barricest Clape
+
+----
+iter 11388000, loss: 38.270604
+----
+ n on
+Loxshaw
+Barnfel
+Stmerfields
+Old Dunton
+Raln
+Bulting Gasme
+Forrley
+Manksley
+Middleton
+Pybitte
+Heddon
+West Pethams
+Ashorne
+Hinley
+Hindhampton
+Overstone
+Bisworth
+Holtham Sneery
+Tilston
+Roughigh
+Gort
+----
+iter 11389000, loss: 38.278156
+----
+ Wincham Nunge
+Pawring
+Gilwich Vorton
+and Street
+Ourer's Veatcking
+Trears
+Addingtenworth
+Coger
+Creonehcak
+Harley
+Wembershopt
+Monbe Harsdon
+Carsham
+Old Counburgh
+Carthorn
+Barburton
+East Hartown
+Peirston
+----
+iter 11390000, loss: 38.265331
+----
+ ack
+Westmele
+Abbrow
+Croydon
+Beuring
+Stamber's Cotterighthorst
+Thore
+Temmin Sedon South Bere Bolceby Pediieh on
+Pillerton
+Shaventon
+Southton
+Likerington
+Binewood Green
+Leverable
+Great Riswocklos
+Wamber
+----
+iter 11391000, loss: 38.030989
+----
+ ch
+Swineham
+Gourdafrea
+New Hele on Hill Goon
+Burton
+Sharforte
+Fathelburgon
+Soverstone
+Assecunton and Hagefield
+Raywelvop
+Dittle Fene
+Gitewill
+Bastarl
+Champton
+Denwich
+Porton Eckley
+Emper Green
+Gowesbu
+----
+iter 11392000, loss: 38.019731
+----
+ eade
+Roxbury
+Famford
+Bravelle
+Marksby
+Betterthorpe
+Rowle
+Leabury
+Hitton Saint Gides
+Hadwell
+Durrowne
+Kittesbarst
+Great Hunsington
+St. Mickley
+Bayford
+Conenfield
+Hugght Green
+Cottinsdon
+Monarford
+Welto
+----
+iter 11393000, loss: 38.333047
+----
+ ea
+Teyst
+Waberley in Furnowes
+Glack Alnehoe
+Codderthiter
+Fairn Village
+Turnstone Tallington
+Tetton
+Patham
+Husby
+Suttos
+Sherring
+Blackhampton
+Alt Pet Velilmozusoow
+Plishor
+Store
+Brandbrook
+High Broadon
+----
+iter 11394000, loss: 38.469129
+----
+  East Brasholme
+Crowfield
+Eykley
+Hadfield Broughton in thrunston
+New Hoombercefford Boursbate
+Buoham
+Bachill
+Fillingfield
+Moowham Green
+Wanton Lanafort De Bridga
+Scringworth
+Brook
+Gold Anton
+Shottle
+H
+----
+iter 11395000, loss: 38.290308
+----
+ emerton
+South Kiles
+Hellingenbate
+Fincombe
+Thurnbriary
+Holme Hamerel Mee
+Duntishall
+Dorton Tinston
+Sumefleet
+Milton
+Shelby
+Westfand
+Langbroy
+Oke Dandon
+St. Georle
+Ashulmonbe
+Kengershoor Curderham
+Ripp
+----
+iter 11396000, loss: 38.134859
+----
+ t
+Luch Keybourne
+Scaleham
+Sutton
+Tawaa
+Warlhunsgate Heafton on Gite Addon
+Ditton
+Marsh Hous Burke
+Alderton
+Sadd St Oldfield
+Ledymont
+Hepthiton
+Woodney
+Colington
+Tistle North
+Aston
+Pirnbrook
+Ardland
+Be
+----
+iter 11397000, loss: 38.063728
+----
+ aley
+Whitton
+Brange
+Southfield
+Aston
+Kelmewholt
+Sill Endworth
+Croxhill
+Boughton Autherswick
+Lalkfield
+Buckley
+Haldenham
+Marybourn
+Haymipn
+Ashburton
+Coughton meald
+Withill
+Blanwiven's
+Incheld
+Pathulss
+----
+iter 11398000, loss: 38.148049
+----
+ t
+Barholthorne
+Knowford
+Alderton
+Wisworth
+High Wanmes
+Ayhall
+Cansinton
+Uppington
+Hanhwallan
+Watchampton
+Sndembury
+Saint Mary
+Caslecham
+Stath Widgrung
+Buobrest
+Hugherwell
+Pirele
+Hade St Mary Crib Evy
+L
+----
+iter 11399000, loss: 38.239459
+----
+ Hardington
+Wintenhough Tylous
+Kings Bay
+Doddington
+Stupsden
+Bisbury
+Pichelby
+Braston
+Rivent
+Wadgey
+Sutton
+Burton
+Satcreed
+Mervingthouse
+Southampton
+Roby
+Bissidge
+Piff-lve
+Cross
+Haughton
+Brawworth
+Upto
+----
+iter 11400000, loss: 38.430230
+----
+ ernall
+Frimbwood
+Lingingham
+Burby
+Wangney
+Halton
+Saint Anhansham
+Byterbridge
+Axby
+Belybrough
+Hiles
+Stoke Monkton
+Hathen End
+Speln
+Haresthouse
+North Tibboro
+Ruep St Marton
+East Basthinington
+Scystlands
+----
+iter 11401000, loss: 38.266998
+----
+ arside
+Taddenhill
+Swafford
+Low Bridgham
+Blackford
+Little Caporing Sughorpe
+South Curnley
+Bromacott
+Torith Hawnh
+Chissets Hull
+Gaittlep
+Charlhange
+Dray Malond
+Wortonby
+Denton
+Pasmes
+Ruetsethe
+Pillersal
+----
+iter 11402000, loss: 38.207096
+----
+ in Buwte Gates
+Camwick
+Longwael
+Nolleigh
+Coxfield
+Bitton
+Waves
+Newton Conistreets
+Croxtholt
+Gidquh
+Wellenhill
+Borkly
+Lydford
+Swablon
+Norman
+Farnby Vale
+New Cald
+Rotherham
+Strintrow
+Suathe
+Whitch Norte
+----
+iter 11403000, loss: 38.092256
+----
+ e
+Easton
+Scyterwott
+Gawdawit
+Tittington
+Thowbury
+Streester Whoteey
+Sutton Honghall
+Basborough Strutton
+Elton
+Meavoard
+Rhynford
+Otheravel
+Allinton
+Bruckham
+Ham
+Marford
+Ollaston
+Lansing
+Predlington Wint
+----
+iter 11404000, loss: 38.217277
+----
+  Camts
+Ambray
+Meatsby
+Sutton Manside
+Kelsley
+Dalverbourne
+Poltchurst
+Stewer
+Hathall
+Marshsill
+Mafton letham
+Tetton
+Bratton
+Westle
+Hurkine
+Glawrington
+East
+Higlel Eun
+White Ferrington
+West Dean
+Strimpi
+----
+iter 11405000, loss: 38.274195
+----
+ East in Munn
+High Grinston
+Sands Bridge
+Great Brodingham
+Morewes
+Burnton
+Flemford
+Kimino
+Gliswasbrood
+Hatsey North
+Criffiswell
+Crarnaveloy
+Balling's
+Tobsey
+Snitterleigh
+Lakeney
+Redford
+Nungeaton Norto
+----
+iter 11406000, loss: 38.356160
+----
+ age
+Norwich
+Allsall
+Gaycol
+Tremorit
+Tobton
+Thriven
+Sigweet
+Huntsby
+Bishop Crowstone
+The Indrasworth
+Eppingneich
+Rangenay
+Lipperd
+Marton
+Hunces Green
+West Battrid
+Ashton
+Clanclown
+Stitchister
+Mackyn
+Up
+----
+iter 11407000, loss: 38.230501
+----
+ Pry
+Fairtbury Congery Banksell
+Suhewby
+South Milton
+Broadwick
+Atterley
+Golghampton
+Londleincon
+Hulle Heatc
+Hear
+Rydey-Woodhill
+Newington
+Martin
+Rushill
+Lickleton
+King's Hill
+Mansbury
+Duddon
+Hunthwaute
+----
+iter 11408000, loss: 38.217964
+----
+ ddene
+Leigh
+South Rown Male Say
+Cross Griad Stree
+Kennington
+Camwell
+Unonisfin Senstow
+Croffoed
+Codderton
+Heaton
+Saint
+Earingefle Osmage
+Rupp's and Isburgh
+East Crafton
+Wimber
+Cumbatton
+Northim
+Boudne
+----
+iter 11409000, loss: 37.913466
+----
+ ave
+Bawton
+Mittley Park
+Usfield
+Brent Claphall
+Syngatch Hoor
+Morrington
+Burston
+Scarswell
+Humber
+Kirland
+Burton
+Rumberk's Dode
+Horner Hill
+Audmelle
+Charceety Estate
+Witchepthorpe
+Chaple
+Curwell
+Park
+S
+----
+iter 11410000, loss: 38.194653
+----
+ ontert
+Millhurnt
+Hear
+Reedsiary
+Delsee
+Bassshill
+Blainbleter
+Burstros Hopword
+Shenhurst
+Lees
+Coldle Waltore
+Ruyton
+Horsley
+Braverswire
+Plymby
+Moleswes
+Assays
+Spard Minford
+Warrington
+Kingshill
+Iherdig
+----
+iter 11411000, loss: 38.327157
+----
+ n
+Flazellots
+Cornham
+Sherington
+Padbury
+St. Mary's
+Hartde
+Blanston
+Knapfield
+Weltwick
+West Dymentrees
+Dodeyham
+Plattlen
+Yaxholt
+Saxfiby
+Stulk Sorundstow
+Moddey
+Temporman
+Furan Woodbroaghworth
+Statley
+----
+iter 11412000, loss: 38.265330
+----
+ ill
+Stourton
+Goonby
+Sleple Wusteriel
+Hardeford
+Mannen
+Mough Bullaston
+Squireswood
+Wilfogton
+Farridge
+Foreer West Begaston
+Goemon
+Houghton
+Thurwell
+Oxley
+Knightrnea
+Birlencombe
+East Brown Dandy
+Kington
+----
+iter 11413000, loss: 38.147490
+----
+ esley
+Hemen
+Boughton le Wold
+West Deepwizpo
+Crastow
+Longfrebo
+Tround
+Sutton Viren
+St Peter East Sarke
+Bramley
+Horthorpe
+Wixhoon
+Southcalford
+Rackeccurnton
+Chulchliighiskington
+Inglewell Well
+Hengahite
+----
+iter 11414000, loss: 38.245763
+----
+ n
+Devon
+Rodilyham
+Warrang
+Honborion
+Huntstow
+Sttere Park
+Horstone
+Barnhill
+Alneby
+Bagley
+Shotley
+Hemmore
+Crapton
+Winswetton
+Flactley
+Heaton
+Great Elmborough
+Road Stound, ak
+Broxerton
+Thewell
+High
+Dong
+----
+iter 11415000, loss: 37.893965
+----
+ oun
+Greall
+Kirkland
+Harlington
+Lamby Gaine
+Market Brawley
+Winnerfield
+Ashay
+Meller
+Skelsmournsford
+Romber
+Ashowby
+Northfield
+East Wildwick
+Shelford
+East Dydenham Heate
+Withborries Cross
+Burnaston
+Edon
+----
+iter 11416000, loss: 38.431236
+----
+ reels
+Winters Hill
+Wirliffe
+Ackonfield
+Monardencold
+Trempton-on-the Gidedion
+Andley
+Market Riston
+Kirkby Fridsley
+Lofterton
+Shifflifn Green
+Fonton
+Widgmingthorpe
+Hennington
+Hallow
+Weston
+Oxton
+Cleyage
+----
+iter 11417000, loss: 38.286158
+----
+ ham
+Tilfard
+Walkk Stryton
+Honsle Street
+Ovammonton
+Hurley
+Huntishey
+Pitlall
+Weitch's in the Smegville
+Wirkesley
+Kircamerey
+Corthey
+Edarriston
+Loxlay
+Eton Widware
+Great Monefpon Brimside
+Cankbrook
+West
+----
+iter 11418000, loss: 38.301670
+----
+ urngrood
+Bol
+Rowsey
+Ayford
+Stonethorpe
+Belborough Marsh lettom-lay
+Slawcoteth
+Blandfield
+West Laybourn
+Highflalmooke
+Bickleton
+Woodhall
+Highampton
+Frilbuncumeth
+Acrissington
+Carverryworth
+Laine
+Crorle
+----
+iter 11419000, loss: 38.002132
+----
+  an
+West Beomerscumbrifien De Burkloke
+Goonle Rhye
+Wicksley
+Ramston
+St. Pemborough
+Hengerton Banfforth
+Hilsam
+Chinsley
+Perney
+Sutton
+Clobere
+Rean
+Honsterberch Hoctten
+Neastock
+Kenparze
+Wiggryborough
+C
+----
+iter 11420000, loss: 38.203235
+----
+ Normanns Marmer
+Adville
+Lakenton
+Sutch Ough Cightlway
+Wookey
+Greenhall
+Bowes
+Molby
+Upton
+Boddington
+Birtcombe
+Tets Pitton
+Ryderthoe
+Barringtove
+Tannton
+Weltondon
+Whediggahwood
+Bodipston
+Stnesswick
+San
+----
+iter 11421000, loss: 37.858280
+----
+ Peeworthcouge
+Pengleke
+Huckstare
+Canninghuld
+Heathfield
+Great Lainners
+Exbarby
+Closham on the Wole Snallerton
+Lower Penxton
+Bleyway
+Besmont
+Graviby
+Sobesbury
+Sutton
+Auck Stoke
+Sayolden
+Strehsegn
+Quend
+----
+iter 11422000, loss: 38.377821
+----
+ ver
+Drewney
+Pokemone Salton Stanboror
+Akerley Bardon
+Shalton
+Wootton
+West Sutton
+Pessett
+Puckington
+Crook
+Halley
+Edingwick
+Hossington
+Collegare
+Burstrow
+Elcott
+Hack
+Holhole
+Harron Treet
+Lynglham
+Winda
+----
+iter 11423000, loss: 38.347869
+----
+ l
+Constreod
+Hurthor
+Sumer
+Kincebrowigfor-Geare
+Vicley Markefford
+Abopden
+Shapey
+Luckley
+Hempswyan
+Hairon
+Haultow
+Quay apont in the Hill
+Nether Nower Heath
+Spallin
+Northwick
+Haddesbrowor
+Brook Wintoo
+T
+----
+iter 11424000, loss: 38.217276
+----
+ eham
+Howwell
+Marystow
+Thames
+Wraxby
+Fabling
+Belgill St Peter
+North Berton
+Glodingworth
+Haugle
+Chateby
+Horston
+Monham
+Hawby End
+Park
+Castle Sutton-att Goratley
+Coppenham
+Peton Risfield
+Duning
+Werryley
+
+----
+iter 11425000, loss: 38.216762
+----
+ on
+Hashoph
+Helnford
+Lewhinaby
+Kirk
+North Island
+Prestington
+Horchall
+Lindon
+Vignay
+Meldley
+Rostwaths Hill
+Gimper
+South Kilzsham Green
+Hopton
+Bromston
+Monkton
+Lowet
+Stapston
+Luldy
+Ross Hare
+Elvous Mapl
+----
+iter 11426000, loss: 38.206358
+----
+ ser
+Alleley
+Moddleton
+Sagmestoch
+Colton le Stretton
+Worlon
+Brayton
+Revenn
+Erpden
+Burte St Pa Adjor
+Bassingney
+Brophoem
+Fordwick
+Tersell
+Scotshare
+Birgham
+Filly
+Plattlake
+Haglett
+Sandon
+North Streechfo
+----
+iter 11427000, loss: 38.001310
+----
+ ton
+Sidford
+Whitainton
+Tendle
+Eastridge
+Fugnicombas
+Fleach
+Kelcotes
+Chadington
+Nerby
+Wyrax
+Roston
+Pishton
+Belford
+Sharing Park
+Westmoke
+Easton
+Watforth
+Poglelaby
+Aylicksal
+Draywell
+Meadborton
+Brudinsl
+----
+iter 11428000, loss: 38.374632
+----
+ rend
+Lower Barthurton
+Sugney Mincrope
+Gods Hill
+Brackew
+Crendon Park
+Staverton
+Alaster
+Boughton
+South Waldingwicage
+Loxholme
+Bellif
+Bilan Mook
+Elton
+North Wincaster
+Saint Gilston Malwater
+Beadley
+Gusl
+----
+iter 11429000, loss: 38.377157
+----
+ in
+Rowthorpe
+Sidley
+Ipstanley
+Barrouch
+Withett
+Abbesbury
+Preston
+Orchean
+The Ferry
+Hinton
+Meagoy
+Grimstightrend
+Blandrimam
+Fore Firehill
+Howton
+Bicknandbury
+Bayford
+Sorew'll Village
+Stabinge
+Marsaze
+C
+----
+iter 11430000, loss: 38.245500
+----
+ atetharn-Heat Known Village
+North Healing
+Coxclead
+Yeacriscoughton
+Stremfield
+Walmsley
+Westore
+Sculsby
+Durnham
+Walwar
+St. Ande
+Cuchingbourne
+Alderford
+New Castle Bove
+Tuckerits
+West End
+Halcemston Cou
+----
+iter 11431000, loss: 38.244806
+----
+ tton
+Dundlesey
+Todnelle
+Langbourne
+Liwsefleete
+Monton
+Drammerd
+Hilver
+Kney
+Huckdling Maroll
+Westham
+Haven
+Cagnockewfielchurch
+Peterstardow
+West Streepinelshall Park
+Coddeland
+Deemar
+North Winfield
+Hig
+----
+iter 11432000, loss: 37.985433
+----
+ rbrid
+Milston
+Didington
+Sorthbria
+Alverham
+West Twall
+Stathbridge
+Middleton Courtcom
+Burnwick
+Carsley
+Uppleburnsor
+Sily Horensley
+Meltham
+Fawdenoheam
+Not
+Birtburgh
+Croads
+Radwedton
+Appandwitcham
+Chest
+----
+iter 11433000, loss: 38.147350
+----
+ ivil Hevetcliscol
+Redale
+Forrnow
+Fampleidge
+Stoke Royberryatcoy
+Exworth
+Kenstalbell Garter
+Thorse
+Thuonford
+Stristerton South
+Marton
+North Corford
+Kirby Green
+Mawester
+Lawley Bridge
+Liddlinghurst
+Tred
+----
+iter 11434000, loss: 38.248960
+----
+ y
+Teess
+Lower Iden Welk Mambessby Magnage
+Minwoodmote
+Coxhall
+Matkenton
+Whitlock Since
+Taisey
+Cheddleford
+Wadwell
+Fribucken
+Pulfield
+Binham
+Wallington
+Nortale Cros
+Swonwick
+Kengyshall
+Abtover
+Brighdas
+----
+iter 11435000, loss: 38.338783
+----
+ gham
+Ip
+Higham Hill
+Pelton
+Horrond
+Cands Green
+Moltherbridge
+Hinhill
+Sutton
+Stretford
+Goardon
+Welton
+Lower Boochots Abbry
+Applesy
+Bubingle
+Farland
+Wootton
+Elton
+Mainton
+Cottle
+Ampston
+Chorshurton
+Mund
+----
+iter 11436000, loss: 38.301213
+----
+ Grovim
+North Covenford
+Molbolou
+Mearcotbage
+Stoke Dageley
+Finsinton
+Leckford
+Elsterincham
+Haringall
+Bunford Quarter
+Bealinghoe
+Chayleburgy
+Plalton
+Whalkeringham
+Guslenton
+Cliftongormead
+Holwick
+Sprond
+----
+iter 11437000, loss: 38.114241
+----
+ kton
+Ipple Count
+East Buwth
+North Pesterhall
+Lelterbury
+Woolley
+Oversey
+Kirk Rodcham
+Little Roft
+Wickham Stoke
+Highdamouth
+Awse
+Dommon
+Satleyabley
+Brettengatco
+Seacrob
+Inch Wood
+Walthy
+Great Cross
+Shr
+----
+iter 11438000, loss: 38.073655
+----
+ elford
+Lisen
+Rycreftondy-on-Cray
+West
+Gigmingham
+Pathorn
+Leadinge
+Markley
+West Riswood
+Stoke-Meston
+Frilmancote
+Aldengate Mall
+Oakley
+Walmesby
+Michzaffeet
+Denecam
+Abbey
+Bishops Carrall Ayes
+Kelly
+Newt
+----
+iter 11439000, loss: 38.312436
+----
+ Sleman
+Asbury
+Humer Ashmerston
+Beagounder
+Henncigh
+Chernholt
+Walecotes
+Kennorbour
+Farrish
+Netterrens Green
+Brandesdon
+Mosely Harnington
+Thornamer
+Garfem
+Munsey
+Sealand
+Rundistown
+Cambrook
+Mookminham R
+----
+iter 11440000, loss: 38.334382
+----
+ anwood
+Little Ack Sombe
+Loddwell
+Abuston South
+Kiswick
+Quanton
+Kyryher Brown Cross
+Eblean Street
+Somber
+Washean
+Fentington
+Cransbury Bart Brimringhford Saint Stockton Greel
+Woodstow
+Whotwake
+Ingrefleo
+----
+iter 11441000, loss: 38.388059
+----
+ illsworth
+Meckmon Bodglan
+Hurford
+Cluston
+Medbrook
+Reckley
+Upper Barby-andthater
+Wellington
+West Bothing
+Terrann
+The Downstone
+Bultham
+Colford
+Benington
+Mamley
+North
+Spatlyna
+Kingstald Haulk on Sea
+Di
+----
+iter 11442000, loss: 38.208036
+----
+
+Ruinham
+Aissley
+Southelsworth
+Pulsley Yorre
+New Kings
+Rushon Bross
+Pesford
+Piverton
+Wintisfield
+Hockmond
+Riven
+Fritherner
+Blackwell
+Riwstone
+Axholt
+Morcood
+Burnhill
+Weaveny
+Glenoake
+High Vale
+Westley
+----
+iter 11443000, loss: 38.258312
+----
+ nt End
+South Crofton
+Lyonboror
+Thurlington
+Park Handsy
+Leeel
+Lores
+Colm Coll Hill
+Hepham
+Londockton
+Thornsford
+Micaston
+Gleatleside
+Northwuydall
+Stay Watrew
+Whalson Wood Town
+Astley
+Asterwick Knon upo
+----
+iter 11444000, loss: 37.981668
+----
+  Green
+Marston
+Dottering
+Sanston
+Newbury
+Newby
+Borriton
+Grangton-le-on the Worraie
+Wolmsiast
+Lons
+Moldon
+Griswell
+Hongroth
+Hinton
+Farnford
+Binhol
+North Wimuton
+Pidburn
+Ashden
+Pisburton
+Arningham
+Osdal
+----
+iter 11445000, loss: 38.194818
+----
+ by
+Camfield
+Barwood
+Staitton
+Coatley
+Cumperley
+Brade
+Witcot
+Stalford
+Sunderwell
+West Murborough
+Kingsey
+Greeth
+Sherpleight
+Ackbray
+Warnastate Hill
+Hesede
+Ifton Orton
+Lythenden
+Tenhuns
+Charworth
+Bockle
+----
+iter 11446000, loss: 38.264113
+----
+ utton
+Common
+Lowbourne
+Clodwell
+Grendon
+Holmore
+Brutynhon
+Saxterton
+Southam
+Worthbury
+Crobley
+Canmer
+Tongworth
+West Eaton
+Saint Gisers on Grabinghocorsh
+Little Hadey
+Saint Breden
+Aywell
+Barnber
+Damptl
+----
+iter 11447000, loss: 38.247834
+----
+ w Heazocre
+Holbourne
+Studmouth
+Mayford Street
+Tockhallon
+Harden letham
+Bowes Hill
+Ardbury
+Peonew Crabrich
+Rist Canders Hill
+Woe
+Shirton Widdington
+Stancomkford
+Market Hadby
+Noher
+Longwood
+Apley
+Twotmo
+----
+iter 11448000, loss: 38.286564
+----
+ y
+Wisews Pidey Burst
+Charwater
+Hargney
+Cowdryth
+Carlton
+Eyham
+Shorchtock
+Town Green
+Hilby
+Shallingham
+Cailburton
+Longdon
+South Wilton on Treff Hill
+Wampsidge
+Little Tyftonkhore
+Winmpton Iverton
+South
+----
+iter 11449000, loss: 38.161396
+----
+ ld
+Plevesham
+Cuckenhurst
+Mibsow on Trafford
+Homton
+Blacklecroft
+Horry
+Havey
+Ludgoute
+Ausbury uponthorn
+Breaton
+Sattenham
+Westmonsbey
+Worley Rodbury
+Shinlaxe Horndon
+Kenway Te Marteg
+Heddey Malle
+Findi
+----
+iter 11450000, loss: 37.941409
+----
+ eib
+Aston
+Leek
+Barnerington
+Ithurn
+Golsham
+Terford
+West Turton Green
+Quwy
+Trove Furfield
+Pergite
+Hasterbuist Bald
+South Charloa
+Lordon-on-Syle on the Hill
+Shipley
+Clodington
+Feltwith
+Partland
+Kewbury
+
+----
+iter 11451000, loss: 38.260750
+----
+ all
+Norbean
+Applon
+Gratree
+North Mourn
+Belton
+Frithfield
+Craymore
+Earth
+Appsake
+Silton
+Kyell
+Holhoe
+Batworth
+Mowley
+Bargrave
+Forrarn
+Hishdon
+Chilley
+Yoxford
+Walminsted
+Allenness
+Springbrosthorpe
+Colre
+----
+iter 11452000, loss: 38.277686
+----
+
+Sutton Swyone
+Barleyton
+Lainborough Gater Bishul
+Totchwith
+Purthwaiken
+Oxwerl Park
+Fapey Hill
+Kilburn
+Suncon
+Wickton
+Little Basterbourn
+Lanwood
+Liccsley St Meringerley
+Colburn
+Witheldincon
+Bromwick-o
+----
+iter 11453000, loss: 38.239785
+----
+ hads Salelley
+Bradeley COmmon
+Hantreal
+Bels Bardyith
+Ovestes
+Blayton
+Granglingworth
+Hoary
+Elkbury
+Chayton
+Ravenney
+Swandon
+Walton
+Upper Malring
+Newton-on-Sey
+Wyaghove gh Rivens
+Chelehoon
+Northfirtcote
+----
+iter 11454000, loss: 38.015155
+----
+ nin
+Holborough
+Pollton
+Shaldeing
+Conbury
+Blocks West
+Allersfield
+North Long Breklesburge
+Covenden
+Middle Carley
+Chillisberton
+Tharingerurd
+Bliedge
+Dald Fold Tairford
+Erkstever
+Anninghampton
+Applenaces
+----
+iter 11455000, loss: 38.206272
+----
+ er Mondillaston
+Long Quay
+Poundon
+Pinness
+Tower
+Piverton
+Jargarride
+Batwick
+Insbury
+Cretton
+Herild
+Saint Peter
+Whitenham
+Luxton
+Middlesand
+Wonch
+Somerby-See
+Killinstott
+Eigghampton
+Burstforth
+Earley
+S
+----
+iter 11456000, loss: 37.897189
+----
+
+Osborough
+Rottisean
+Pirsham
+Caddle
+Boxley
+Barenstyney
+Drogney Heath
+Swutbourn
+Cowwantburn
+Kinghunt Welton
+Eastwit
+Sely
+Seatington
+Buckbury
+Ausemarley
+unsell
+Whitchington
+High Hedshall
+South
+Woxton
+Sp
+----
+iter 11457000, loss: 38.360151
+----
+ noll
+Conbontchurch
+Okeburghouse
+Hackthorne
+Quarsworth
+Erston upon Dearherd
+Mistley
+Kingsdon
+Kempry End
+Newprckdenowael
+High Wals
+Heddon
+Great Kirkes
+Puckeneham
+Hunnings
+Ecowley Bendrydgat
+Lytchurch
+Th
+----
+iter 11458000, loss: 38.298715
+----
+ rton
+Mosherby
+Lamis
+Nikers
+Hartlands
+Bitford Camno
+Sundon on the Wall
+Wickyne Dane
+Stockley
+Prymburn
+Bridging Part
+Brampton Hill
+Elstryn
+Bentree
+Easington
+Lisdon
+Colworth
+Kempstone
+Harcot
+Blackham
+Bed
+----
+iter 11459000, loss: 38.198146
+----
+ eed
+Ullyby
+Ringley
+Harford
+Runholme
+Rockplerton
+Cockley
+Kensden
+Farfleet
+Cutton
+Rullingow
+Sedwich
+Redsigh Wood
+Welary-Mes
+Hobtingor
+Woodstone
+Tamoror
+Hutton
+Bashope
+Elsford
+Edington
+Little Witley
+Mark
+----
+iter 11460000, loss: 38.139454
+----
+ boton
+Marton
+Withetsworth
+Earlboran
+Oldhunsten
+Thorshby Fop
+Horton
+Barrington
+Kinscacol
+Loddesworth
+Whitton
+Hillwick
+Oodess
+ChesterfleuthNockino
+Maygherth
+Iwert Wightmworth
+St. Merrce
+Grivelmoad
+Lyne
+
+----
+iter 11461000, loss: 38.224398
+----
+ Rogake
+Barnate
+Langwolds Basbury
+Bushowpstertop Mary
+Farlby
+Christry
+Giverstonganmersden
+Mariow
+Cretesfield
+Burtonstone
+Carghorpe
+Cansidgeth
+Longley Abbiar
+Ferton
+Lynham
+East Huy Street
+Saniton
+Tarlef
+----
+iter 11462000, loss: 38.010038
+----
+ ey
+Bengworth
+Eate
+Elton
+Winomb
+Newhoe
+Balste Bridg
+Plywant Sn Liveteth
+Writforth
+Broughton
+Altistone Engham
+Fide
+Mattercant Bewer
+Pwitn
+Bidbotton
+Stabersteagh Holey
+Deverland
+Finsley
+Belton
+Littregham
+----
+iter 11463000, loss: 38.391412
+----
+
+St Luilley Heath
+Topeham
+Gilsam
+Great Kyw
+Colgate
+South Calvam
+Kirkwell
+Ippeley
+Attle Pelby
+Leigh Ares
+Harton See
+Cluching End
+Tempelwargrave
+Stocklessy
+Bitham Lanfield
+Heathwaite
+Hockley Hyde
+Grawle
+----
+iter 11464000, loss: 38.346567
+----
+ Luslyne
+Landrisham
+Worton Bridge
+North Fingley
+West Watham
+Bechdon
+New
+Kenkim
+South Clow
+Rusham
+Ownieg
+Berton
+Bradle Bastleford
+Fadfield
+Ribe
+Rayford
+North Campton Stoke
+Bernorton
+Actonhurst
+Alnesby
+H
+----
+iter 11465000, loss: 38.230384
+----
+ h
+Bluckneh
+Winford
+Bistow yne Adt Lynden
+Marsthymeehamege
+South and Weock
+Peyforth
+Chickleston
+Greag
+High Abbllam
+Notton Tatchorney
+Melbury
+Witton
+Serrinsby
+Colery Hampdenana
+Broyall
+Stoke
+Woolford
+Ke
+----
+iter 11466000, loss: 38.184363
+----
+ one
+Marling
+East Chaldon
+Clives
+Batten
+Awbers End
+Cross Ferrhill
+Bockry
+Sainxtone
+Kenton
+Cozenham
+Siverton
+Burton
+Thorngrave
+Tisland
+Tosterb on Deade
+Saltenham
+Rarbelly
+Sentom-Mysley
+Rotherles Green
+S
+----
+iter 11467000, loss: 38.073781
+----
+ gate Hill
+Ussend
+Waltham on the Hill
+Headwood
+Clifton
+Tharrough
+Staveney Caston wykon
+Schunterstone
+Newton upon Hully
+Eastleford
+The Street
+Lhighton End
+Cheset
+Shartbungham
+Saint Lawrey
+Levaven
+Islims
+----
+iter 11468000, loss: 38.054203
+----
+ gh-on-Tuinhampsham
+Highertow
+Blacham
+Shoredbury Heyfield
+Lingsworth
+Wood
+Warware
+Dallingham
+Tymelden on Gurbach
+Penhwood
+Hidton
+Welton in Wheyton upon the Hainton
+Bureray
+Reder's
+Tornton
+Holdeswelton
+
+----
+iter 11469000, loss: 38.256813
+----
+ ll
+Lawcon
+Welbornisall
+Wood
+Everdon Coucherroot
+Marham
+Doak
+Ludmort Say
+Kirton Awle Well
+Saint Jove
+Gordce
+Crackfant
+Noreh
+Prontarston
+From Church Heaton
+Wee
+Trinbeck
+St. Matle
+Chibley on Sen
+New Boed
+----
+iter 11470000, loss: 38.428712
+----
+ hends Treke
+Milldale Unds Wood
+Annington
+Boxley
+Houghton
+Crawne Parburn
+Drighton
+Bumby
+Zeil Endingham
+Stanlock
+Torrwhal
+Arness
+Harrop
+South
+Botherham
+Aston
+Mily
+Southwick
+Homcote
+Rothestoft
+ant Thirst
+----
+iter 11471000, loss: 38.318325
+----
+ eaver
+New
+"Churcliffe
+Audleat Fold Blea
+Egelesden
+Ottermouth
+Witterton
+Sallincholo
+Whatwillesham
+Wolva
+Virley
+Sudlowant
+Chate
+Stalgravero
+Tickney
+East Laddernish
+Housley Ash
+Middle Abbas
+East Riffe
+Ho
+----
+iter 11472000, loss: 38.165251
+----
+ t
+Stay Carish
+Mickleightham
+Sandfield
+Moly Creld Street Riffe ny Mareswaikete
+Wranfield
+Chilley
+Old Garset
+South Starshargh
+Heydow
+Whittistington
+Wesborough
+Dolsberth
+Barley
+Brockwell
+Higham
+Coverden
+
+----
+iter 11473000, loss: 38.072014
+----
+ Tydy End
+Cleake
+Holkblecam
+Handowe
+Mensworth
+Blaksfield
+Cullersleyowes
+Dunhoe
+Gralledac Jatston
+Heckley Mook
+Buskendwater
+Marsham Bridge
+Rundon
+Stanesley
+Disterhey
+Fenston
+Reywell
+Shorthy
+Port
+Middlet
+----
+iter 11474000, loss: 38.248205
+----
+ refme
+Langsall
+Whatcormbe
+Dalland
+Ellington
+Comar's Sangry
+Upton
+Castle Lytley
+Swickbuggham
+Bromcley
+Goald
+Rupsham
+Silston
+Westald Brimsdess
+Lantbourne
+Licclurramberker End
+Collton
+Dallesbrood
+Padbury
+----
+iter 11475000, loss: 38.271586
+----
+  Witton
+South Otterford and Cough Vakerey
+Stapfiell in Tulnind
+Crapton and Cumars
+St Jea
+Dudford
+Hossington
+River
+Wheamshall
+Arpeney
+Saint Dee
+Arford
+Addington Aisby
+Crothold
+Broadbridge
+Great Bewfiel
+----
+iter 11476000, loss: 38.336521
+----
+ ombe
+Hevenford
+Thealdon
+Castlefh
+New Hill
+Cactover
+Old Bridge
+Ashby
+Cawdon
+Long Low
+Ractock
+Stapel Basford
+Peech
+Deemas
+Stous Mareth
+Ludworth
+Tillingford
+Millinston
+Boulshall on Whoow Crlee
+High
+South
+----
+iter 11477000, loss: 38.233148
+----
+  Gate
+Beasby
+Little St. Cold Cammouth
+Holmondon
+Spall Hill
+Ockford
+Stangip
+Avemberny
+Meltworth
+Hurst Rey
+Harford
+West
+Yearide
+Brandire
+Deariay
+Winton
+Moldon
+Balby
+Jynell
+Blendon
+Burdene
+Pedestead
+Canc
+----
+iter 11478000, loss: 38.211856
+----
+ rdon
+East Raynham
+Whitray
+"Odeencham
+Heyton
+Pulkham
+Hopton
+Horstild
+Billington
+Cracklake
+Grangton
+Hayise
+Green Hood
+Bleby
+Worcherwyton
+Garondiswall
+Roywott Heath
+Raffhing on Senmerston
+Kintwick
+Winter
+----
+iter 11479000, loss: 38.059003
+----
+ w Arne
+Walton Ash
+Totterick
+Longword Honthwing
+Mateney
+Southwell Squard
+Saint Bevough
+Royborough
+Noft
+Mossington
+Weatlesbea Hill
+Edditon
+Clace
+Oldwyn
+Goll
+Mounburm
+Harrington
+Calby
+Addington
+Chetton
+M
+----
+iter 11480000, loss: 38.235096
+----
+ rton
+Charltmou
+Lickbourne
+Haverentrey
+Hormistate
+Westals Burth
+Blackby
+Asholl
+East Maint Lore
+Queefwater Riverslay
+Winter Ortcop
+Asheley
+Doven
+Gilington
+Winiston
+Dalton More
+Lowdon
+Merndon
+Newmile
+Add
+----
+iter 11481000, loss: 38.279915
+----
+ Chistleton
+Manston
+Eaglecotes
+Stoke Poll
+New Stismooru
+Woldsdan
+Upper Ivils
+Northchurch
+Solrington
+Feepton Airs
+Braston
+Little Heathres
+Stavers Colmsiid
+Rainness
+New Hayesbury
+Rodby
+Brentclis Couces
+M
+----
+iter 11482000, loss: 38.316572
+----
+ mbraze
+Upworth
+Kidbelly
+Leake
+Curton
+Iscombe
+Tarlookarn
+Stanfield
+Barleigh
+Sontingham
+Otherse End
+Doddrestove
+Fenghill
+Sicre
+Castland
+Ridley Cendridge
+The Moruld
+Mundiscolfield
+Wickley
+Tintingfield
+Di
+----
+iter 11483000, loss: 38.237544
+----
+ ss
+Lortham
+Eardrith
+Torston
+Great Oakley
+Saint Jock Newton
+Bichall
+Radford
+Cousbate
+Biest Dullard
+Cornden Sworth
+Eald
+Hedstone
+Mortingworth
+Cleck
+Edeny Swibley
+North Lown Hill
+Church Compton Park Monk
+----
+iter 11484000, loss: 38.220845
+----
+  Pevin
+Stinshall
+Cherstead Leenlam
+Park
+Ashenighton
+Mittale
+Whitchworth
+Woorerworth
+East Yord Enkinton
+Nettlesholt"
+Maire Magnhurse
+Jarlenfieldaxington
+Much East Pickham
+Netton Cotter Wrot Eltoke
+Arto
+----
+iter 11485000, loss: 37.899475
+----
+ Cogeringham
+Welll
+West Woodham
+Ickley
+Cotsslall
+Low Bynton Mand Broe
+Crockbrook
+Cleveley wyken
+Balton
+Hinfield
+Fortwell
+Bloxton unditon oud
+Winnes Town
+Fendleby
+Aswell
+Stinsworth
+Upper Crodswick
+Swyni
+----
+iter 11486000, loss: 38.236574
+----
+ umer Green
+Vilload
+Chardington
+Thirney Wope
+Witfells
+Rushlos
+Bridsley
+wyrl Town
+Long Layford
+Anny
+Hory
+Little Littrett
+Lees
+Byle
+Cockshill
+Hinster Ingh Comberboud
+Headering
+Upper Brapton
+Ciltham
+Kings
+----
+iter 11487000, loss: 38.295572
+----
+ dwood-ap Waten
+Bassentigg
+Weside
+Buskess
+Wooland
+Fadwetton Sturrelege
+Blaston Abblenowitge
+Wystrydge
+Instund
+Rudworth
+Applanley
+Hatton
+Charbourne Sands Sworth
+Holbath
+Chilley
+Yeaveaston
+Little Aston T
+----
+iter 11488000, loss: 38.278505
+----
+ iland
+Woodley
+Strwesss Porth
+Stone
+Pulling
+Chettingford
+Eccheasheach
+Northecour
+Hinton on St Parvillain
+West Compton
+Brotley
+Bassond
+Leaworth
+Sareley
+Frizzoe
+Saint Rogkert Gash
+Furkersborton
+Langham
+S
+----
+iter 11489000, loss: 38.049912
+----
+ ndy
+Swine
+Weshope
+Dupley
+North Crosgard
+Little Sunkillos Edere
+Hayton
+Newqueyry
+Dunton
+Cubchtaft
+Twyton
+Swalford
+Deanby
+Bele Webrane
+Holmergreen
+West Barstoan
+Durton
+Longham
+Kewstowe
+Aire
+Dearing
+East
+----
+iter 11490000, loss: 38.193747
+----
+ l
+Acklethorpe
+Boldon
+Knipton Don Regith
+Westcliff-Bouth
+Coterley
+Hedhouse
+Woodnarunt
+Sheeny
+Liseonshaw on the Willod
+Benwelmerley
+Tansham
+Eghmroby
+Saint urdlly
+Orsterbourt
+Roythurst
+Malver Wfiplle
+Bar
+----
+iter 11491000, loss: 37.892335
+----
+ y
+Chade
+Stretford Bridge
+High Arrsoob
+Waltham
+Luwby
+Hapton
+Upper Sturmaffill Southg Tur Porndon
+Hathers
+Cassington
+Slindod
+Allip
+Ellam
+Waltham
+Sudpneod
+Low Tilcombesbledon
+Hasland
+Birtton
+Churche
+St.
+----
+iter 11492000, loss: 38.434715
+----
+ ithington
+Wemney
+Little Hadcliffe
+Wood
+Wimerstall
+Goodon Card
+Chetteft
+Mibworton
+Ellington
+Lanwich Biston
+Lomerington
+Whevurst
+Bridge
+Garkfont un Fredeigh Chamborne
+Hinerough Green
+Burernham
+Idling
+He
+----
+iter 11493000, loss: 38.288081
+----
+ ming
+S urkstow
+Leakeing
+Hersley
+Watton
+Edale
+Walborough
+Cormeringhall
+Tatford
+Brixby
+Walston
+Welton
+Long Dedgrafton
+Seaton Fl ivethill East
+Pottowy
+Darlington
+Hawttown
+Winterside
+Welton
+Yarkley
+Homlow
+----
+iter 11494000, loss: 38.218250
+----
+ ant Bramle
+Dittle
+Hamlowne
+North Texdon
+Coulsworth
+Edington
+Ogeaslall
+Lamisheon
+West Hepton
+Ke Hamoeth
+Enale
+Ninsidge
+Abbe
+Kensteigh
+New Pengwait
+Ruiklye
+Slane"
+Ovin Humety Hill
+Great Hagtham
+Harkstal
+----
+iter 11495000, loss: 38.031734
+----
+ otglmsham
+Nirghmortoa
+Coldendon Green
+Blackhorne
+Brimborooe
+Leigh Heath
+Haltham on the Hill
+Tatterfield
+Chipton
+Winneffield
+Sedburgreegham
+Burton Affe Morrabur
+Halford
+West Cottinge
+Stoke Crossing Gre
+----
+iter 11496000, loss: 38.205000
+----
+
+Hamton
+Ambrough
+Melme
+Haston
+Canginsworth
+Cornwick
+Bowton
+Arleyton
+North West Horburn
+Leegiscoborou
+Uldwardworth
+Folkerton's
+Ambonn
+Rushley
+Whittisgey
+Rydaffle Hy
+Isterley
+Normarstabury
+West Withop's
+----
+iter 11497000, loss: 37.934900
+----
+
+Mapfiell
+Commongouth
+Wood Ardley
+Croxestone
+Hawcenham
+Haywell
+Milpole
+Medwell on
+Northam
+Orpe
+Torsey
+Mitchemore
+Abbots Housham
+Alderby Coller
+Leawigh
+Great Willinghill
+Baskingworth
+Horthorpe
+Hondon
+H
+----
+iter 11498000, loss: 38.367431
+----
+ ndoud and Carsdaling
+Walthorpe
+Witholp
+Ashington
+Nortley
+Molester
+Littlecote
+Brade
+Parkhall
+Whenenshall St Mary's Palia
+Kirbyy
+Wslicsinghing
+Beddock
+Aldfield Fridgeford
+Old Down
+Crobeseh
+Brantryng
+Lyd
+----
+iter 11499000, loss: 38.282417
+----
+ gate
+Salton
+Sulheath
+Elliaghuate
+Kingston Lupston
+Kentishill
+Hilton Port
+Eshaingley
+Fore Saint Sutch
+West Mursley
+Wirliton
+Sills End
+Ollers Saine Wadford, Eloncury
+Stepton
+Sanpwick
+Porton Heath
+Seasbe
+----
+iter 11500000, loss: 38.230517
+----
+ on
+Gunnow
+Mamlestone
+Crocksdly Brooke
+East Eviffeen
+Newes Green
+Werrignes
+Beckleigh
+Ibfirth
+Woer
+Toker Bradley
+Portis
+Walthorpe
+Lower Parccow
+Preston
+Easton Churck Talringhas
+Tford
+Kyton
+Biest
+Botlinv
+----
+iter 11501000, loss: 38.244989
+----
+ e
+Laversham Saint Wardenham
+Gamliaton
+Bishdenham
+Kilton
+Dubleworth Singley
+Thurford Rouch
+Bishwate
+Armonstodge
+Norton
+Lowess
+Pyton
+North Holburn
+Boughton Dsam
+Rogmon
+High Handslockington
+North Edbette
+----
+iter 11502000, loss: 38.087707
+----
+ ston
+Kings Dibring
+Sudderley
+Morland
+Selworth
+Lydham
+Walestead
+Higher Langland
+Harkdale
+Gainton-le-Sn-Stuirnbett
+Marston
+Petton
+Finceet's Rakey
+Cornford
+Elbagham
+Mopebiffiet
+Pilland
+Lainton Tonham Gla
+----
+iter 11503000, loss: 38.026290
+----
+ he Camp
+Norls End
+Popstone
+Kinar Green
+Rowy Saint Eastholme
+Mayting
+Upton le Welrington on thoe
+Upton Bridge
+Stingint Gatcasteas
+Rowston
+Bisham Heate
+Wennton
+Great Stoney
+Blakeham
+Bridge Regiich
+Wing
+
+----
+iter 11504000, loss: 38.315074
+----
+ xburn Aston
+Braile
+Hinstirton
+Little Valland Hill
+Corthill
+Ber Oak
+Witton Marise-Aby
+Whicke
+North
+Cayethall
+Newport
+Thorpe Cross
+East Hill
+Cleach
+Walton
+Somon
+Addla Wears
+Sombridge
+Chiblington
+Yarehal
+----
+iter 11505000, loss: 38.428155
+----
+ Greevele
+Elsy Prime
+Bawsden
+May Thote
+Bolring Syrnes
+Chamstead
+Stoweby
+Moresteck
+Mucham
+East Hill
+Nybetchalton Carsden
+Pishoph
+Longlellow
+Ene Saint Anwood
+Streathresh
+Biffley
+Lydley
+Queensfield
+Malver
+----
+iter 11506000, loss: 38.231238
+----
+ ill
+Whitsenford
+East Ston Mich
+Porton
+Whidlow
+Arswood
+Bradesda
+Boulthatwick
+Winstclave
+Cremescombe
+Halmorton
+Sutton
+Haldsing
+Alperthorpe
+Belling
+Willingtoy
+Northam
+Holmonmon
+Abbor on Gort-on-Sey
+Bradl
+----
+iter 11507000, loss: 38.137297
+----
+ ngfleetg
+Eastod Mills
+South Barton
+Oak End
+Hampton
+Dadford
+Toss
+Uglton
+Newsham
+Doncherrewell
+Boulham
+Arlington
+Leyford Green
+Bropton Bisshill
+Benbre
+Smardah's
+Nacombor
+Marrang Woot Langborough
+Oatwell
+----
+iter 11508000, loss: 38.016627
+----
+ mort
+Lalwich
+Eyer
+Great Grimsley
+Wilbarston
+Great Wambrign
+Halton
+Chackleath
+Ructon
+Wharbot Given
+Frittle Ottom
+Hemers
+Staisholms
+Harring Bowton
+Burnham
+Sowtey
+Elston
+Humby
+Lalwood
+Torzeal
+Corshall
+Do
+----
+iter 11509000, loss: 38.144117
+----
+ n
+Cracesting Bad
+Portscokeridy
+Whitham
+Lop Silton
+Lydney
+Cold Abb-on-Tinby Haggate
+Deeny
+Deefoatton
+Thurnegstonier
+Shope
+Hanncot
+Scatesley
+Whitele Eane Faweton
+Wolverth
+Roak Pillesten
+West Quanhall
+Ho
+----
+iter 11510000, loss: 38.259127
+----
+ Ampton
+Boviakerist
+Bodbury
+Feolton
+Rambern
+Westugers
+Attle
+Stockerington
+Ferron
+North Wallard
+Wackingfield
+Thorpe Risland
+South Wittlesial
+Greenhill
+Collesforth
+Newton on Avol
+Hadlist
+Colpess
+Waldlow
+
+----
+iter 11511000, loss: 38.380642
+----
+ an
+Barlangham
+Slapford
+Nottington Lea
+Sandlebrooke
+Pulgret
+Dunham
+Hordon Magna
+Timburgh
+Pomfield
+Baulton
+Lorley
+Great Barnceaes
+Hoddre Dutt's
+Green Kethall
+Crentry
+Berton Green
+Great Bowren
+Reanwell N
+----
+iter 11512000, loss: 38.280775
+----
+ ndbunge
+Rawband
+Hearncote
+Long Iversford
+Walton
+Gleace
+Hindleton
+Harston
+East Harlington
+Hartby
+Chilley
+Hufford
+Northworth
+Glagardwytinc
+Milton
+Roadbury
+Wimbe
+Belton
+Woock
+Treminster
+Knacloun
+Wrotterf
+----
+iter 11513000, loss: 38.203585
+----
+ Petsell
+Knaywooding
+Anston
+Pinning
+Melby Pant
+Hedge
+Elversfield
+Kenninghead
+Coteford
+Merst
+Frossell Saints Amnhurst
+Treener
+Elmcoth
+Hatfind
+Aumes Green
+Stupsal
+Gleighton
+Ilketsbury
+Little Abb
+Machamy
+----
+iter 11514000, loss: 38.044596
+----
+ orth Bentther
+Barbourn
+Shauloss Knacres Park
+Carthorpe
+Higher Morsfield
+Werrington
+Idey
+Barnham
+North Forrcle
+Batton
+South Elmering
+Edgsham
+East Ampourne
+Croughbury
+Steeple
+East Latton
+Marchtown
+Brown
+----
+iter 11515000, loss: 38.252881
+----
+ n the Hels
+Nemplegar
+Higter Barbrowoss
+Greet
+Skell
+Candersbury
+Great Hill
+Uighel
+Ellingfiels
+Clawelacot
+Barns St Marisfon Southenigh Pockop Halby
+Thrighd
+Queennstof
+Durlenbury
+Sharchton
+Statstingowell
+----
+iter 11516000, loss: 38.310609
+----
+ utlengat Moor
+Horbroden
+Somer
+Edgton en-Stranton
+Pordrington
+Walten
+Southialk and Nower Halwell Batremerton
+Great Dead
+Streetes
+Derry Poote
+Arntone
+Camley
+Rusbourn
+Southampton
+Peterthorpe
+Leodby
+Hooke
+----
+iter 11517000, loss: 38.359654
+----
+ inghby
+Cockington
+Hanton Burlenake
+Noren
+Stewveftond Hill
+Edgfield Gusteley
+Polop Hill
+Yanstee
+Bughfield
+Holgate
+Bowlens End
+Orston Kestosel
+Cartley
+East Lyham
+Seatold
+Blevercaw
+Ullover Bancon
+Hunay
+B
+----
+iter 11518000, loss: 38.215044
+----
+ nter
+East Denchurch Village
+Broughton
+Laynard
+Newbolton
+Stoke Shormer
+Olincroft
+Saddfield
+Fawley Mores
+Meaton
+Ashoph
+Bredsield
+Hucton
+Coleston
+Wesdoa
+Eark Wule Conhbarre
+Great Eumsen
+Harron
+Wattown
+Bo
+----
+iter 11519000, loss: 38.154076
+----
+ Porth
+East Liffler on the Halle
+Wraxton
+Uffingham
+Gatchell
+Ruathancome
+Seotceston
+Griorton
+Shielford
+Luddington
+Bowlene Village
+Ellings Hill
+Grendon
+Heaton
+Wilford
+Little Wittleswell
+Achellanding
+Cros
+----
+iter 11520000, loss: 37.913670
+----
+ ton Reven
+Hareston
+Barlenslidge Wecr
+Isforth
+Bluxhall Printon
+Bocklethoon
+St Masbus
+Langsham
+Oxane
+Keshops Bayiton on Buxton
+Craudley
+Adford
+Hedshill
+Upper Swucklanghe
+Bare
+Great Chirton North
+Agglebu
+----
+iter 11521000, loss: 38.204169
+----
+ ey
+Oakley
+Bathow Rounse
+Leadwott
+Cosweld Green
+Great Royham
+Gurbe
+Hade
+Crockleyther St Martinge
+Bripney Issmoutter Stubure
+Srey's
+Manlower
+Chipton
+Wimis End
+Netherseade
+Belmont
+Lintis
+Haise Batcowprel
+----
+iter 11522000, loss: 38.327911
+----
+ ley
+Distermere Tickland
+Seach
+Smett
+Bare
+Rosbe Banks
+Brimbeam
+Poolbashall
+Dinger
+Kinghingham
+Brighethill
+Eppington
+Mansworth
+Gold Brough
+Dunntam Park Saint Jawed
+Spright Rissell
+Braven
+Normile
+Crayton
+----
+iter 11523000, loss: 38.256051
+----
+ ald
+Newsworth
+North Wiltinge
+Portingleyry
+Dubley Bridge
+Foatlank
+Woadley
+Aston
+Petton
+Brick Bourham
+Overslane
+Park Beborton
+Waddington
+Doltfield
+Slaintrith
+Petton
+St. Mary's
+Wrant Deswell
+Haphin
+Great
+----
+iter 11524000, loss: 38.153140
+----
+ ling
+Ucchinsham
+Marham
+Winsley
+Rodscotow
+Saydle
+Petessal
+Carnastock
+Suuth
+Woolbar
+Offersall
+South Tevore
+Aborer
+Whatland
+North Bardesley
+Shepton
+West Penton
+Colewood
+Oxhill
+River
+Isesby
+Cheltheushay
+W
+----
+iter 11525000, loss: 38.204522
+----
+ oye
+Higherton
+New Laywitg
+Sorthamps
+Yitter Heathersonton
+Easton
+Aldmonock
+Stosthorpe
+Stewormering
+Milver Edy
+Eldlebridge
+North
+Mydelase
+Ausmandbury
+Newnorn
+Newchurch
+Ampurth
+Willingworth
+Leon Squarse
+
+----
+iter 11526000, loss: 37.903318
+----
+ am
+Altham
+Lisweld
+Greby
+Haywoods
+Gleath
+Uppet Strett
+Black
+Rouket
+Tebright
+Heathley
+Fralton
+Botherhamstone
+Winnaw Worsall
+Lower Powl
+Helland
+Bentall
+West Bathersagle Magna
+Nurton Commanton
+Broglewdon
+
+----
+iter 11527000, loss: 38.381518
+----
+ oulbrook
+Filchalpor
+Aston
+Greet
+New Manno
+Tathington
+Cherutt
+Hillington Iggen Haven
+Chishessford
+Scilther
+Pening
+Crasset
+Brestley
+Church Rodbous
+Southam
+Seagniffe
+Clemers on Tolds
+Swychford
+Vigneverac
+----
+iter 11528000, loss: 38.221284
+----
+ lingdon
+Stant Cadpelle
+Burdrand
+St. Jotn
+Stoney Stoke
+Norton and Trimetfs
+Carnand
+East Dehillage
+The Marton
+Shorthwood
+Courton
+Terrenn
+Upalds
+Weark
+Grialigcs Ends
+Thiple-re Gevicone
+Little Beat Enthac
+----
+iter 11529000, loss: 38.266052
+----
+ earinster
+Mitton
+Knotreigh
+Bookerstone
+Suwneter
+Wrexfield
+Sutton Mary Ponnghall
+Walen Hill
+West Green Green
+Silmorton
+Sutton Whitchbury
+Foulsham
+Quly Hill
+Upper Strimerden
+Kilcow
+Alperton
+Keaveiston
+H
+----
+iter 11530000, loss: 38.004459
+----
+ sbachon
+South Hale Lew
+Ratcher
+Rugsfwattn
+Gournand
+Lee
+Strentigntcotes
+Higherton
+Newham
+North Liffleton
+Morvington
+Ogerldere
+North Kilvington
+North Ekene
+Wykenham
+Kingston Paston
+Finge End
+Eddington
+D
+----
+iter 11531000, loss: 38.134582
+----
+ ond
+Frisley
+Hennessua
+Ackleton Moot
+Chadwich Moude
+Sudneigh
+Dennford
+Foriss
+Plumb
+Aldington
+Dommington
+Cillaigh Wes
+Swylow
+Willell Park
+Skieby
+Fadwick
+Easocotes
+Rugborough
+Ashton
+Great Lown
+Axfield
+Ta
+----
+iter 11532000, loss: 37.838364
+----
+ shall
+Ley le Wortten
+Leakbridge
+Southam
+Alpswood
+Letton
+Charllerton
+Trelcome
+Sheley
+Ovingham
+Horgham
+Wisley
+Bottalke
+Okepnes End
+Winging
+Honford
+Starmar
+East Hastram
+Braven
+Cornvillee Nynch
+Southrey
+H
+----
+iter 11533000, loss: 38.358654
+----
+ trey
+Learick
+Headley
+Tentishfield
+South Helt Manton
+Burton Little Endstow
+Reeld
+Veston
+Gilyford
+Bracestall
+Brown Stokdoo
+Angbridge
+Thorpe Bridge
+Thremington
+Dumrock
+North Covertrey
+Shrinton
+Stokean
+Ad
+----
+iter 11534000, loss: 38.381928
+----
+ on under
+Malsoph
+Brytlandsham
+Wiven on the Voodmorme
+Southgan
+Leepswidge
+Clemby
+Fyalmone
+Earast Park
+Littinghank
+Highlinh
+Thurfleet
+Leworte
+Churcle
+Wincham
+Batheton
+Affe
+Keys
+Branderton
+Coswerth
+East
+----
+iter 11535000, loss: 38.184133
+----
+ ington
+Buckingford
+Burton Marston
+Dungesing
+Worsley
+Hurby
+Ippleton Kerthorn
+Yaxlow Market
+Broughton
+Grybrook
+Bive
+Broakmurce SaittUm
+Bradg
+Northy
+Horley
+Lingen Hill
+Luxton
+West Bridforth
+Parkerorry
+Ca
+----
+iter 11536000, loss: 38.183839
+----
+ ssbridge
+Mortinglecourpton
+Hantenham
+Stokeford
+Great Inghurgithton
+Lowe Markescott
+Tarner Gleen
+Nunmore
+Coakerress
+Aldwood
+Coxthermere Bottleham
+Frint
+Lexles
+Kingstend
+Goodwell
+Great Woodwood
+Chorlton
+----
+iter 11537000, loss: 38.197859
+----
+ nold
+Scarburn
+Kestad Holth
+Tichend
+Tombs Green
+Bebby
+Glythorney
+St. Michaen
+Raubingh
+Great Sorran
+Commston
+Axford
+Paythamton
+Hytherith
+Wenton
+Upton
+Granton
+Wootton Morthorpe
+Londlebourne
+Ards
+Biltersd
+----
+iter 11538000, loss: 37.984787
+----
+ r
+Seating
+Marill
+Ollaw
+Ashill
+Merrand
+Winsham
+Desharpe
+Scolmerow
+Salborough
+Harrock
+Kew
+Ottingley
+Sherbourne Studals Hormere
+High Isndon
+Berton
+Munwall
+Pedhurst
+Shipworth
+Wreenham
+Hynbern
+Hildemby
+Bal
+----
+iter 11539000, loss: 38.407003
+----
+ Keyn on
+Langley
+Graich
+Harston 's Coverne
+Knouse
+Hinsgard
+Berford
+Adderington
+Ayton Newdade
+Rhyby
+Hevy
+Rorghtington
+Alvester
+Curnhull
+Raythen
+Sriston Northon
+Barringfield
+Cunney
+Selver
+Brocktreal
+Cour
+----
+iter 11540000, loss: 38.345189
+----
+ ilel
+Newton-Fewn
+Shrowroseton
+Clixenwell
+Holby
+Pall
+Soronin
+Blungs
+Horston
+Hathorse
+Goondill
+East Lang Stoke
+Norston Wopdon
+Bockerwell
+Whatliftchingham
+Goston Parfield
+Rodsalfield
+Chapel Irrupoy-Avor
+
+----
