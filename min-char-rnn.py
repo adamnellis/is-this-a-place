@@ -39,8 +39,8 @@ class RecurrentNeuralNet:
         self.Wxh = np.loadtxt(os.path.join(folder_path, 'Wxh.csv'))
         self.Whh = np.loadtxt(os.path.join(folder_path, 'Whh.csv'))
         self.Why = np.loadtxt(os.path.join(folder_path, 'Why.csv'))
-        self.bh = np.loadtxt(os.path.join(folder_path, 'bh.csv'))
-        self.by = np.loadtxt(os.path.join(folder_path, 'by.csv'))
+        self.bh = np.loadtxt(os.path.join(folder_path, 'bh.csv')).reshape(-1,1)
+        self.by = np.loadtxt(os.path.join(folder_path, 'by.csv')).reshape(-1,1)
 
     def read_data_file(self, data_file_name):
 
