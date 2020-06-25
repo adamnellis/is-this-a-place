@@ -12,7 +12,24 @@ from pathlib import Path
 
 class RecurrentNeuralNet:
 
-    def __init__(self, data_file_name):
+    @classmethod
+    def from_saved(cls, save_folder, iteration_number):
+        """
+        Returns: A RecurrentNeuralNet instance, loaded from save_folder, at iteration_number.
+        Assumes: iteration_number is a point at which the rnn in save_folder was saved at.
+        """
+        rnn = RecurrentNeuralNet(data_file_name='test-gb-places.txt', save_folder='temp')
+        rnn.save_folder = save_folder
+        rnn.load_parameters(iteration_number)
+        return rnn
+
+    def __init__(self, data_file_name, save_folder='rnn'):
+        """
+        Creates a new, untrained, RecurrentNeuralNet instance.
+        Args:
+            data_file_name: Name of file to use as data for future training.
+            save_folder: Name of folder into which to save data about this RecurrentNeuralNet.
+        """
         # hyperparameters
         self.hidden_size = 100  # size of hidden layer of neurons
         self.seq_length = 25  # number of steps to unroll the RNN for
@@ -27,7 +44,14 @@ class RecurrentNeuralNet:
         self.bh = np.zeros((self.hidden_size, 1))  # hidden bias
         self.by = np.zeros((self.vocab_size, 1))  # output bias
 
-    def save_parameters(self, folder_path):
+        # save data to file
+        self.save_folder = save_folder
+        Path(save_folder).mkdir(parents=True, exist_ok=True)
+        with open(os.path.join(save_folder, 'data.txt'), 'w') as file:
+            file.write(self.data)
+
+    def save_parameters(self, iteration_number):
+        folder_path = os.path.join(self.save_folder, 'weights', 'iteration_{0}'.format(iteration_number))
         Path(folder_path).mkdir(parents=True, exist_ok=True)
         np.savetxt(os.path.join(folder_path, 'Wxh.csv'), self.Wxh)
         np.savetxt(os.path.join(folder_path, 'Whh.csv'), self.Whh)
@@ -35,12 +59,15 @@ class RecurrentNeuralNet:
         np.savetxt(os.path.join(folder_path, 'bh.csv'), self.bh)
         np.savetxt(os.path.join(folder_path, 'by.csv'), self.by)
 
-    def load_parameters(self, folder_path):
+    def load_parameters(self, iteration_number):
+        with open(os.path.join(self.save_folder, 'data.txt'), 'r') as file:
+            self.data = file.read()
+        folder_path = os.path.join(self.save_folder, 'weights', 'iteration_{0}'.format(iteration_number))
         self.Wxh = np.loadtxt(os.path.join(folder_path, 'Wxh.csv'))
         self.Whh = np.loadtxt(os.path.join(folder_path, 'Whh.csv'))
         self.Why = np.loadtxt(os.path.join(folder_path, 'Why.csv'))
-        self.bh = np.loadtxt(os.path.join(folder_path, 'bh.csv')).reshape(-1,1)
-        self.by = np.loadtxt(os.path.join(folder_path, 'by.csv')).reshape(-1,1)
+        self.bh = np.loadtxt(os.path.join(folder_path, 'bh.csv')).reshape(-1, 1)
+        self.by = np.loadtxt(os.path.join(folder_path, 'by.csv')).reshape(-1, 1)
 
     def read_data_file(self, data_file_name):
 
@@ -52,7 +79,7 @@ class RecurrentNeuralNet:
         random.shuffle(words)
         data = "\n".join(words)
 
-        chars = list(set(data))
+        chars = sorted(list(set(data)))
         data_size, vocab_size = len(data), len(chars)
         print('data has %d characters, %d unique.' % (data_size, vocab_size))
         char_to_ix = {ch: i for i, ch in enumerate(chars)}
@@ -114,18 +141,18 @@ class RecurrentNeuralNet:
             ixes.append(ix)
         return ixes
 
-    def train(self, print_every=100, save_every=10_000):
+    def train(self, num_iterations=100_000_000, print_every=100, save_every=10_000):
         loss_over_time_x = []
         loss_over_time_y = []
 
-        n, p = 0, 0
+        p = 0
         mWxh, mWhh, mWhy = np.zeros_like(self.Wxh), np.zeros_like(self.Whh), np.zeros_like(self.Why)
         # mWxh, mWhh, mWhy = np.copy(self.Wxh), np.copy(self.Whh), np.copy(self.Why)
         mbh, mby = np.zeros_like(self.bh), np.zeros_like(self.by)  # memory variables for Adagrad
         # mbh, mby = np.copy(self.bh), np.copy(self.by)  # memory variables for Adagrad
         smooth_loss = -np.log(1.0 / self.vocab_size) * self.seq_length  # loss at iteration 0
 
-        while True:
+        for n in range(num_iterations):
             # prepare inputs (we're sweeping from left to right in steps seq_length long)
             if p + self.seq_length + 1 >= len(self.data) or n == 0:
                 hprev = np.zeros((self.hidden_size, 1))  # reset RNN memory
@@ -142,7 +169,7 @@ class RecurrentNeuralNet:
                 # Random samples of output
                 sample_ix = self.sample(hprev, inputs[0], 200)
                 txt = ''.join(self.ix_to_char[ix] for ix in sample_ix)
-                print('----\n %s \n----' % (txt,))
+                print(txt.replace("\n", '|'))
                 # Progress
                 print('iter %d, loss: %f' % (n, smooth_loss))
                 # Chart of loss over time
@@ -151,10 +178,10 @@ class RecurrentNeuralNet:
                 plt.clf()
                 plt.plot(loss_over_time_x, loss_over_time_y, label='loss')
                 plt.legend()
-                plt.savefig('loss.png')
+                plt.savefig(os.path.join(self.save_folder, 'loss.png'))
             # Save weights
             if n % save_every == 0:
-                self.save_parameters(os.path.join('rnn_weights', 'iteration_{0}'.format(n)))
+                self.save_parameters(n)
 
             # perform parameter update with Adagrad
             for param, dparam, mem in zip([self.Wxh, self.Whh, self.Why, self.bh, self.by],
@@ -164,10 +191,78 @@ class RecurrentNeuralNet:
                 param += -self.learning_rate * dparam / np.sqrt(mem + 1e-8)  # adagrad update
 
             p += self.seq_length  # move data pointer
-            n += 1  # iteration counter
+
+
+def train_from_scratch(save_folder, print_every, save_every):
+    nn = RecurrentNeuralNet(data_file_name='test-gb-places.txt', save_folder=save_folder)
+    nn.train(print_every=print_every, save_every=save_every)
+
+
+def print_from_saved(save_folder, iteration_number):
+    nn = RecurrentNeuralNet.from_saved(save_folder=save_folder, iteration_number=iteration_number)
+
+    h = np.zeros((nn.hidden_size, 1))
+    sample_ix = nn.sample(h, nn.char_to_ix["\n"], 200)
+    text = ''.join(nn.ix_to_char[ix] for ix in sample_ix)
+    print(text.replace("\n", '|'))
+
+
+def train_then_print_check():
+    nn = RecurrentNeuralNet(data_file_name='test-gb-places.txt')
+    nn.train(num_iterations=6_000, print_every=1_000, save_every=50000000)
+    print('===========================================================')
+    print()
+
+    nn.debug = True
+
+    print('In memory after training, zero h, first input \\n')
+    h = np.zeros((nn.hidden_size, 1))
+    sample_ix = nn.sample(h, nn.char_to_ix["\n"], 200)
+    text = ''.join(nn.ix_to_char[ix] for ix in sample_ix)
+    print(text.replace("\n", '|'))
+
+    h = np.zeros((nn.hidden_size, 1))
+    sample_ix = nn.sample(h, nn.char_to_ix["\n"], 200)
+    text = ''.join(nn.ix_to_char[ix] for ix in sample_ix)
+    print(text.replace("\n", '|'))
+    print()
+
+    print('In memory, after save & load (save with zero h), zero h, first input \\n')
+    h = np.zeros((nn.hidden_size, 1))
+    nn.save_parameters('test_weights')
+    nn.load_parameters('test_weights')
+    sample_ix = nn.sample(h, nn.char_to_ix["\n"], 200)
+    text = ''.join(nn.ix_to_char[ix] for ix in sample_ix)
+    print(text.replace("\n", '|'))
+
+    h = np.zeros((nn.hidden_size, 1))
+    sample_ix = nn.sample(h, nn.char_to_ix["\n"], 200)
+    text = ''.join(nn.ix_to_char[ix] for ix in sample_ix)
+    print(text.replace("\n", '|'))
+    print()
+
+    print('New network, after load, zero h, first input \\n')
+    nn_2 = RecurrentNeuralNet(data_file_name='test-gb-places.txt')
+    nn_2.debug = True
+    nn_2.load_parameters('test_weights')
+    h = np.zeros((nn_2.hidden_size, 1))
+    sample_ix = nn_2.sample(h, nn_2.char_to_ix["\n"], 200)
+    text = ''.join(nn_2.ix_to_char[ix] for ix in sample_ix)
+    print(text.replace("\n", '|'))
+
+    h = np.zeros((nn.hidden_size, 1))
+    sample_ix = nn_2.sample(h, nn_2.char_to_ix["\n"], 200)
+    text = ''.join(nn_2.ix_to_char[ix] for ix in sample_ix)
+    print(text.replace("\n", '|'))
+    print()
 
 
 if __name__ == '__main__':
-    nn = RecurrentNeuralNet(data_file_name='test-gb-places.txt')
-    # nn.load_parameters(os.path.join('rnn_weights', 'iteration_38000'))
-    nn.train(print_every=1_000, save_every=100_000)
+    train_from_scratch(save_folder='14_fixed_loading', print_every=1_000, save_every=1_000)
+    # print_from_saved(saved_folder=os.path.join('13_overnight_run_rnn_weights', 'iteration_0'))
+    # print_from_saved(saved_folder=os.path.join('13_overnight_run_rnn_weights', 'iteration_100000'))
+    # print_from_saved(saved_folder=os.path.join('13_overnight_run_rnn_weights', 'iteration_11500000'))
+    # print_from_saved(saved_folder=os.path.join('rnn_weights', 'iteration_7000'))
+    # train_then_print_check()
+    # print_from_saved('test_weights')
+    # print_from_saved(save_folder='14_fixed_loading', iteration_number=33_000)
