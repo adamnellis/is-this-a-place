@@ -5,3 +5,9 @@ Words/venv*/**
 Words/logs/**
 
 gan_example/gan_generated_*
+
+# Saved weights
+**.h5
+**/iteration_*/*.csv
+**/loss.png
+**/data.txt
