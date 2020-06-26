@@ -36,6 +36,7 @@ class RecurrentNeuralNet:
         self.learning_rate = 1e-1
 
         self.data, self.vocab_size, self.char_to_ix, self.ix_to_char = self.read_data_file(data_file_name)
+        self.all_real_words = set(self.data.split('\n'))
 
         # model parameters
         self.Wxh = np.random.randn(self.hidden_size, self.vocab_size) * 0.01  # input to hidden
@@ -81,7 +82,6 @@ class RecurrentNeuralNet:
 
         chars = sorted(list(set(data)))
         data_size, vocab_size = len(data), len(chars)
-        print('data has %d characters, %d unique.' % (data_size, vocab_size))
         char_to_ix = {ch: i for i, ch in enumerate(chars)}
         ix_to_char = {i: ch for i, ch in enumerate(chars)}
 
@@ -140,6 +140,54 @@ class RecurrentNeuralNet:
             x[ix] = 1
             ixes.append(ix)
         return ixes
+
+    def prime_h_from_data(self, num_chars_min=500):
+        """
+        Generates a value for h, by priming the rnn with real data.
+        Args:
+            num_chars_min: Minimum number of data characters to prime with. Continues from this number to the next newline character.
+
+        Returns: h value
+        """
+        h = np.zeros((self.hidden_size, 1))
+
+        # prime with real data, up to the next newline character
+        i = 0
+        current_char = self.data[0]
+        while current_char != '\n' or i < num_chars_min:
+            ix = self.char_to_ix[current_char]
+            x = np.zeros((self.vocab_size, 1))
+            x[ix] = 1
+            h = np.tanh(np.dot(self.Wxh, x) + np.dot(self.Whh, h) + self.bh)
+            i += 1
+            current_char = self.data[i]
+
+        return h
+
+    def get_one_word(self, h=None):
+        # if no h provided, then prime with real data
+        if h is None:
+            h = self.prime_h_from_data()
+
+        # generate a new word, until we reach a newline character
+        word = ''
+        current_char = '\n'
+        ix = self.char_to_ix[current_char]
+        x = np.zeros((self.vocab_size, 1))
+        x[ix] = 1
+        while current_char != '\n' or word == '':
+            h = np.tanh(np.dot(self.Wxh, x) + np.dot(self.Whh, h) + self.bh)
+            y = np.dot(self.Why, h) + self.by
+            p = np.exp(y) / np.sum(np.exp(y))
+            ix = np.random.choice(range(self.vocab_size), p=p.ravel())
+            x = np.zeros((self.vocab_size, 1))
+            x[ix] = 1
+            current_char = self.ix_to_char[ix]
+            word += current_char
+
+        # remove newline character from word
+        word = word.strip()
+        return word, h
 
     def train(self, num_iterations=100_000_000, print_every=100, save_every=10_000):
         loss_over_time_x = []
@@ -207,6 +255,46 @@ def print_from_saved(save_folder, iteration_number):
     print(text.replace("\n", '|'))
 
 
+def test_print_words_from_saved(save_folder, iteration_number, num_words=10):
+    nn = RecurrentNeuralNet.from_saved(save_folder=save_folder, iteration_number=iteration_number)
+
+    print('--- From data initialisation')
+    for i in range(num_words):
+        word, h = nn.get_one_word()
+        print(word)
+
+    print('\n--- From own h')
+    for i in range(num_words):
+        word, h = nn.get_one_word(h)
+        print(word)
+
+
+def generate_fake_words(save_folder, iteration_number, num_words=10):
+    nn = RecurrentNeuralNet.from_saved(save_folder=save_folder, iteration_number=iteration_number)
+
+    # get a h value from looking at the data
+    h = nn.prime_h_from_data()
+
+    # run nn, reusing h, making sure words are not duplicates of real words
+    words = []
+    i = 0
+    while i < num_words:
+        word, h = nn.get_one_word(h)
+
+        if word not in nn.all_real_words:
+            words.append(word)
+            i += 1
+
+    return words
+
+
+def generate_real_words(save_folder, num_words=10):
+    nn = RecurrentNeuralNet.from_saved(save_folder=save_folder, iteration_number=0)
+
+    words = list(np.random.choice(list(nn.all_real_words), num_words, replace=False))
+    return words
+
+
 def train_then_print_check():
     nn = RecurrentNeuralNet(data_file_name='test-gb-places.txt')
     nn.train(num_iterations=6_000, print_every=1_000, save_every=50000000)
@@ -258,11 +346,17 @@ def train_then_print_check():
 
 
 if __name__ == '__main__':
-    train_from_scratch(save_folder='14_fixed_loading', print_every=1_000, save_every=1_000)
+    # train_from_scratch(save_folder='15_very_long_training', print_every=10_000, save_every=100_000)
     # print_from_saved(saved_folder=os.path.join('13_overnight_run_rnn_weights', 'iteration_0'))
     # print_from_saved(saved_folder=os.path.join('13_overnight_run_rnn_weights', 'iteration_100000'))
     # print_from_saved(saved_folder=os.path.join('13_overnight_run_rnn_weights', 'iteration_11500000'))
     # print_from_saved(saved_folder=os.path.join('rnn_weights', 'iteration_7000'))
     # train_then_print_check()
     # print_from_saved('test_weights')
-    # print_from_saved(save_folder='14_fixed_loading', iteration_number=33_000)
+    # iteration_number = 1_325_000  # 400_000
+    # print_from_saved(save_folder='14_fixed_loading', iteration_number=iteration_number)
+    # test_print_words_from_saved(save_folder='14_fixed_loading', iteration_number=iteration_number)
+    # test_print_words_from_saved(save_folder='15_very_long_training', iteration_number=12_600_000)
+    num_words = 5
+    print(generate_fake_words(save_folder='15_very_long_training', iteration_number=12_600_000, num_words=num_words))
+    print(generate_real_words(save_folder='15_very_long_training', num_words=num_words))
