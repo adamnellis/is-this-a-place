@@ -1,5 +1,8 @@
 
+.idea/**
+
 venv/**
+__pycache__/**
 
 Words/venv*/**
 Words/logs/**
