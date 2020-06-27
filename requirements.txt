@@ -1,0 +1,9 @@
+
+# Web server for backend
+Flask==1.1.2
+
+# Plot of loss function over time
+matplotlib==3.2.1
+
+# Calculation of rnn
+numpy==1.18.5

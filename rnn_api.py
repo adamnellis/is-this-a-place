@@ -1,6 +1,6 @@
 
 import flask
-from flask import request, jsonify
+from flask import request, jsonify, render_template
 
 import os, sys; sys.path.append(os.path.dirname(os.path.realpath(__file__)))
 from min_char_rnn import generate_fake_words, generate_real_words
@@ -11,8 +11,7 @@ app.config["DEBUG"] = True
 
 @app.route('/', methods=['GET'])
 def home():
-    return '''<h1>Recurrent Neural Net API</h1>
-<p>An API for running recurrent neural nets to generate place names.</p>'''
+    return render_template("index.html")
 
 
 @app.route('/api/v1/fake_words/', methods=['GET'])
