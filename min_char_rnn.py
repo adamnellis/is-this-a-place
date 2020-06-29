@@ -270,23 +270,24 @@ def test_print_words_from_saved(save_folder, iteration_number, num_words=10):
         print(word)
 
 
-def generate_fake_words(save_folder, iteration_number, num_words=10):
+def generator_fake_words(save_folder, iteration_number, num_words=10):
     nn = RecurrentNeuralNet.from_saved(save_folder=save_folder, iteration_number=iteration_number)
 
     # get a h value from looking at the data
     h = nn.prime_h_from_data()
 
     # run nn, reusing h, making sure words are not duplicates of real words
-    words = []
     i = 0
     while i < num_words:
         word, h = nn.get_one_word(h)
 
         if word not in nn.all_real_words:
-            words.append(word)
+            yield word
             i += 1
 
-    return words
+
+def generate_fake_words(save_folder, iteration_number, num_words=10):
+    return list(generator_fake_words(save_folder, iteration_number, num_words))
 
 
 def generate_real_words(save_folder, num_words=10):
@@ -346,11 +347,28 @@ def train_then_print_check(data_file):
     print()
 
 
+def generate_fake_words_to_file(save_folder, iteration_number, num_words, file_name):
+    with open(file_name, 'w') as file:
+        file.write('{0} = [\n'.format(save_folder))
+        for word in generate_fake_words(save_folder, iteration_number, num_words):
+            file.write("'{0}', \n".format(word.replace("'", "\\'")))
+        file.write(']\n')
+
+
+def generate_real_words_to_file(save_folder, file_name):
+    nn = RecurrentNeuralNet.from_saved(save_folder=save_folder, iteration_number=0)
+    with open(file_name, 'w') as file:
+        file.write('{0} = [\n'.format(save_folder))
+        for word in sorted(nn.all_real_words):
+            file.write("'{0}', \n".format(word.replace("'", "\\'")))
+        file.write(']\n')
+
+
 if __name__ == '__main__':
     # train_from_scratch(data_file='scottish-places.txt', save_folder='16_scottish_places', print_every=10_000, save_every=100_000)
     # train_from_scratch(data_file='welsh-places.txt', save_folder='17_welsh_places', print_every=10_000, save_every=100_000)
     # train_from_scratch(data_file='irish-places.txt', save_folder='rnn_irish_places', print_every=10_000, save_every=100_000)
-    train_from_scratch(data_file='french-places.txt', save_folder='rnn_french_places', print_every=10_000, save_every=100_000)
+    # train_from_scratch(data_file='french-places.txt', save_folder='rnn_french_places', print_every=10_000, save_every=100_000)
     # print_from_saved(saved_folder=os.path.join('13_overnight_run_rnn_weights', 'iteration_0'))
     # print_from_saved(saved_folder=os.path.join('13_overnight_run_rnn_weights', 'iteration_100000'))
     # print_from_saved(saved_folder=os.path.join('13_overnight_run_rnn_weights', 'iteration_11500000'))
@@ -364,3 +382,5 @@ if __name__ == '__main__':
     # num_words = 5
     # print(generate_fake_words(save_folder='15_very_long_training', iteration_number=12_600_000, num_words=num_words))
     # print(generate_real_words(save_folder='15_very_long_training', num_words=num_words))
+    # generate_fake_words_to_file(save_folder='rnn_english_places', iteration_number=12_600_000, num_words=20_000, file_name='fake_english_places.js')
+    generate_real_words_to_file('rnn_english_places', 'real_english_places.js')

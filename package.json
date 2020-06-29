@@ -1,0 +1,15 @@
+{
+  "name": "is_this_a_place",
+  "version": "1.0.0",
+  "description": "Is this a place?",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "express": "4.17.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam Nellis",
+  "license": "MIT"
+}

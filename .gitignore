@@ -4,6 +4,8 @@
 venv/**
 __pycache__/**
 
+node_modules/**
+
 Words/venv*/**
 Words/logs/**
 

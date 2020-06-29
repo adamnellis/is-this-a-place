@@ -50,12 +50,14 @@
 </template>
 
 <script>
+
 module.exports = {
     data: function() {
         return {
             words: [],
             check_answers: false,
             rnn_name: 'rnn_english_places',
+            real_name: 'real_english_places',
             rnn_iteration_number: 12_600_000,
         }
     },
@@ -79,7 +81,17 @@ module.exports = {
         },
 
         get_new_words: function() {
-            var words = []
+            // Use API
+            // this.get_words_from_api(3, (words) => {
+            //     this.words = words
+            // })
+
+            // Use word list
+            this.words = this.get_words_from_file(3)
+        },
+
+        get_words_from_api: function(num_words, callback) {
+            const words = []
             axios.get(`/api/v1/fake_words/?save_folder=${this.rnn_name}&iteration_number=${this.rnn_iteration_number}&num_words=3`)
                 .then((response) => {
                     if (response.data.status !== 'Success') {
@@ -105,7 +117,7 @@ module.exports = {
                             }}))
                             shuffle(words)
 
-                            this.words = words
+                            callback(words)
                         })
                         .catch((error) => {
                             console.error(error)
@@ -114,6 +126,24 @@ module.exports = {
                 .catch((error) => {
                     console.error(error)
                 });
+        },
+
+        get_words_from_file: function(num_words) {
+            const fake_names = window[this.rnn_name]
+            const real_names = window[this.real_name]
+            const words = []
+            words.push(...getRandom(fake_names, num_words).map((word) => { return {
+                word: word,
+                status: 'fake',
+                selected: 'real',
+            }}))
+            words.push(...getRandom(real_names, num_words).map((word) => { return {
+                word: word,
+                status: 'real',
+                selected: 'real',
+            }}))
+            shuffle(words)
+            return(words)
         },
     },
     mounted: function() {
@@ -142,6 +172,23 @@ function shuffle(array) {
   }
 
   return array;
+}
+
+/**
+ * Randomly sample from an array without replacement, from https://stackoverflow.com/a/19270021/598749
+ */
+function getRandom(arr, n) {
+    var result = new Array(n),
+        len = arr.length,
+        taken = new Array(len);
+    if (n > len)
+        throw new RangeError("getRandom: more elements taken than available");
+    while (n--) {
+        var x = Math.floor(Math.random() * len);
+        result[n] = arr[x in taken ? taken[x] : x];
+        taken[x] = --len in taken ? taken[len] : len;
+    }
+    return result;
 }
 </script>
 

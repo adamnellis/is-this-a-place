@@ -57,4 +57,5 @@ def api_real_words():
     })
 
 
+# Run debug server
 app.run(host='0.0.0.0')
