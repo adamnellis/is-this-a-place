@@ -16,7 +16,7 @@
                     <template v-if="word.selected === word.status">
                         <span v-if="word.status === 'real'">
                             <span class="bg-green-300 py-2 px-4 rounded">Correct!</span>
-                            {{word.word}} is a <a target="_blank" :href="`https://en.wikipedia.org/wiki/${word.word}`" class="underline">real pace in England</a>.
+                            {{word.word}} is a <a target="_blank" :href="`https://www.google.com/search?q=${word.word}`" class="underline">real pace in England</a>.
                         </span>
                         <span v-else>
                             <span class="bg-green-300 py-2 px-4 rounded">Correct!</span>
@@ -26,7 +26,7 @@
                     <template v-else>
                         <span v-if="word.status === 'real'">
                             <span class="bg-red-300 py-2 px-4 rounded">Incorrect!</span>
-                            {{word.word}} is actually a <a target="_blank" :href="`https://en.wikipedia.org/wiki/${word.word}`" class="underline">real pace in England</a>.
+                            {{word.word}} is actually a <a target="_blank" :href="`https://www.google.com/search?q=${word.word}`" class="underline">real pace in England</a>.
                         </span>
                         <span v-else>
                             <span class="bg-red-300 py-2 px-4 rounded">Incorrect!</span>
@@ -55,6 +55,8 @@ module.exports = {
         return {
             words: [],
             check_answers: false,
+            rnn_name: 'rnn_english_places',
+            rnn_iteration_number: 12_600_000,
         }
     },
     methods: {
@@ -78,7 +80,7 @@ module.exports = {
 
         get_new_words: function() {
             var words = []
-            axios.get('/api/v1/fake_words/?save_folder=15_very_long_training&iteration_number=12_600_000&num_words=3')
+            axios.get(`/api/v1/fake_words/?save_folder=${this.rnn_name}&iteration_number=${this.rnn_iteration_number}&num_words=3`)
                 .then((response) => {
                     if (response.data.status !== 'Success') {
                         console.error(response.data.error_message)
@@ -90,7 +92,7 @@ module.exports = {
                         selected: 'real',
                     }}))
 
-                    axios.get('/api/v1/real_words/?save_folder=15_very_long_training&num_words=3')
+                    axios.get(`/api/v1/real_words/?save_folder=${this.rnn_name}&num_words=3`)
                         .then((response) => {
                             if (response.data.status !== 'Success') {
                                 console.error(response.data.error_message)
