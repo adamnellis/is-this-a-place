@@ -18,7 +18,7 @@ class RecurrentNeuralNet:
         Returns: A RecurrentNeuralNet instance, loaded from save_folder, at iteration_number.
         Assumes: iteration_number is a point at which the rnn in save_folder was saved at.
         """
-        rnn = RecurrentNeuralNet(data_file_name='test-gb-places.txt', save_folder='temp')
+        rnn = RecurrentNeuralNet(data_file_name=os.path.join(save_folder, 'data.txt'), save_folder='temp')
         rnn.save_folder = save_folder
         rnn.load_parameters(iteration_number)
         return rnn
@@ -77,6 +77,7 @@ class RecurrentNeuralNet:
 
         # Randomise order of words in data, for training
         words = data.split("\n")
+        words = list(set(words))
         random.shuffle(words)
         data = "\n".join(words)
 
@@ -241,8 +242,8 @@ class RecurrentNeuralNet:
             p += self.seq_length  # move data pointer
 
 
-def train_from_scratch(save_folder, print_every, save_every):
-    nn = RecurrentNeuralNet(data_file_name='test-gb-places.txt', save_folder=save_folder)
+def train_from_scratch(data_file, save_folder, print_every, save_every):
+    nn = RecurrentNeuralNet(data_file_name=data_file, save_folder=save_folder)
     nn.train(print_every=print_every, save_every=save_every)
 
 
@@ -295,8 +296,8 @@ def generate_real_words(save_folder, num_words=10):
     return words
 
 
-def train_then_print_check():
-    nn = RecurrentNeuralNet(data_file_name='test-gb-places.txt')
+def train_then_print_check(data_file):
+    nn = RecurrentNeuralNet(data_file_name=data_file)
     nn.train(num_iterations=6_000, print_every=1_000, save_every=50000000)
     print('===========================================================')
     print()
@@ -330,7 +331,7 @@ def train_then_print_check():
     print()
 
     print('New network, after load, zero h, first input \\n')
-    nn_2 = RecurrentNeuralNet(data_file_name='test-gb-places.txt')
+    nn_2 = RecurrentNeuralNet(data_file_name=data_file)
     nn_2.debug = True
     nn_2.load_parameters('test_weights')
     h = np.zeros((nn_2.hidden_size, 1))
@@ -346,7 +347,10 @@ def train_then_print_check():
 
 
 if __name__ == '__main__':
-    # train_from_scratch(save_folder='15_very_long_training', print_every=10_000, save_every=100_000)
+    # train_from_scratch(data_file='scottish-places.txt', save_folder='16_scottish_places', print_every=10_000, save_every=100_000)
+    # train_from_scratch(data_file='welsh-places.txt', save_folder='17_welsh_places', print_every=10_000, save_every=100_000)
+    # train_from_scratch(data_file='irish-places.txt', save_folder='rnn_irish_places', print_every=10_000, save_every=100_000)
+    train_from_scratch(data_file='french-places.txt', save_folder='rnn_french_places', print_every=10_000, save_every=100_000)
     # print_from_saved(saved_folder=os.path.join('13_overnight_run_rnn_weights', 'iteration_0'))
     # print_from_saved(saved_folder=os.path.join('13_overnight_run_rnn_weights', 'iteration_100000'))
     # print_from_saved(saved_folder=os.path.join('13_overnight_run_rnn_weights', 'iteration_11500000'))
@@ -357,6 +361,6 @@ if __name__ == '__main__':
     # print_from_saved(save_folder='14_fixed_loading', iteration_number=iteration_number)
     # test_print_words_from_saved(save_folder='14_fixed_loading', iteration_number=iteration_number)
     # test_print_words_from_saved(save_folder='15_very_long_training', iteration_number=12_600_000)
-    num_words = 5
-    print(generate_fake_words(save_folder='15_very_long_training', iteration_number=12_600_000, num_words=num_words))
-    print(generate_real_words(save_folder='15_very_long_training', num_words=num_words))
+    # num_words = 5
+    # print(generate_fake_words(save_folder='15_very_long_training', iteration_number=12_600_000, num_words=num_words))
+    # print(generate_real_words(save_folder='15_very_long_training', num_words=num_words))
