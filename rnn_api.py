@@ -3,7 +3,7 @@ import flask
 from flask import request, jsonify, render_template
 
 import os, sys; sys.path.append(os.path.dirname(os.path.realpath(__file__)))
-from min_char_rnn import generate_fake_words, generate_real_words
+from char_rnn import generate_fake_words, generate_real_words
 
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
