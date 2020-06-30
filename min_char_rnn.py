@@ -37,6 +37,7 @@ class RecurrentNeuralNet:
 
         self.data, self.vocab_size, self.char_to_ix, self.ix_to_char = self.read_data_file(data_file_name)
         self.all_real_words = set(self.data.split('\n'))
+        self.all_real_words.discard('')
 
         # model parameters
         self.Wxh = np.random.randn(self.hidden_size, self.vocab_size) * 0.01  # input to hidden
@@ -358,7 +359,10 @@ def generate_fake_words_to_file(save_folder, iteration_number, num_words, file_n
 def generate_real_words_to_file(save_folder, file_name):
     nn = RecurrentNeuralNet.from_saved(save_folder=save_folder, iteration_number=0)
     with open(file_name, 'w') as file:
-        file.write('{0} = [\n'.format(save_folder))
+        variable_name = save_folder
+        if variable_name.startswith('rnn_'):
+            variable_name = 'real_' + variable_name[len('rnn_'):]
+        file.write('{0} = [\n'.format(variable_name))
         for word in sorted(nn.all_real_words):
             file.write("'{0}', \n".format(word.replace("'", "\\'")))
         file.write(']\n')
@@ -383,4 +387,12 @@ if __name__ == '__main__':
     # print(generate_fake_words(save_folder='15_very_long_training', iteration_number=12_600_000, num_words=num_words))
     # print(generate_real_words(save_folder='15_very_long_training', num_words=num_words))
     # generate_fake_words_to_file(save_folder='rnn_english_places', iteration_number=12_600_000, num_words=20_000, file_name='fake_english_places.js')
-    generate_real_words_to_file('rnn_english_places', 'real_english_places.js')
+    # generate_real_words_to_file('rnn_english_places', 'real_english_places.js')
+    # generate_fake_words_to_file(save_folder='rnn_scottish_places', iteration_number=15_900_000, num_words=20_000, file_name='fake_scottish_places.js')
+    # generate_real_words_to_file('rnn_scottish_places', 'real_scottish_places.js')
+    # generate_fake_words_to_file(save_folder='rnn_welsh_places', iteration_number=15_900_000, num_words=20_000, file_name='fake_welsh_places.js')
+    # generate_real_words_to_file('rnn_welsh_places', 'real_welsh_places.js')
+    generate_fake_words_to_file(save_folder='rnn_irish_places', iteration_number=14_800_000, num_words=20_000, file_name='fake_irish_places.js')
+    generate_real_words_to_file('rnn_irish_places', 'real_irish_places.js')
+    generate_fake_words_to_file(save_folder='rnn_french_places', iteration_number=14_200_000, num_words=20_000, file_name='fake_french_places.js')
+    generate_real_words_to_file('rnn_french_places', 'real_french_places.js')
