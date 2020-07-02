@@ -3,6 +3,7 @@ Adapted from: https://gist.github.com/karpathy/d4dee566867f8291f086
               Minimal character-level Vanilla RNN model. Written by Andrej Karpathy (@karpathy)
               BSD License
 """
+import math
 import random
 import os.path
 import matplotlib.pyplot as plt
@@ -368,6 +369,105 @@ def generate_real_words_to_file(save_folder, file_name):
         file.write(']\n')
 
 
+def generate_graph_file(save_folder, file_name):
+    nn = RecurrentNeuralNet.from_saved(save_folder=save_folder, iteration_number=0)
+
+    node_size = 20
+    input_layer_x = -800
+    input_output_layer_spacing = 25
+    hidden_layer_radius = 400
+    hidden_layer_x = 0
+    hidden_layer_y = nn.vocab_size * input_output_layer_spacing / 2
+    output_layer_x = 800
+
+    with open(file_name, 'w') as file:
+        file.write('''<?xml version="1.0" encoding="UTF-8"?>  
+<!-- This file was written by the JAVA GraphML Library. -->  
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"   
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns 
+           http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd"  
+         xmlns:y="http://www.yworks.com/xml/graphml">  
+  <key id="d0" for="node" yfiles.type="nodegraphics"/>  
+  <key id="d1" for="edge" yfiles.type="edgegraphics"/>
+  <graph id="G" edgedefault="directed">\n''')
+
+        # Input nodes
+        for input_num in range(nn.vocab_size):
+            input_node_key = 'i_' + str(input_num)
+            input_node_name = nn.ix_to_char[input_num].replace('\n', '\\n').replace('"', "''").replace('&', '&amp;')
+            file.write('''
+    <node id="{node_id}">  
+      <data key="d0">  
+        <y:ShapeNode>  
+          <y:Geometry x="{x}" y="{y}" width="{width}" height="{height}"/>  
+          <y:Fill color="#CCCCFF" transparent="false"/>  
+          <y:BorderStyle type="line" width="1.0" color="#000000"/>  
+          <y:NodeLabel>{label}</y:NodeLabel>  
+          <y:Shape type="circle"/>  
+        </y:ShapeNode>  
+      </data>  
+    </node>
+            '''.format(node_id=input_node_key, label=input_node_name, x=input_layer_x, y=input_num*input_output_layer_spacing, width=node_size, height=node_size))
+
+        # Hidden nodes
+        for hidden_node_num in range(nn.hidden_size):
+            hidden_node_key = 'h_' + str(hidden_node_num)
+            theta = 2 * math.pi * hidden_node_num / nn.hidden_size
+            file.write('''
+    <node id="{node_id}">  
+      <data key="d0">  
+        <y:ShapeNode>  
+          <y:Geometry x="{x}" y="{y}" width="{width}" height="{height}"/>  
+          <y:Fill color="#CCCCFF" transparent="false"/>  
+          <y:BorderStyle type="line" width="1.0" color="#000000"/>  
+          <y:NodeLabel>{label}</y:NodeLabel>  
+          <y:Shape type="circle"/>  
+        </y:ShapeNode>  
+      </data>  
+    </node>
+            '''.format(node_id=hidden_node_key, label=hidden_node_num, x=hidden_layer_radius*math.cos(theta) + hidden_layer_x, y=hidden_layer_radius*math.sin(theta) + hidden_layer_y, width=node_size, height=node_size))
+
+        # Output nodes
+        for output_num in range(nn.vocab_size):
+            output_node_key = 'o_' + str(output_num)
+            output_node_name = nn.ix_to_char[output_num].replace('\n', '\\n').replace('"', "''").replace('&', '&amp;')
+            file.write('''
+    <node id="{node_id}">  
+      <data key="d0">  
+        <y:ShapeNode>  
+          <y:Geometry x="{x}" y="{y}" width="{width}" height="{height}"/>  
+          <y:Fill color="#CCCCFF" transparent="false"/>  
+          <y:BorderStyle type="line" width="1.0" color="#000000"/>  
+          <y:NodeLabel>{label}</y:NodeLabel>  
+          <y:Shape type="circle"/>  
+        </y:ShapeNode>  
+      </data>  
+    </node>
+'''.format(node_id=output_node_key, label=output_node_name, x=output_layer_x, y=output_num*input_output_layer_spacing, width=node_size, height=node_size))
+
+        # Connections
+        for input_num in range(nn.vocab_size):
+            input_node_key = 'i_' + str(input_num)
+            for hidden_node_num in range(nn.hidden_size):
+                hidden_node_key = 'h_' + str(hidden_node_num)
+                file.write('    <edge source="{source}" target="{target}"></edge>\n'.format(source=input_node_key, target=hidden_node_key))
+
+        for hidden_node_num_1 in range(nn.hidden_size):
+            hidden_node_key_1 = 'h_' + str(hidden_node_num_1)
+            for hidden_node_num_2 in range(nn.hidden_size):
+                hidden_node_key_2 = 'h_' + str(hidden_node_num_2)
+                file.write('    <edge source="{source}" target="{target}"></edge>\n'.format(source=hidden_node_key_1, target=hidden_node_key_2))
+
+        for hidden_node_num in range(nn.hidden_size):
+            hidden_node_key = 'h_' + str(hidden_node_num)
+            for output_num in range(nn.vocab_size):
+                output_node_key = 'o_' + str(output_num)
+                file.write('    <edge source="{source}" target="{target}"></edge>\n'.format(source=hidden_node_key, target=output_node_key))
+
+        file.write('  </graph>\n</graphml>\n')
+
+
 if __name__ == '__main__':
     # train_from_scratch(data_file='scottish-places.txt', save_folder='16_scottish_places', print_every=10_000, save_every=100_000)
     # train_from_scratch(data_file='welsh-places.txt', save_folder='17_welsh_places', print_every=10_000, save_every=100_000)
@@ -392,7 +492,8 @@ if __name__ == '__main__':
     # generate_real_words_to_file('rnn_scottish_places', 'real_scottish_places.js')
     # generate_fake_words_to_file(save_folder='rnn_welsh_places', iteration_number=15_900_000, num_words=20_000, file_name='fake_welsh_places.js')
     # generate_real_words_to_file('rnn_welsh_places', 'real_welsh_places.js')
-    generate_fake_words_to_file(save_folder='rnn_irish_places', iteration_number=14_800_000, num_words=20_000, file_name='fake_irish_places.js')
-    generate_real_words_to_file('rnn_irish_places', 'real_irish_places.js')
-    generate_fake_words_to_file(save_folder='rnn_french_places', iteration_number=14_200_000, num_words=20_000, file_name='fake_french_places.js')
-    generate_real_words_to_file('rnn_french_places', 'real_french_places.js')
+    # generate_fake_words_to_file(save_folder='rnn_irish_places', iteration_number=14_800_000, num_words=20_000, file_name='fake_irish_places.js')
+    # generate_real_words_to_file('rnn_irish_places', 'real_irish_places.js')
+    # generate_fake_words_to_file(save_folder='rnn_french_places', iteration_number=14_200_000, num_words=20_000, file_name='fake_french_places.js')
+    # generate_real_words_to_file('rnn_french_places', 'real_french_places.js')
+    generate_graph_file(save_folder='rnn_english_places', file_name='rnn.graphml')

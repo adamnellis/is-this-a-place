@@ -25,7 +25,7 @@
                     <template v-if="word.selected === word.status">
                         <span v-if="word.status === 'real'">
 <!--                            <span class="bg-green-300 py-2 px-4 rounded">✔️Correct!</span>-->
-                            ✔️ {{word.word}} is a <a target="_blank" :href="`https://www.google.com/search?q=${word.word}`" class="underline">real pace in {{selected_country.name}}</a>.
+                            ✔️ {{word.word}} is a <a target="_blank" :href="`https://www.google.com/search?q=${word.word}`" class="underline">real place in {{selected_country.name}}</a>.
                         </span>
                         <span v-else>
 <!--                            <span class="bg-green-300 py-2 px-4 rounded">Correct!</span>-->
@@ -35,7 +35,7 @@
                     <template v-else>
                         <span v-if="word.status === 'real'">
 <!--                            <span class="bg-red-300 py-2 px-4 rounded">Incorrect!</span>-->
-                            ❌  {{word.word}} is actually a <a target="_blank" :href="`https://www.google.com/search?q=${word.word}`" class="underline">real pace in {{selected_country.name}}</a>.
+                            ❌  {{word.word}} is actually a <a target="_blank" :href="`https://www.google.com/search?q=${word.word}`" class="underline">real place in {{selected_country.name}}</a>.
                         </span>
                         <span v-else>
 <!--                            <span class="bg-red-300 py-2 px-4 rounded">Incorrect!</span>-->
