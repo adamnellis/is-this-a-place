@@ -60,12 +60,11 @@ The process is:
         * This must be a valid iteration number, with a corresponding folder under `save_folder/weights`
     * Add a flag image to the `static` directory, with the same format as the others
 2. In `app.vue::get_new_words()`, make sure the section for using the API is uncommented, and the section for using the word list is commented out.
-3. Move the `index.html` file into a `templates` directory (for Flask)
-    * Or: modify `rnn_api.py` to set the Flask template directory to be the main directory
-4. Deploy all the files to your web server, including the directory of saved weights
-5. Run Flask, using the Flask app defined in `rnn_api.py`
+3. Deploy all the files to your web server, including the directory of saved weights
+4. Run Flask, using the Flask app defined in `rnn_api.py`
     * Probably need to comment out the `app.run()` call at the end of this file, or wrap it in a condition
     * Probably best to use a wsgi server to run Flask
+   * Probably turn off debug mode - set at the top of `rnn_api.py`
 
 ### Using the word list
 

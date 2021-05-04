@@ -5,7 +5,7 @@ from flask import request, jsonify, render_template
 import os, sys; sys.path.append(os.path.dirname(os.path.realpath(__file__)))
 from char_rnn import generate_fake_words, generate_real_words
 
-app = flask.Flask(__name__)
+app = flask.Flask(__name__, template_folder='.')
 app.config["DEBUG"] = True
 
 
@@ -58,4 +58,4 @@ def api_real_words():
 
 
 # Run debug server
-app.run(host='0.0.0.0')
+app.run(host='127.0.0.1')
