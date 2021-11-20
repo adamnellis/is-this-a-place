@@ -71,6 +71,12 @@ module.exports = {
                     real_name: 'real_english_places',
                     rnn_iteration_number: 12_600_000,
                 },
+                'england_gpt3': {
+                    name: 'England (GPT-3)',
+                    rnn_name: 'gpt3_english_places',
+                    real_name: 'real_english_places',
+                    rnn_iteration_number: 0,
+                },
                 'scotland': {
                     name: 'Scotland',
                     rnn_name: 'rnn_scottish_places',

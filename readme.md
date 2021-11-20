@@ -85,3 +85,19 @@ In order to add a new country that has been previously trained:
  4. Deploy the following files to your web server:
     * `index.html`
     * `static/*`
+
+
+## Using GPT-3
+
+Since OpenAI released GPT-3 in open beta (https://openai.com/api/), 
+is-this-a-place can use GPT-3 instead of its RNN implementation.
+
+Currently, only the word list mode of is-this-a-place supports GPT-3. 
+
+To run GPT-3:
+1. Set the environment variable `OPENAI_API_KEY` to your API key from OpenAI
+    * Sign up for an account with OpenAI if needed (https://beta.openai.com/signup)
+2. Run `gpt-3.py` to generate a fake word list
+    * See `gpt-3.py` for examples and parameters
+    * Use this word list in the same way as the word lists generated for the RNN implementation 
+    * You can use the real word lists from the RNN version
